@@ -53,7 +53,7 @@
     "availability": "Buffalo / Remote / Open to Work"
   },
   "available": true,
-  "bio": "Cloud & Data Engineer with 3+ years delivering cloud-native ETL pipelines, streaming systems, and AI-integrated applications on AWS and Azure. Achieved 40% throughput gains, 65% faster batch runtimes, and 99.8% uptime. Currently contributing to deepfake detection research under Prof. Siwei Lyu (IEEE Fellow, Director — UB Institute for AI & Data Science). Experienced with Python, SQL, PySpark, Kafka, Airflow, AWS, Azure, Snowflake, Flask, FastAPI, Docker, Tableau, and Power BI. Open to Data Engineering, Data Science, and Software Engineering roles.",
+  "bio": "Cloud & Data Engineer with 3+ years delivering cloud-native ETL pipelines, streaming systems, and AI-integrated applications on AWS and Azure. Achieved 40% throughput gains, 65% faster batch runtimes, and 99.8% uptime. Currently contributing to deepfake detection research at the Institute for Artificial Intelligence and Data Science, University at Buffalo, under Prof. Siwei Lyu (IEEE Fellow). Experienced with Python, SQL, PySpark, Kafka, Airflow, AWS, Azure, Snowflake, Flask, FastAPI, Docker, Tableau, and Power BI. Open to Data Engineering, Data Science, and Software Engineering roles.",
   "education": [
     {
       "degree": "M.S. Data Science",
@@ -103,6 +103,10 @@
     },
     {
       "name": "French",
+      "level": "Elementary"
+    },
+    {
+      "name": "Chinese",
       "level": "Elementary"
     }
   ],
@@ -215,8 +219,8 @@
     {
       "id": 1,
       "role": "Graduate Research Assistant (AI & Data Systems)",
-      "company": "University at Buffalo · AI & Data Science",
-      "companyShort": "UB RESEARCH",
+      "company": "Institute for Artificial Intelligence and Data Science · University at Buffalo",
+      "companyShort": "UB IAIDS",
       "type": "Research",
       "location": "Buffalo, NY",
       "period": "Jan 2026",
@@ -228,7 +232,7 @@
         "Architected Python ETL pipelines ingesting 50K+ multi-modal records into AWS S3 for Deep-O-Meter.",
         "Implemented MLflow versioning and data lineage across 10+ configs; reduced QA effort by 30%."
       ],
-      "desc": "AI & data systems research under Prof. Siwei Lyu at UB Media Forensic Lab.",
+      "desc": "Research at the Institute for Artificial Intelligence and Data Science, University at Buffalo, under Prof. Siwei Lyu (IEEE Fellow).",
       "tech": [
         "Python",
         "React",
@@ -640,7 +644,7 @@
       "type": "Research",
       "link": "https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/",
       "image": "/assets/projects/deep-o-meter.png",
-      "context": "Live UB Media Forensic Lab research under Prof. Siwei Lyu — Flask/FastAPI APIs, PySpark ETL, and MLflow model versioning.",
+      "context": "Live research at the Institute for Artificial Intelligence and Data Science, UB — Flask/FastAPI APIs, PySpark ETL, and MLflow model versioning under Prof. Siwei Lyu.",
       "tech": [
         "Flask",
         "FastAPI",
@@ -649,7 +653,7 @@
         "PySpark",
         "MLflow"
       ],
-      "desc": "Production deepfake detection inference platform at UB Media Forensic Lab with containerized REST APIs, S3 integration, and MLflow versioning.",
+      "desc": "Production deepfake detection inference platform at the Institute for Artificial Intelligence and Data Science, University at Buffalo, with containerized REST APIs, S3 integration, and MLflow versioning.",
       "bgImage": "/assets/hero1.png"
     }
   ],
