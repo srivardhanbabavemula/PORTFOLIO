@@ -1,0 +1,574 @@
+{
+  "name": {
+    "first": "Srivardhan",
+    "middle": "Baba",
+    "last": "Vemula",
+    "full": "Srivardhan Baba Vemula"
+  },
+  "highlights": [
+    {
+      "id": 1,
+      "title": "40% Pipeline Throughput Improvement",
+      "platform": "Broadridge",
+      "year": "2025",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
+      "desc": "Engineered AWS/SFTP pipelines processing 200+ files daily with 40% throughput gains and 15 hrs/week manual effort saved."
+    },
+    {
+      "id": 2,
+      "title": "500K+ Events/Hour Streaming",
+      "platform": "Real-Time Data",
+      "year": "2024",
+      "link": "https://github.com/srivardhanbabavemula/SOFTWARE-ENGINEERING-Projects",
+      "desc": "Built Kafka + Spark Streaming pipelines with sub-2s latency and 99.9% uptime at 3× traffic spikes."
+    },
+    {
+      "id": 3,
+      "title": "65% Faster PySpark Runtimes",
+      "platform": "UB Research",
+      "year": "2026",
+      "link": "https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/",
+      "desc": "Processed 100GB+ datasets with adaptive partitioning, broadcast joins, and concurrent PySpark workflows."
+    },
+    {
+      "id": 4,
+      "title": "20+ Professional Certifications",
+      "platform": "IBM · AWS · Azure",
+      "year": "2024",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "IBM Data Science, AWS Essentials, Azure AZ-900/AI-900, Generative AI, Python, Spark, SQL, and more."
+    }
+  ],
+  "email": "srivardh@buffalo.edu",
+  "phone": "+1-716-604-4929",
+  "tagline": "Building scalable data systems that process high-volume data and support real-world analytics.",
+  "description": "Data & Software Engineer with 3+ years building ETL/ELT pipelines, REST APIs, ML systems, and cloud data platforms on AWS and Azure. MS Data Science @ University at Buffalo.",
+  "roles": {
+    "short": "Data Engineer",
+    "detailed": "Data Engineer | Python, SQL, AWS, PySpark, Kafka | Open to Summer 2026 & Full-Time Roles"
+  },
+  "location": {
+    "based": "Buffalo, NY",
+    "availability": "Buffalo / Remote / Open to Work"
+  },
+  "available": true,
+  "bio": "I build scalable data systems that process high-volume data and support real-world analytics. Improved pipeline throughput by 40% processing 200+ files/day, built real-time pipelines handling 500K+ events/hour with Kafka and Spark, reduced query latency by 30%, and processed 100GB+ datasets using PySpark with 65% faster runtimes. With 3+ years across data engineering, analytics, and machine learning, I work with Python, SQL, AWS, Azure, PySpark, Kafka, Airflow, Snowflake, Flask, FastAPI, Docker, Tableau, and Power BI. Currently a Graduate Research Assistant (AI & Data Systems) at the University at Buffalo under Prof. Siwei Lyu, engineering backend and data infrastructure for deepfake-detection research. MS in Data Science at UB (Dec 2026). Former Cloud & Data Engineer at Broadridge. President of Computer Society of India (2020–2023). Open to Data Engineering, Data Science, and Software Engineering roles.",
+  "education": [
+    {
+      "degree": "M.S. Data Science",
+      "school": "University at Buffalo",
+      "period": "Aug 2025",
+      "periodEnd": "Dec 2026",
+      "location": "Buffalo, NY"
+    },
+    {
+      "degree": "B.Tech Computer Science",
+      "school": "Kshatriya College of Engineering",
+      "period": "Aug 2019",
+      "periodEnd": "Jul 2023",
+      "location": "India"
+    }
+  ],
+  "stats": [
+    { "value": "3+", "label": "Years Experience" },
+    { "value": "20+", "label": "Certifications" },
+    { "value": "15+", "label": "GitHub Projects" }
+  ],
+  "languages": [
+    { "name": "English", "level": "Full Professional" },
+    { "name": "Telugu", "level": "Full Professional" },
+    { "name": "Hindi", "level": "Full Professional" },
+    { "name": "French", "level": "Elementary" }
+  ],
+  "skillGroups": [
+    {
+      "title": "Languages & Core",
+      "items": ["Python", "Java", "SQL", "Bash", "R", "JavaScript"]
+    },
+    {
+      "title": "Data & ML",
+      "items": ["PySpark", "Kafka", "Airflow", "Pandas", "scikit-learn", "XGBoost", "TensorFlow", "MLflow", "Spark Streaming"]
+    },
+    {
+      "title": "Cloud & Engineering",
+      "items": ["AWS", "Azure", "Docker", "Flask", "FastAPI", "REST APIs", "CI/CD", "Snowflake", "dbt", "PostgreSQL"]
+    },
+    {
+      "title": "Analytics & AI",
+      "items": ["Power BI", "Tableau", "LangChain", "RAG", "OpenAI API", "FAISS", "ETL/ELT", "React", "Microsoft Copilot"]
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "AWS",
+    "Azure",
+    "PySpark",
+    "Kafka",
+    "Airflow",
+    "Snowflake",
+    "Docker",
+    "Flask",
+    "FastAPI",
+    "REST APIs",
+    "Machine Learning",
+    "TensorFlow",
+    "scikit-learn",
+    "XGBoost",
+    "LangChain",
+    "RAG",
+    "ETL/ELT",
+    "Power BI",
+    "Tableau",
+    "React",
+    "MLflow",
+    "CI/CD",
+    "Data Warehousing",
+    "Spark Streaming",
+    "Pandas",
+    "PostgreSQL"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Graduate Research Assistant (AI & Data Systems)",
+      "company": "University at Buffalo — AI & Data Science",
+      "companyShort": "UB RESEARCH",
+      "type": "Research",
+      "location": "Buffalo, NY",
+      "period": "Jan 2026",
+      "periodEnd": "Present",
+      "bullets": [
+        "Built Flask/FastAPI REST APIs for real-time ML inference; reduced latency from 580ms to 378ms, raising throughput by 28%.",
+        "Developed React, Flask, and Jinja frontend/backend components for AI-driven application workflows.",
+        "Engineered PySpark workflows on 100GB+ datasets; cut runtime by 60% via partitioning and broadcast joins.",
+        "Architected Python ETL pipelines ingesting 50K+ multi-modal records into AWS S3 for Deep-O-Meter.",
+        "Implemented MLflow versioning and data lineage across 10+ configs; reduced QA effort by 30%."
+      ],
+      "desc": "AI & data systems research under Prof. Siwei Lyu at UB Media Forensic Lab.",
+      "tech": ["Python", "Flask", "FastAPI", "React", "PySpark", "AWS S3", "MLflow", "REST APIs"]
+    },
+    {
+      "id": 2,
+      "role": "Cloud & Data Engineer",
+      "company": "Broadridge Financial Solutions",
+      "companyShort": "BROADRIDGE",
+      "type": "Full-time",
+      "location": "Hyderabad, India",
+      "period": "Sep 2024",
+      "periodEnd": "Aug 2025",
+      "bullets": [
+        "Engineered AWS and SFTP pipelines processing 200+ files/day; improved throughput by 40% and saved 15 hrs/week.",
+        "Maintained Sterling File Gateway enterprise workflows with 99.8% system uptime across 12+ production pipelines.",
+        "Optimized 20+ SQL queries and redesigned 4 dimensional schemas; reduced query latency by 30%.",
+        "Built monitoring frameworks (CloudWatch + PagerDuty); cut incident response time by 25%.",
+        "Instituted CI/CD test suites across 15+ workflows, cutting post-deployment defects by 40%."
+      ],
+      "desc": "Enterprise cloud data engineering, SOX-compliant pipelines, and production observability.",
+      "tech": ["Python", "AWS S3", "SFTP", "SQL", "CloudWatch", "PagerDuty", "CI/CD"]
+    },
+    {
+      "id": 3,
+      "role": "Data Engineer & Data Analyst",
+      "company": "Freelance (Self-employed)",
+      "companyShort": "FREELANCE",
+      "type": "Contract",
+      "location": "Remote",
+      "period": "Aug 2022",
+      "periodEnd": "Aug 2024",
+      "bullets": [
+        "Built Python ETL pipelines ingesting 500K+ records from 10+ sources; reduced processing time by 45%.",
+        "Designed relational schemas and indexing strategies; improved query performance by 60%.",
+        "Developed 15+ Tableau and Power BI dashboards; reduced manual reporting by 6 hrs/week.",
+        "Implemented data validation frameworks ensuring 99.5% accuracy across 2M+ records."
+      ],
+      "desc": "End-to-end data pipelines, analytics dashboards, and database optimization for clients.",
+      "tech": ["Python", "SQL", "PostgreSQL", "Tableau", "Power BI", "Pandas", "ETL"]
+    },
+    {
+      "id": 4,
+      "role": "President",
+      "company": "Computer Society of India",
+      "companyShort": "CSI",
+      "type": "Leadership",
+      "location": "India",
+      "period": "Aug 2020",
+      "periodEnd": "Jul 2023",
+      "bullets": [
+        "Led weekly technical seminars and hands-on activities for student skill development in IT.",
+        "Established internships with professionals and direct interaction with DRDO scientists.",
+        "Increased internship and job placement rates through coding, cryptography, and problem-solving programs."
+      ],
+      "desc": "Student leadership driving technical education, career programs, and industry connections.",
+      "tech": ["Leadership", "Technical Training", "Career Development", "Cryptography"]
+    },
+    {
+      "id": 5,
+      "role": "Library User Services Student Assistant",
+      "company": "University at Buffalo",
+      "companyShort": "UB LIBRARY",
+      "type": "Part-time",
+      "location": "Buffalo, NY",
+      "period": "Mar 2026",
+      "periodEnd": "Present",
+      "bullets": [
+        "Managed document delivery workflows including scanning, processing, and distribution of library materials.",
+        "Assisted users with library systems, technology tools, and service workflows.",
+        "Maintained accuracy through detailed record-keeping and verification processes.",
+        "Handled high-volume requests ensuring timely fulfillment and organized processing."
+      ],
+      "desc": "Campus library operations supporting document delivery and user services at UB.",
+      "tech": ["Document Processing", "Customer Service", "Record Keeping"]
+    },
+    {
+      "id": 6,
+      "role": "Student Assistant — Fitness Leader",
+      "company": "University at Buffalo",
+      "companyShort": "UB FITNESS",
+      "type": "Part-time",
+      "location": "Buffalo, NY",
+      "period": "Dec 2025",
+      "periodEnd": "Present",
+      "bullets": [
+        "Monitored equipment usage and enforced safety protocols across fitness facilities.",
+        "Supported daily operations including equipment checks and maintenance coordination.",
+        "Delivered high-quality customer service assisting users with equipment and facility policies.",
+        "Contributed to smooth operations through staff coordination and proactive issue resolution."
+      ],
+      "desc": "Student leadership role ensuring safe, efficient fitness facility operations at UB.",
+      "tech": ["Operations", "Safety Protocols", "Customer Service"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "AI Data Analyst Chatbot",
+      "subtitle": "Natural Language to SQL",
+      "type": "Generative AI",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/ai-data-analyst-chatbot",
+      "image": "/assets/photo-office-2.png",
+      "imagePosition": "center 30%",
+      "tech": ["Python", "LangChain", "OpenAI API", "SQL", "Pandas"],
+      "desc": "AI chatbot that converts natural-language questions into SQL queries. Includes NL-to-SQL pipeline, interactive data exploration, prompt engineering, and analytics dashboards."
+    },
+    {
+      "id": 2,
+      "title": "RAG Document Q&A System",
+      "subtitle": "Retrieval Augmented Generation",
+      "type": "Generative AI",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/rag-ai-document-qa",
+      "image": "/assets/srivardhan-about.png",
+      "imagePosition": "center 22%",
+      "tech": ["Python", "LangChain", "FAISS", "OpenAI API", "RAG"],
+      "desc": "RAG-based document Q&A with FAISS vector search, LangChain retrieval pipelines, and a web UI for uploading documents and asking natural language questions."
+    },
+    {
+      "id": 3,
+      "title": "Real-Time Streaming Platform",
+      "subtitle": "Kafka + Spark + AWS",
+      "type": "Data Engineering",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/real-time-streaming-platform",
+      "image": "/assets/photo-office-3.png",
+      "imagePosition": "center 28%",
+      "tech": ["Kafka", "Spark Streaming", "AWS S3", "Python", "Docker"],
+      "desc": "Production-style streaming platform ingesting 500K+ events/hour via Kafka, processing with Spark Streaming windowed aggregations, and storing in AWS S3 with sub-2s latency."
+    },
+    {
+      "id": 4,
+      "title": "Kafka Streams Examples",
+      "subtitle": "Event-Driven Architecture",
+      "type": "Data Engineering",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/kafka-streams-examples",
+      "image": "/assets/project-bg-3.png",
+      "imagePosition": "center 20%",
+      "tech": ["Kafka", "Python", "Event Streaming", "Docker"],
+      "desc": "Hands-on Kafka Streams examples covering producers, consumers, windowed aggregations, and fault-tolerant event processing patterns."
+    },
+    {
+      "id": 5,
+      "title": "Airflow Data Pipelines",
+      "subtitle": "Workflow Orchestration",
+      "type": "Automation",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/airflow-data-pipelines",
+      "image": "/assets/work-experience.webp",
+      "imagePosition": "center 38%",
+      "tech": ["Apache Airflow", "Python", "PostgreSQL", "Docker", "ETL"],
+      "desc": "Automated workflow platform with Airflow DAGs, retry logic, and monitoring. Achieved 98% SLA compliance and eliminated manual pipeline operations."
+    },
+    {
+      "id": 6,
+      "title": "Azure Data Factory ETL",
+      "subtitle": "Cloud ETL Pipelines",
+      "type": "Cloud Data Engineering",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/azure-data-factory-etl",
+      "image": "/assets/project-bg-1.png",
+      "imagePosition": "center 18%",
+      "tech": ["Azure ADF", "SQL", "ETL/ELT", "Data Integration"],
+      "desc": "Azure Data Factory pipelines orchestrating multi-source ETL workflows with parameterized datasets, triggers, and monitoring for cloud analytics."
+    },
+    {
+      "id": 7,
+      "title": "PySpark Processing",
+      "subtitle": "Distributed Big Data",
+      "type": "Data Engineering",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/pyspark-processing",
+      "image": "/assets/hero1.png",
+      "imagePosition": "center 32%",
+      "tech": ["PySpark", "Python", "Spark SQL", "Partitioning"],
+      "desc": "PySpark jobs processing large datasets with adaptive partitioning, broadcast joins, and optimized transformations for 60%+ runtime improvements."
+    },
+    {
+      "id": 8,
+      "title": "Analytics Dashboard",
+      "subtitle": "Business Intelligence",
+      "type": "Analytics",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/analytics-dashboard",
+      "image": "/assets/photo-library.png",
+      "imagePosition": "center 25%",
+      "tech": ["Python", "Power BI", "Tableau", "SQL", "Pandas"],
+      "desc": "Interactive analytics dashboard with KPI tracking, drill-down visualizations, and automated reporting reducing manual effort by 6 hrs/week."
+    },
+    {
+      "id": 9,
+      "title": "Financial Forecasting",
+      "subtitle": "Time Series ML",
+      "type": "Machine Learning",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/financial-forecasting",
+      "image": "/assets/photo-yacht.png",
+      "imagePosition": "center 30%",
+      "tech": ["Python", "scikit-learn", "Pandas", "Time Series"],
+      "desc": "Financial forecasting models with feature engineering, cross-validation, and ensemble methods for revenue and trend prediction."
+    },
+    {
+      "id": 10,
+      "title": "Recommendation System",
+      "subtitle": "Collaborative Filtering",
+      "type": "Machine Learning",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/recommendation-system",
+      "image": "/assets/intro-slide-3.png",
+      "imagePosition": "center 40%",
+      "tech": ["Python", "scikit-learn", "Pandas", "ML"],
+      "desc": "Recommendation engine using collaborative filtering and content-based methods with evaluation metrics and modular pipeline design."
+    },
+    {
+      "id": 11,
+      "title": "Sentiment Analysis",
+      "subtitle": "NLP Classification",
+      "type": "NLP",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/sentiment-analysis",
+      "image": "/assets/intro-slide-4.png",
+      "imagePosition": "center 22%",
+      "tech": ["Python", "NLP", "scikit-learn", "Text Processing"],
+      "desc": "NLP pipeline for sentiment classification with text preprocessing, vectorization, and model evaluation on real-world review datasets."
+    },
+    {
+      "id": 12,
+      "title": "Web Scraping Pipeline",
+      "subtitle": "Data Collection ETL",
+      "type": "Data Engineering",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/web-scraping-pipeline",
+      "image": "/assets/photo-campus-steps.png",
+      "imagePosition": "center 35%",
+      "tech": ["Python", "BeautifulSoup", "ETL", "PostgreSQL"],
+      "desc": "Automated web scraping pipeline ingesting structured data from multiple sources with validation, deduplication, and database loading."
+    },
+    {
+      "id": 13,
+      "title": "Graph ML Fraud Detection",
+      "subtitle": "Network-Based ML",
+      "type": "Machine Learning",
+      "link": "https://github.com/srivardhanbabavemula/SOFTWARE-ENGINEERING-Projects/tree/main/Graph-ML-Fraud-Detection-master",
+      "image": "/assets/project-bg-2.png",
+      "imagePosition": "center 18%",
+      "tech": ["Python", "Graph ML", "NetworkX", "scikit-learn"],
+      "desc": "Graph-based ML pipeline detecting fraudulent transactions using network analysis, feature engineering, and supervised classification."
+    },
+    {
+      "id": 14,
+      "title": "Deep-O-Meter",
+      "subtitle": "Deepfake Detection Platform",
+      "type": "Research",
+      "link": "https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/",
+      "image": "/assets/intro-slide-1.png",
+      "imagePosition": "center 28%",
+      "tech": ["Flask", "FastAPI", "Docker", "AWS S3", "PySpark", "MLflow"],
+      "desc": "Production deepfake detection inference platform at UB Media Forensic Lab with containerized REST APIs, S3 integration, and MLflow versioning."
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "IBM Data Science Professional Certificate",
+      "platform": "IBM · Coursera",
+      "year": "2022",
+      "link": "https://coursera.org/account/accomplishments/specialization/certificate/6SS3RUJSD6SZ",
+      "desc": "End-to-end data science: Python, ML, SQL, data visualization, and capstone projects."
+    },
+    {
+      "id": 2,
+      "title": "IBM Data Analyst Professional Certificate",
+      "platform": "IBM · Coursera",
+      "year": "2023",
+      "link": "https://coursera.org/account/accomplishments/specialization/certificate/KQUJBR5S8XAB",
+      "desc": "Data analysis, visualization, Excel, SQL, Python, and analytics workflow fundamentals."
+    },
+    {
+      "id": 3,
+      "title": "Data Analysis & Visualization Foundations",
+      "platform": "IBM · Coursera",
+      "year": "2023",
+      "link": "https://coursera.org/account/accomplishments/specialization/certificate/2ZJ44UX7ASYQ",
+      "desc": "Foundational specialization in data analysis, visualization techniques, and statistical methods."
+    },
+    {
+      "id": 4,
+      "title": "AWS Essentials for Developers",
+      "platform": "AWS",
+      "year": "2024",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Core AWS services: S3, EC2, Lambda, and cloud architecture for application development."
+    },
+    {
+      "id": 5,
+      "title": "Azure Fundamentals (AZ-900)",
+      "platform": "Microsoft",
+      "year": "2024",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Azure cloud concepts, services, security, privacy, compliance, and pricing models."
+    },
+    {
+      "id": 6,
+      "title": "Azure AI Fundamentals (AI-900)",
+      "platform": "Microsoft",
+      "year": "2024",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "AI workloads, machine learning concepts, and Azure AI services fundamentals."
+    },
+    {
+      "id": 7,
+      "title": "Career Essentials in Generative AI",
+      "platform": "Microsoft & LinkedIn",
+      "year": "2024",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Generative AI concepts, responsible AI, and practical applications in engineering."
+    },
+    {
+      "id": 21,
+      "title": "Streamlining Your Work with Microsoft Copilot",
+      "platform": "Microsoft & LinkedIn",
+      "year": "Nov 2024",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Generative AI productivity workflows, responsible AI practices, and Microsoft Copilot for engineering tasks."
+    },
+    {
+      "id": 8,
+      "title": "Google Crash Course on Python",
+      "platform": "Google · Coursera",
+      "year": "2022",
+      "link": "https://coursera.org/account/accomplishments/certificate/5BHT82QXNJXB",
+      "desc": "Python programming fundamentals, data structures, and problem-solving techniques."
+    },
+    {
+      "id": 9,
+      "title": "Spark Fundamentals I",
+      "platform": "Big Data University",
+      "year": "2022",
+      "link": "https://courses.cognitiveclass.ai/certificates/4537607578e147a2ab76a405cd6d5194",
+      "desc": "Apache Spark architecture, RDDs, DataFrames, and distributed data processing."
+    },
+    {
+      "id": 10,
+      "title": "DATA SCIENCE 101",
+      "platform": "IBM Cognitive Class",
+      "year": "2022",
+      "link": "https://courses.cognitiveclass.ai/certificates/effedbc4ba5d45f2861930f4749f9127",
+      "desc": "Introduction to data science methodology, tools, and real-world applications."
+    },
+    {
+      "id": 11,
+      "title": "SQL & Relational Database 101",
+      "platform": "IBM Cognitive Class",
+      "year": "2022",
+      "link": "https://courses.cognitiveclass.ai/certificates/a08d9f1fbc9c47bb8fe3610f18a580c5",
+      "desc": "Relational database design, SQL querying, and data modeling fundamentals."
+    },
+    {
+      "id": 12,
+      "title": "Data Structures and Algorithms",
+      "platform": "Infosys",
+      "year": "2023",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Core CS fundamentals: data structures, algorithm design, and complexity analysis."
+    },
+    {
+      "id": 13,
+      "title": "Infosys Young Python Professional",
+      "platform": "Infosys",
+      "year": "2023",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Advanced Python development, OOP, and production-ready coding practices."
+    },
+    {
+      "id": 14,
+      "title": "Object-Oriented Programming Using Python",
+      "platform": "Infosys",
+      "year": "2023",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "OOP principles, class design, inheritance, and Python software engineering patterns."
+    },
+    {
+      "id": 15,
+      "title": "PwC Power BI Virtual Case Experience",
+      "platform": "PwC",
+      "year": "2023",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Business intelligence case study using Power BI for client advisory analytics."
+    },
+    {
+      "id": 16,
+      "title": "Tata Data Visualisation Case Experience",
+      "platform": "Tata Technologies",
+      "year": "2023",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Data visualization and business insights case study for engineering analytics."
+    },
+    {
+      "id": 17,
+      "title": "Create Table & Load Data in MySQL",
+      "platform": "IBM Cognitive Class",
+      "year": "Mar 2022",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "MySQL table creation, data loading with PhpMyAdmin, and relational database fundamentals."
+    },
+    {
+      "id": 18,
+      "title": "Keys & Constraints in MySQL",
+      "platform": "IBM Cognitive Class",
+      "year": "Mar 2022",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Primary keys, foreign keys, constraints, and schema design in MySQL databases."
+    },
+    {
+      "id": 19,
+      "title": "MySQL & PostgreSQL Certifications",
+      "platform": "IBM Cognitive Class",
+      "year": "2022",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "MySQL table creation, keys/constraints, and PostgreSQL views and database management."
+    },
+    {
+      "id": 20,
+      "title": "Certificate of Skills Portfolio",
+      "platform": "View All Credentials",
+      "year": "2024",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Complete consolidated skills certification portfolio — click to view full PDF document."
+    }
+  ],
+  "socials": [
+    { "label": "GitHub",   "href": "https://github.com/srivardhanbabavemula" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/srivardhan-baba-vemula/" },
+    { "label": "Tableau",  "href": "https://public.tableau.com/app/profile/srivardhan.baba.vemula/vizzes" }
+  ],
+  "resume": "/assets/resume.pdf"
+}

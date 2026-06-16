@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+/* ─── Brand tokens — light professional ─────────────── */
+:root {
+  /* Hero gradient — soft sky & cream */
+  --hero-start: #f8fafc;
+  --hero-mid:   #e8f0fe;
+  --hero-end:   #c7d9f5;
+
+  /* Accent */
+  --accent:       #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-warm:  #f59e0b;
+
+  /* Text */
+  --text-primary: #0f172a;
+  --text-muted:   #475569;
+  --text-on-dark: #f8fafc;
+
+  /* Surfaces */
+  --surface-white: #ffffff;
+  --surface-black: #0f172a;
+  --surface-amber: #f8fafc;
+  --surface-glass: rgba(255, 255, 255, 0.72);
+  --surface-card:  #ffffff;
+
+  /* Status */
+  --status-available: #16a34a;
+
+  /* Text dark token */
+  --text-dark: #1e293b;
+
+  /* Navbar */
+  --navbar-text:    #0f172a;
+  --email-btn-bg:   #ffffff;
+  --email-btn-text: #0f172a;
+
+  /* 3D depth */
+  --shadow-soft:  0 4px 24px rgba(15, 23, 42, 0.08);
+  --shadow-lift:  0 20px 50px rgba(37, 99, 235, 0.12);
+  --shadow-card:  0 8px 32px rgba(15, 23, 42, 0.06), 0 1px 0 rgba(255,255,255,0.8) inset;
+
+  /* Type scale */
+  --hero-name-size: clamp(4.5rem, 13vw, 12rem);
+  --text-body:  clamp(0.9rem, 1.2vw, 1.05rem);
+  --text-small: 0.72rem;
+  --hero-role-size: clamp(0.75rem, 1.2vw, 0.875rem);
+
+  /* ─── shadcn var bridge (maps to brand tokens) ── */
+  --background:   var(--surface-white);
+  --foreground:   var(--text-primary);
+  --primary:      var(--text-primary);
+  --primary-foreground: var(--surface-white);
+  --ring:         var(--accent);
+  --radius:       9999px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ─── Base ──────────────────────────────────────────────── */
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: var(--background);
+  color:      var(--foreground);
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+}
+
+/* ─── Hide scrollbar ─────────────────────────────────────── */
+main::-webkit-scrollbar { display: none; }
+main { scrollbar-width: none; -ms-overflow-style: none; }
+
+@media (max-width: 767px) {
+  :root {
+    --hero-name-size: clamp(3rem, 10vw, 5rem);
+  }
+
+  /* Override inline 100vh - Chrome mobile toolbar hides bottom content */
+  html, body { height: 100svh !important; }
+  main { height: 100svh !important; }
+}
