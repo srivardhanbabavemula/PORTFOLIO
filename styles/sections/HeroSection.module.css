@@ -24,8 +24,9 @@
 }
 
 .photoImg {
-  object-fit: cover;
+  object-fit: contain;
   object-position: center 28%;
+  background: linear-gradient(180deg, #eef2ff 0%, #f8fafc 100%);
 }
 
 /* ─── Social Sidebar ─────────────────────────────────────── */

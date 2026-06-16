@@ -71,7 +71,7 @@
   ],
   "stats": [
     { "value": "3+", "label": "Years Experience" },
-    { "value": "20+", "label": "Certifications" },
+    { "value": "24+", "label": "Certifications" },
     { "value": "15+", "label": "GitHub Projects" }
   ],
   "languages": [
@@ -246,8 +246,8 @@
       "subtitle": "Natural Language to SQL",
       "type": "Generative AI",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/ai-data-analyst-chatbot",
-      "image": "/assets/photo-office-2.png",
-      "imagePosition": "center 30%",
+      "image": "/assets/projects/ai-chatbot.png",
+      "context": "Built as part of my generative AI portfolio — turning business questions into SQL using LangChain and OpenAI, aligned with my data analyst certifications.",
       "tech": ["Python", "LangChain", "OpenAI API", "SQL", "Pandas"],
       "desc": "AI chatbot that converts natural-language questions into SQL queries. Includes NL-to-SQL pipeline, interactive data exploration, prompt engineering, and analytics dashboards."
     },
@@ -257,8 +257,8 @@
       "subtitle": "Retrieval Augmented Generation",
       "type": "Generative AI",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/rag-ai-document-qa",
-      "image": "/assets/srivardhan-about.png",
-      "imagePosition": "center 22%",
+      "image": "/assets/projects/rag-qa.png",
+      "context": "Combines my NLP interest with production-style retrieval — FAISS vector search and LangChain pipelines similar to tools I use in UB research workflows.",
       "tech": ["Python", "LangChain", "FAISS", "OpenAI API", "RAG"],
       "desc": "RAG-based document Q&A with FAISS vector search, LangChain retrieval pipelines, and a web UI for uploading documents and asking natural language questions."
     },
@@ -268,8 +268,8 @@
       "subtitle": "Kafka + Spark + AWS",
       "type": "Data Engineering",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/real-time-streaming-platform",
-      "image": "/assets/photo-office-3.png",
-      "imagePosition": "center 28%",
+      "image": "/assets/projects/streaming.png",
+      "context": "Mirrors my Broadridge experience processing 200+ files/day — designed for 500K+ events/hour with sub-2s latency on AWS.",
       "tech": ["Kafka", "Spark Streaming", "AWS S3", "Python", "Docker"],
       "desc": "Production-style streaming platform ingesting 500K+ events/hour via Kafka, processing with Spark Streaming windowed aggregations, and storing in AWS S3 with sub-2s latency."
     },
@@ -279,8 +279,8 @@
       "subtitle": "Event-Driven Architecture",
       "type": "Data Engineering",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/kafka-streams-examples",
-      "image": "/assets/project-bg-3.png",
-      "imagePosition": "center 20%",
+      "image": "/assets/projects/kafka-streams.png",
+      "context": "Hands-on reference implementations I use to demonstrate event-driven patterns in interviews and portfolio reviews.",
       "tech": ["Kafka", "Python", "Event Streaming", "Docker"],
       "desc": "Hands-on Kafka Streams examples covering producers, consumers, windowed aggregations, and fault-tolerant event processing patterns."
     },
@@ -290,8 +290,8 @@
       "subtitle": "Workflow Orchestration",
       "type": "Automation",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/airflow-data-pipelines",
-      "image": "/assets/work-experience.webp",
-      "imagePosition": "center 38%",
+      "image": "/assets/projects/airflow.png",
+      "context": "Automates ETL workflows I previously ran manually — 98% SLA compliance, saving 20+ hours/week of pipeline operations.",
       "tech": ["Apache Airflow", "Python", "PostgreSQL", "Docker", "ETL"],
       "desc": "Automated workflow platform with Airflow DAGs, retry logic, and monitoring. Achieved 98% SLA compliance and eliminated manual pipeline operations."
     },
@@ -301,8 +301,8 @@
       "subtitle": "Cloud ETL Pipelines",
       "type": "Cloud Data Engineering",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/azure-data-factory-etl",
-      "image": "/assets/project-bg-1.png",
-      "imagePosition": "center 18%",
+      "image": "/assets/projects/azure-etl.png",
+      "context": "Pairs with my Azure AZ-900 & AI-900 certifications — multi-source cloud ETL with parameterized datasets and monitoring.",
       "tech": ["Azure ADF", "SQL", "ETL/ELT", "Data Integration"],
       "desc": "Azure Data Factory pipelines orchestrating multi-source ETL workflows with parameterized datasets, triggers, and monitoring for cloud analytics."
     },
@@ -312,8 +312,8 @@
       "subtitle": "Distributed Big Data",
       "type": "Data Engineering",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/pyspark-processing",
-      "image": "/assets/hero1.png",
-      "imagePosition": "center 32%",
+      "image": "/assets/projects/pyspark.png",
+      "context": "Directly related to my UB research — 100GB+ datasets with partitioning and broadcast joins cutting runtime by 60%+.",
       "tech": ["PySpark", "Python", "Spark SQL", "Partitioning"],
       "desc": "PySpark jobs processing large datasets with adaptive partitioning, broadcast joins, and optimized transformations for 60%+ runtime improvements."
     },
@@ -323,8 +323,8 @@
       "subtitle": "Business Intelligence",
       "type": "Analytics",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/analytics-dashboard",
-      "image": "/assets/photo-library.png",
-      "imagePosition": "center 25%",
+      "image": "/assets/projects/analytics.png",
+      "context": "Built during freelance analytics work — 15+ Tableau & Power BI dashboards reducing manual reporting by 6 hrs/week.",
       "tech": ["Python", "Power BI", "Tableau", "SQL", "Pandas"],
       "desc": "Interactive analytics dashboard with KPI tracking, drill-down visualizations, and automated reporting reducing manual effort by 6 hrs/week."
     },
@@ -334,8 +334,8 @@
       "subtitle": "Time Series ML",
       "type": "Machine Learning",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/financial-forecasting",
-      "image": "/assets/photo-yacht.png",
-      "imagePosition": "center 30%",
+      "image": "/assets/projects/forecasting.png",
+      "context": "Applies MS Data Science coursework and scikit-learn/XGBoost skills to revenue and trend prediction use cases.",
       "tech": ["Python", "scikit-learn", "Pandas", "Time Series"],
       "desc": "Financial forecasting models with feature engineering, cross-validation, and ensemble methods for revenue and trend prediction."
     },
@@ -345,8 +345,8 @@
       "subtitle": "Collaborative Filtering",
       "type": "Machine Learning",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/recommendation-system",
-      "image": "/assets/intro-slide-3.png",
-      "imagePosition": "center 40%",
+      "image": "/assets/projects/recommendation.png",
+      "context": "Modular ML pipeline showcasing collaborative filtering — part of my GitHub Project repo for data science roles.",
       "tech": ["Python", "scikit-learn", "Pandas", "ML"],
       "desc": "Recommendation engine using collaborative filtering and content-based methods with evaluation metrics and modular pipeline design."
     },
@@ -356,8 +356,8 @@
       "subtitle": "NLP Classification",
       "type": "NLP",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/sentiment-analysis",
-      "image": "/assets/intro-slide-4.png",
-      "imagePosition": "center 22%",
+      "image": "/assets/projects/sentiment.png",
+      "context": "NLP project using text preprocessing and classification — complements my IBM Data Science & analyst certifications.",
       "tech": ["Python", "NLP", "scikit-learn", "Text Processing"],
       "desc": "NLP pipeline for sentiment classification with text preprocessing, vectorization, and model evaluation on real-world review datasets."
     },
@@ -367,8 +367,8 @@
       "subtitle": "Data Collection ETL",
       "type": "Data Engineering",
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/web-scraping-pipeline",
-      "image": "/assets/photo-campus-steps.png",
-      "imagePosition": "center 35%",
+      "image": "/assets/projects/web-scraping.png",
+      "context": "End-to-end ingestion pipeline — validates, deduplicates, and loads structured data into PostgreSQL for downstream analytics.",
       "tech": ["Python", "BeautifulSoup", "ETL", "PostgreSQL"],
       "desc": "Automated web scraping pipeline ingesting structured data from multiple sources with validation, deduplication, and database loading."
     },
@@ -378,8 +378,8 @@
       "subtitle": "Network-Based ML",
       "type": "Machine Learning",
       "link": "https://github.com/srivardhanbabavemula/SOFTWARE-ENGINEERING-Projects/tree/main/Graph-ML-Fraud-Detection-master",
-      "image": "/assets/project-bg-2.png",
-      "imagePosition": "center 18%",
+      "image": "/assets/projects/graph-fraud.png",
+      "context": "Graph-based fraud detection using network features — published in my SOFTWARE-ENGINEERING-Projects repository on GitHub.",
       "tech": ["Python", "Graph ML", "NetworkX", "scikit-learn"],
       "desc": "Graph-based ML pipeline detecting fraudulent transactions using network analysis, feature engineering, and supervised classification."
     },
@@ -389,8 +389,8 @@
       "subtitle": "Deepfake Detection Platform",
       "type": "Research",
       "link": "https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/",
-      "image": "/assets/intro-slide-1.png",
-      "imagePosition": "center 28%",
+      "image": "/assets/projects/deep-o-meter.png",
+      "context": "Live UB Media Forensic Lab research under Prof. Siwei Lyu — Flask/FastAPI APIs, PySpark ETL, and MLflow model versioning.",
       "tech": ["Flask", "FastAPI", "Docker", "AWS S3", "PySpark", "MLflow"],
       "desc": "Production deepfake detection inference platform at UB Media Forensic Lab with containerized REST APIs, S3 integration, and MLflow versioning."
     }
@@ -451,6 +451,30 @@
       "year": "2024",
       "link": "/assets/certificate-of-skills.pdf",
       "desc": "Generative AI concepts, responsible AI, and practical applications in engineering."
+    },
+    {
+      "id": 22,
+      "title": "Prepare for Microsoft Azure Fundamentals (AZ-900)",
+      "platform": "LinkedIn Learning",
+      "year": "Jul 2025",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
+      "desc": "Azure cloud concepts, core services, security, governance, and pricing — preparation for AZ-900 certification."
+    },
+    {
+      "id": 23,
+      "title": "SQL (Basic) — HackerRank",
+      "platform": "HackerRank",
+      "year": "Jan 2023",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
+      "desc": "SQL fundamentals: queries, joins, aggregations, and relational database operations. Credential ID: 0c19826dcd62."
+    },
+    {
+      "id": 24,
+      "title": "Programming Fundamentals — Science Graduates",
+      "platform": "Infosys",
+      "year": "2023",
+      "link": "/assets/certificate-of-skills.pdf",
+      "desc": "Foundation program covering programming logic, problem solving, and software development basics for science graduates."
     },
     {
       "id": 21,

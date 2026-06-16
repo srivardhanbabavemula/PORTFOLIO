@@ -38,8 +38,9 @@
 }
 
 .photoImg {
-  object-fit: cover;
-  object-position: center 22%;
+  object-fit: contain;
+  object-position: center top;
+  background: #f1f5f9;
 }
 
 /* Signature - overlaps bottom-right corner of photo */

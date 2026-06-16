@@ -12,7 +12,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate:video": "python scripts/generate-intro-video.py"
+    "generate:video": "python scripts/generate-intro-video.py",
+    "generate:covers": "python scripts/generate-project-covers.py"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",
