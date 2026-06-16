@@ -72,7 +72,7 @@
   ],
   "stats": [
     {
-      "value": "3+",
+      "value": "5+",
       "label": "Years Experience"
     },
     {
@@ -80,8 +80,12 @@
       "label": "Certifications"
     },
     {
-      "value": "15+",
+      "value": "14",
       "label": "GitHub Projects"
+    },
+    {
+      "value": "8",
+      "label": "Work Roles"
     }
   ],
   "languages": [
@@ -210,80 +214,195 @@
   "experience": [
     {
       "id": 1,
-      "role": "Graduate Research Assistant — AI & Data Systems",
-      "company": "University at Buffalo · UB Media Forensic Lab",
+      "role": "Graduate Research Assistant (AI & Data Systems)",
+      "company": "University at Buffalo · AI & Data Science",
       "companyShort": "UB RESEARCH",
       "type": "Research",
       "location": "Buffalo, NY",
       "period": "Jan 2026",
       "periodEnd": "Present",
       "bullets": [
-        "Architected Python ETL pipelines loading 50K+ multi-modal records into AWS S3; slashing preprocessing errors by 45% for Deep-O-Meter.",
-        "Engineered PySpark workflows on 100GB+ datasets; halved computation time by 60% via adaptive partitioning and broadcast joins.",
-        "Designed ML feature pipelines (PCA, SMOTE, normalization) for 5+ deepfake models; lifting F1-score by 12%.",
-        "Built Flask REST APIs for live ML inference; drove API latency 580ms → 378ms, raising throughput by 28%.",
-        "Established MLflow model versioning and data lineage across 10+ configs; paring QA effort by 30%."
+        "Developed React, Flask, and Jinja frontend/backend components for AI-driven application workflows.",
+        "Built REST APIs for real-time ML inference; reduced latency from 580ms to 378ms (+28% throughput).",
+        "Engineered PySpark workflows on 100GB+ datasets; cut runtime by 60% via partitioning and broadcast joins.",
+        "Architected Python ETL pipelines ingesting 50K+ multi-modal records into AWS S3 for Deep-O-Meter.",
+        "Implemented MLflow versioning and data lineage across 10+ configs; reduced QA effort by 30%."
       ],
-      "desc": "Research under Prof. Siwei Lyu, IEEE Fellow, Director — UB Institute for AI & Data Science.",
+      "desc": "AI & data systems research under Prof. Siwei Lyu at UB Media Forensic Lab.",
       "tech": [
         "Python",
-        "PySpark",
+        "React",
         "Flask",
+        "FastAPI",
+        "PySpark",
         "AWS S3",
         "MLflow",
-        "Deep Learning"
+        "REST APIs"
       ]
     },
     {
       "id": 2,
-      "role": "Cloud & Data Engineering Associate",
+      "role": "Student Library Assistant",
+      "company": "University at Buffalo",
+      "companyShort": "UB LIBRARY",
+      "type": "Part-time",
+      "location": "Buffalo, NY",
+      "period": "Mar 2026",
+      "periodEnd": "Present",
+      "bullets": [
+        "Managed document delivery workflows including scanning, processing, and distribution of materials.",
+        "Assisted users with library systems, technology tools, and service workflows.",
+        "Maintained accuracy through detailed record-keeping and verification processes.",
+        "Handled high-volume requests ensuring timely fulfillment and organized processing."
+      ],
+      "desc": "Campus library operations, document delivery, and user support.",
+      "tech": [
+        "Operations",
+        "Record Keeping",
+        "Customer Service",
+        "Document Processing"
+      ]
+    },
+    {
+      "id": 3,
+      "role": "Student Assistant — Fitness Leader",
+      "company": "University at Buffalo",
+      "companyShort": "UB FITNESS",
+      "type": "Part-time",
+      "location": "Buffalo, NY",
+      "period": "Dec 2025",
+      "periodEnd": "Present",
+      "bullets": [
+        "Monitored equipment usage and enforced safety protocols across fitness facilities.",
+        "Supported daily operations including equipment checks and maintenance coordination.",
+        "Delivered high-quality customer service assisting users with equipment and policies.",
+        "Maintained cleanliness and operational standards; coordinated proactively with staff."
+      ],
+      "desc": "Fitness facility operations, safety, and member support at UB.",
+      "tech": [
+        "Facility Management",
+        "Safety Protocols",
+        "Customer Service",
+        "Operations"
+      ]
+    },
+    {
+      "id": 4,
+      "role": "Cloud & Data Engineer",
       "company": "Broadridge Financial Solutions",
       "companyShort": "BROADRIDGE",
       "type": "Full-time",
-      "location": "India",
+      "location": "Hyderabad, India",
       "period": "Sep 2024",
-      "periodEnd": "Jul 2025",
+      "periodEnd": "Aug 2025",
       "bullets": [
-        "Automated AWS S3 + SFTP ingestion processing 200+ files daily; boosted throughput by 40% and eliminated 15 hrs/week manual reconciliation.",
-        "Integrated Sterling File Gateway with 5+ enterprise systems; enforced SOX-compliant data lineage, lowering cross-system errors by 35%.",
-        "Built SLA observability (CloudWatch + PagerDuty) for 12+ pipelines, sustaining 99.8% uptime; trimmed incident resolution by 25%.",
-        "Refactored 20+ SQL queries to CTEs and window functions; restructured 4 schemas, shrinking query latency by 30%.",
+        "Engineered AWS and SFTP pipelines processing 200+ files/day; improved throughput by 40% and saved 15 hrs/week.",
+        "Maintained Sterling File Gateway enterprise workflows with 99.8% system uptime across 12+ pipelines.",
+        "Optimized 20+ SQL queries and redesigned schemas; reduced analytics query latency by 30%.",
+        "Built monitoring and validation frameworks (CloudWatch + PagerDuty); cut incident response by 25%.",
         "Instituted CI/CD test suites across 15+ workflows, cutting post-deployment defects by 40%."
       ],
-      "desc": "Enterprise cloud data engineering with SOX-compliant pipelines and production observability.",
+      "desc": "Enterprise cloud data engineering, SOX-compliant pipelines, and production observability.",
       "tech": [
         "Python",
         "AWS S3",
         "SFTP",
         "SQL",
-        "Airflow",
         "CloudWatch",
+        "PagerDuty",
         "CI/CD"
       ]
     },
     {
-      "id": 3,
-      "role": "Data Analyst & Python Developer",
-      "company": "Freelance",
+      "id": 5,
+      "role": "Data Engineer & Data Analyst",
+      "company": "Freelance (Self-employed)",
       "companyShort": "FREELANCE",
       "type": "Contract",
       "location": "Remote",
       "period": "Aug 2022",
       "periodEnd": "Aug 2024",
       "bullets": [
-        "Productionized Python ingestion pipelines processing 500K+ records from 10+ sources; reduced execution time by 45%.",
-        "Restructured relational schemas with composite indexing, achieving 60% faster queries across 8 datasets for 3 enterprise clients.",
-        "Shipped 15+ Tableau and Power BI dashboards saving clients 6+ hrs/week in manual reporting.",
-        "Maintained data workflows with validation and exception handling, sustaining 99.5% accuracy over 2M+ records."
+        "Built Python ETL pipelines ingesting 500K+ records from 10+ sources; reduced processing time by 45%.",
+        "Designed relational schemas and indexing strategies; improved query performance by 60%.",
+        "Developed 15+ Tableau and Power BI dashboards; reduced manual reporting by 6 hrs/week.",
+        "Implemented data validation frameworks ensuring 99.5% accuracy across 2M+ records."
       ],
-      "desc": "End-to-end analytics and Python development for enterprise clients.",
+      "desc": "End-to-end data pipelines, analytics dashboards, and database optimization for clients.",
       "tech": [
         "Python",
         "SQL",
         "PostgreSQL",
         "Tableau",
         "Power BI",
+        "Pandas",
         "ETL"
+      ]
+    },
+    {
+      "id": 6,
+      "role": "Power BI Virtual Case Experience",
+      "company": "PwC",
+      "companyShort": "PWC",
+      "type": "Virtual Experience",
+      "location": "United Kingdom",
+      "period": "Jul 2023",
+      "periodEnd": "Jul 2023",
+      "bullets": [
+        "Completed client-style Power BI case study analyzing business data and KPI trends.",
+        "Built interactive dashboards with drill-down views for executive decision support.",
+        "Applied data modeling and DAX measures for revenue and operational metrics."
+      ],
+      "desc": "PwC virtual case experience in Power BI analytics and business insights.",
+      "tech": [
+        "Power BI",
+        "DAX",
+        "Data Modeling",
+        "Business Analytics"
+      ]
+    },
+    {
+      "id": 7,
+      "role": "Data Visualisation — Empowering Business With Effective Insights",
+      "company": "Tata Technologies",
+      "companyShort": "TATA TECH",
+      "type": "Virtual Experience",
+      "location": "Pune, India",
+      "period": "Jul 2023",
+      "periodEnd": "Jul 2023",
+      "bullets": [
+        "Analyzed automotive sector datasets and identified trends for business stakeholders.",
+        "Designed effective visualizations communicating insights to non-technical audiences.",
+        "Applied storytelling techniques to translate data into actionable recommendations."
+      ],
+      "desc": "Tata Technologies virtual program in data visualization and business insight delivery.",
+      "tech": [
+        "Data Visualization",
+        "Analytics",
+        "Storytelling",
+        "Business Intelligence"
+      ]
+    },
+    {
+      "id": 8,
+      "role": "President",
+      "company": "Computer Society of India",
+      "companyShort": "CSI",
+      "type": "Leadership",
+      "location": "India",
+      "period": "Aug 2020",
+      "periodEnd": "Jul 2023",
+      "bullets": [
+        "Led weekly technical seminars and hands-on activities for student skill development in IT.",
+        "Established internships with professionals and direct interaction with DRDO scientists.",
+        "Increased internship and job placement rates through coding, cryptography, and problem-solving programs."
+      ],
+      "desc": "Student leadership driving technical education, career programs, and industry connections.",
+      "tech": [
+        "Leadership",
+        "Technical Training",
+        "Career Development",
+        "Cryptography"
       ]
     }
   ],
@@ -303,7 +422,8 @@
         "SQL",
         "Pandas"
       ],
-      "desc": "AI chatbot that converts natural-language questions into SQL queries. Includes NL-to-SQL pipeline, interactive data exploration, prompt engineering, and analytics dashboards."
+      "desc": "AI chatbot that converts natural-language questions into SQL queries. Includes NL-to-SQL pipeline, interactive data exploration, prompt engineering, and analytics dashboards.",
+      "bgImage": "/assets/photo-office-1.png"
     },
     {
       "id": 2,
@@ -320,7 +440,8 @@
         "OpenAI API",
         "RAG"
       ],
-      "desc": "RAG-based document Q&A with FAISS vector search, LangChain retrieval pipelines, and a web UI for uploading documents and asking natural language questions."
+      "desc": "RAG-based document Q&A with FAISS vector search, LangChain retrieval pipelines, and a web UI for uploading documents and asking natural language questions.",
+      "bgImage": "/assets/photo-office-2.png"
     },
     {
       "id": 3,
@@ -337,7 +458,8 @@
         "Python",
         "Docker"
       ],
-      "desc": "Production-style streaming platform ingesting 500K+ events/hour via Kafka, processing with Spark Streaming windowed aggregations, and storing in AWS S3 with sub-2s latency."
+      "desc": "Production-style streaming platform ingesting 500K+ events/hour via Kafka, processing with Spark Streaming windowed aggregations, and storing in AWS S3 with sub-2s latency.",
+      "bgImage": "/assets/photo-office-3.png"
     },
     {
       "id": 4,
@@ -353,7 +475,8 @@
         "Event Streaming",
         "Docker"
       ],
-      "desc": "Hands-on Kafka Streams examples covering producers, consumers, windowed aggregations, and fault-tolerant event processing patterns."
+      "desc": "Hands-on Kafka Streams examples covering producers, consumers, windowed aggregations, and fault-tolerant event processing patterns.",
+      "bgImage": "/assets/photo-portrait.png"
     },
     {
       "id": 5,
@@ -370,7 +493,8 @@
         "Docker",
         "ETL"
       ],
-      "desc": "Automated workflow platform with Airflow DAGs, retry logic, and monitoring. Achieved 98% SLA compliance and eliminated manual pipeline operations."
+      "desc": "Automated workflow platform with Airflow DAGs, retry logic, and monitoring. Achieved 98% SLA compliance and eliminated manual pipeline operations.",
+      "bgImage": "/assets/photo-campus-1.png"
     },
     {
       "id": 6,
@@ -386,7 +510,8 @@
         "ETL/ELT",
         "Data Integration"
       ],
-      "desc": "Azure Data Factory pipelines orchestrating multi-source ETL workflows with parameterized datasets, triggers, and monitoring for cloud analytics."
+      "desc": "Azure Data Factory pipelines orchestrating multi-source ETL workflows with parameterized datasets, triggers, and monitoring for cloud analytics.",
+      "bgImage": "/assets/photo-campus-2.png"
     },
     {
       "id": 7,
@@ -402,7 +527,8 @@
         "Spark SQL",
         "Partitioning"
       ],
-      "desc": "PySpark jobs processing large datasets with adaptive partitioning, broadcast joins, and optimized transformations for 60%+ runtime improvements."
+      "desc": "PySpark jobs processing large datasets with adaptive partitioning, broadcast joins, and optimized transformations for 60%+ runtime improvements.",
+      "bgImage": "/assets/photo-campus-3.png"
     },
     {
       "id": 8,
@@ -419,7 +545,8 @@
         "SQL",
         "Pandas"
       ],
-      "desc": "Interactive analytics dashboard with KPI tracking, drill-down visualizations, and automated reporting reducing manual effort by 6 hrs/week."
+      "desc": "Interactive analytics dashboard with KPI tracking, drill-down visualizations, and automated reporting reducing manual effort by 6 hrs/week.",
+      "bgImage": "/assets/photo-campus-4.png"
     },
     {
       "id": 9,
@@ -435,7 +562,8 @@
         "Pandas",
         "Time Series"
       ],
-      "desc": "Financial forecasting models with feature engineering, cross-validation, and ensemble methods for revenue and trend prediction."
+      "desc": "Financial forecasting models with feature engineering, cross-validation, and ensemble methods for revenue and trend prediction.",
+      "bgImage": "/assets/photo-campus-5.png"
     },
     {
       "id": 10,
@@ -451,7 +579,8 @@
         "Pandas",
         "ML"
       ],
-      "desc": "Recommendation engine using collaborative filtering and content-based methods with evaluation metrics and modular pipeline design."
+      "desc": "Recommendation engine using collaborative filtering and content-based methods with evaluation metrics and modular pipeline design.",
+      "bgImage": "/assets/photo-office-1.png"
     },
     {
       "id": 11,
@@ -467,7 +596,8 @@
         "scikit-learn",
         "Text Processing"
       ],
-      "desc": "NLP pipeline for sentiment classification with text preprocessing, vectorization, and model evaluation on real-world review datasets."
+      "desc": "NLP pipeline for sentiment classification with text preprocessing, vectorization, and model evaluation on real-world review datasets.",
+      "bgImage": "/assets/photo-office-2.png"
     },
     {
       "id": 12,
@@ -483,7 +613,8 @@
         "ETL",
         "PostgreSQL"
       ],
-      "desc": "Automated web scraping pipeline ingesting structured data from multiple sources with validation, deduplication, and database loading."
+      "desc": "Automated web scraping pipeline ingesting structured data from multiple sources with validation, deduplication, and database loading.",
+      "bgImage": "/assets/photo-office-3.png"
     },
     {
       "id": 13,
@@ -499,7 +630,8 @@
         "NetworkX",
         "scikit-learn"
       ],
-      "desc": "Graph-based ML pipeline detecting fraudulent transactions using network analysis, feature engineering, and supervised classification."
+      "desc": "Graph-based ML pipeline detecting fraudulent transactions using network analysis, feature engineering, and supervised classification.",
+      "bgImage": "/assets/photo-portrait.png"
     },
     {
       "id": 14,
@@ -517,7 +649,8 @@
         "PySpark",
         "MLflow"
       ],
-      "desc": "Production deepfake detection inference platform at UB Media Forensic Lab with containerized REST APIs, S3 integration, and MLflow versioning."
+      "desc": "Production deepfake detection inference platform at UB Media Forensic Lab with containerized REST APIs, S3 integration, and MLflow versioning.",
+      "bgImage": "/assets/hero1.png"
     }
   ],
   "publications": [

@@ -102,14 +102,17 @@
 /* ── Entries row ────────────────────────────────── */
 .entries {
   display: flex;
-  gap: clamp(1.5rem, 3vw, 3rem);
+  gap: clamp(1rem, 2vw, 2rem);
   align-items: flex-start;
   position: relative;
   z-index: 1;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scrollbar-width: thin;
 }
 
 .entry {
-  flex: 1;
+  flex: 0 0 clamp(220px, 18vw, 280px);
   min-width: 0;
   display: flex;
   flex-direction: column;

@@ -118,6 +118,19 @@ export default function ProjectsSection() {
         >
           {PROJECTS.map((proj, i) => (
             <div key={proj.id} className={styles.slide}>
+              {proj.bgImage && (
+                <div className={styles.slideBg} aria-hidden>
+                  <Image
+                    src={proj.bgImage}
+                    alt=""
+                    fill
+                    quality={85}
+                    className={styles.slideBgImg}
+                    sizes="100vw"
+                    priority={i === 0}
+                  />
+                </div>
+              )}
               <span className={styles.slideNum} aria-hidden>0{i + 1}</span>
 
               <div

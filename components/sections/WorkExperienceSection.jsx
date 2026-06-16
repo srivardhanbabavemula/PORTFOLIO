@@ -101,7 +101,7 @@ export default function WorkExperienceSection() {
 
       <div className={styles.bgImg} aria-hidden>
         <Image
-          src="/assets/work-experience.webp"
+          src="/assets/work-experience.png"
           alt=""
           fill
           quality={100}
@@ -112,7 +112,7 @@ export default function WorkExperienceSection() {
 
       <div className={styles.header}>
         <span className={styles.label}>Work Experience</span>
-        <span className={styles.labelRight}>0{EXPS.length} Companies</span>
+        <span className={styles.labelRight}>0{EXPS.length} Roles</span>
       </div>
 
       <div className={styles.timeline}>
