@@ -198,7 +198,7 @@ export default function PublicationsFooterSection() {
       tick()
     }
 
-    // ── Publication entry animation ───────────────────────────
+    // -- Publication entry animation ---------------------------
     let pubAnimDone = false
 
     function resetPubAnim() {
@@ -222,14 +222,14 @@ export default function PublicationsFooterSection() {
       })
     }
 
-    // ── Initial image position (full-width background) ───────
+    // -- Initial image position (full-width background) -------
     function setImageLeft() {
       const vw = window.innerWidth
       gsap.set(imageWrapRef.current, { width: vw, x: 0, opacity: 1 })
       if (imageOverlayRef.current) gsap.set(imageOverlayRef.current, { opacity: 1 })
     }
 
-    // ── Scroll-driven animation ───────────────────────────────
+    // -- Scroll-driven animation -------------------------------
     function onScroll() {
       const vh   = window.innerHeight
       // getBoundingClientRect is reliable regardless of offsetParent chain or navbar
@@ -246,7 +246,7 @@ export default function PublicationsFooterSection() {
       // 300vh/svh wrapper → 2 viewports of scroll travel (same for mobile + desktop)
       const p = Math.max(0, Math.min(1, dist / (2 * vh)))
 
-      // ── Phase 1: pub text fades out ──────────────────────
+      // -- Phase 1: pub text fades out ----------------------
       // Mobile: p 0 → 0.25 | Desktop: p 0 → 0.28
       const pubFadeEnd = isMobile ? 0.25 : 0.28
       const pubFade = 1 - Math.max(0, Math.min(1, p / pubFadeEnd))
@@ -261,7 +261,7 @@ export default function PublicationsFooterSection() {
         gsap.set(interstitialRef.current, { opacity: interIn * (1 - interOut), pointerEvents: 'none' })
 
       } else {
-        // ── Phase 2: image shrinks full-width → centered (p 0.12 → 0.65) ──
+        // -- Phase 2: image shrinks full-width → centered (p 0.12 → 0.65) --
         const imgRaw = Math.max(0, Math.min(1, (p - 0.12) / 0.53))
         const imgP   = easeInOut(imgRaw)
 
@@ -275,12 +275,12 @@ export default function PublicationsFooterSection() {
           gsap.set(imageOverlayRef.current, { opacity: 1 - imgP })
         }
 
-        // ── Interstitial: fade in after pub, fade out before crossfade ──
+        // -- Interstitial: fade in after pub, fade out before crossfade --
         const interIn  = Math.max(0, Math.min(1, (p - 0.25) / 0.15))
         const interOut = Math.max(0, Math.min(1, (p - 0.54) / 0.14))
         gsap.set(interstitialRef.current, { opacity: interIn * (1 - interOut), pointerEvents: 'none' })
 
-        // ── Phase 3: crossfade image → male portrait video ──
+        // -- Phase 3: crossfade image → male portrait video --
         const xfadeRaw = Math.max(0, Math.min(1, (p - 0.65) / 0.27))
         const xfade    = 0.5 - 0.5 * Math.cos(Math.PI * xfadeRaw)
 
@@ -298,7 +298,7 @@ export default function PublicationsFooterSection() {
         }
       }
 
-      // ── Footer text fades in ──────────────────────────────
+      // -- Footer text fades in ------------------------------
       // Mobile: p 0.72 → 0.92 | Desktop: p 0.75 → 1.0
       const footerStart = isMobile ? 0.72 : 0.75
       const footerRange = isMobile ? 0.20 : 0.25
@@ -326,11 +326,11 @@ export default function PublicationsFooterSection() {
     <div ref={wrapperRef} className={styles.wrapper}>
       <div ref={stickyRef} className={styles.sticky}>
 
-        {/* ── Video canvas (footer background - desktop) ── */}
+        {/* -- Video canvas (footer background - desktop) -- */}
         <canvas ref={canvasRef} className={styles.glCanvas} />
         <video ref={videoSrcRef} className={styles.hiddenVideo} />
 
-        {/* ── Mobile background image (footer phase - mobile only) ── */}
+        {/* -- Mobile background image (footer phase - mobile only) -- */}
         <div className={styles.mobileFooterBg}>
           <Image
             src="/assets/srivardhan-about.png"
@@ -343,10 +343,10 @@ export default function PublicationsFooterSection() {
           />
         </div>
 
-        {/* ── Mobile permanent dark overlay - keeps image visually identical across all 3 sections ── */}
+        {/* -- Mobile permanent dark overlay - keeps image visually identical across all 3 sections -- */}
         <div className={styles.mobileDarkOverlay} aria-hidden />
 
-        {/* ── Floating image: starts left, moves to center ── */}
+        {/* -- Floating image: starts left, moves to center -- */}
         <div ref={imageWrapRef} className={styles.imageWrap}>
           <Image
             src="/assets/srivardhan-about.png"
@@ -360,7 +360,7 @@ export default function PublicationsFooterSection() {
           <div ref={imageOverlayRef} className={styles.imageOverlay} />
         </div>
 
-        {/* ── Publication content (right of image) ── */}
+        {/* -- Publication content (right of image) -- */}
         <div ref={pubContentRef} className={styles.pubContent}>
           <span className={styles.watermark} aria-hidden>IMPACT</span>
 
@@ -400,7 +400,7 @@ export default function PublicationsFooterSection() {
           </div>
         </div>
 
-        {/* ── Image-only interstitial (step 2) ── */}
+        {/* -- Image-only interstitial (step 2) -- */}
         <div ref={interstitialRef} className={styles.interstitial} aria-hidden>
 
           <div className={styles.interstitialLeft}>
@@ -438,13 +438,13 @@ export default function PublicationsFooterSection() {
 
         </div>
 
-        {/* ── Radial vignette (footer phase) ── */}
+        {/* -- Radial vignette (footer phase) -- */}
         <div className={styles.vignetteOverlay} aria-hidden />
 
-        {/* ── Footer content ── */}
+        {/* -- Footer content -- */}
         <div ref={footerContentRef} className={styles.footerContent}>
 
-          {/* ── Mobile: hero-like layout ── */}
+          {/* -- Mobile: hero-like layout -- */}
           <div className={styles.mobileLayout}>
             <div className={styles.mobileBrand}>
               <span className={styles.mobileRoleDot} />

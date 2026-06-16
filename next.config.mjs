@@ -10,7 +10,7 @@ const nextConfig = {
     root: __dirname,
   },
   images: {
-    qualities: [75, 80, 95, 100],
+    qualities: [60, 75, 80, 95, 100],
   },
 };
 
