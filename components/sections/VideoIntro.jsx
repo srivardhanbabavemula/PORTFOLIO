@@ -144,7 +144,9 @@ export default function VideoIntro() {
           {profile.name.last}
         </h1>
         <p ref={roleRef} className={styles.role}>{profile.roles.detailed}</p>
-        <p className={styles.detailLine}>{profile.email} · {profile.phone}</p>
+        <p className={styles.detailLine}>
+          {profile.email} · {profile.emailPersonal} · {profile.phone}
+        </p>
         <p className={styles.detailSub}>{profile.location.based} · {profile.location.availability}</p>
       </div>
 

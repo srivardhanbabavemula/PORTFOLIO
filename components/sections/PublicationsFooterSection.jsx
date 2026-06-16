@@ -5,10 +5,7 @@ import { useEffect, useRef, Fragment } from 'react'
 import Image from 'next/image'
 import * as THREE from 'three'
 import { gsap } from '@/lib/gsap'
-import {
-  FaGithub, FaLinkedinIn, FaEnvelope,
-} from 'react-icons/fa'
-import { IoLogoTableau } from 'react-icons/io5'
+import { FaLinkedinIn, FaEnvelope, FaPhone } from 'react-icons/fa'
 import { FiArrowUpRight, FiChevronDown } from 'react-icons/fi'
 import profile from '@/data/profile.json'
 import content from '@/data/content.json'
@@ -17,18 +14,26 @@ import styles from '@/styles/sections/PublicationsFooterSection.module.css'
 
 const PUBS = profile.highlights ?? profile.publications
 
-const SOCIAL_ICONS = {
-  GitHub:    <FaGithub    size={13} />,
-  LinkedIn:  <FaLinkedinIn  size={13} />,
-  Tableau:   <IoLogoTableau size={13} />,
+const CONTACT = profile.contact ?? {
+  linkedin: profile.socials?.find(s => s.label === 'LinkedIn')?.href ?? '',
+  email: profile.email,
+  emailPersonal: profile.emailPersonal,
+  phone: profile.phone,
 }
 
-const MOBILE_SOCIAL_ICONS = {
-  GitHub:    <FaGithub    size={20} />,
-  LinkedIn:  <FaLinkedinIn  size={20} />,
-  Tableau:   <IoLogoTableau size={20} />,
+const CONTACT_LINKS = [
+  { label: 'LinkedIn', href: CONTACT.linkedin, icon: <FaLinkedinIn size={13} /> },
+  { label: 'Email (UB)', href: `mailto:${CONTACT.email}`, icon: <FaEnvelope size={13} /> },
+  { label: 'Email (Personal)', href: `mailto:${CONTACT.emailPersonal}`, icon: <FaEnvelope size={13} /> },
+  { label: 'Phone', href: `tel:${CONTACT.phone?.replace(/[^\d+]/g, '')}`, icon: <FaPhone size={13} /> },
+].filter(item => item.href)
+
+const MOBILE_CONTACT_ICONS = {
+  LinkedIn: <FaLinkedinIn size={20} />,
+  'Email (UB)': <FaEnvelope size={20} />,
+  'Email (Personal)': <FaEnvelope size={20} />,
+  Phone: <FaPhone size={20} />,
 }
-const HERO_SOCIAL_LABELS = ['GitHub', 'LinkedIn', 'Tableau']
 
 function getGreeting() {
   const h = new Date().getHours()
@@ -462,19 +467,21 @@ export default function PublicationsFooterSection() {
               </a>
             </div>
             <div className={styles.mobileSocialRow}>
-              {HERO_SOCIAL_LABELS.map((label, i) => {
-                const s = profile.socials.find(s => s.label === label)
-                if (!s) return null
-                return (
-                  <Fragment key={label}>
-                    {i > 0 && <div className={styles.mobileSocialDivider} aria-hidden />}
-                    <a href={s.href} target="_blank" rel="noopener noreferrer" className={styles.mobileSocialLink} aria-label={label}>
-                      <span className={styles.mobileSocialIconEl}>{MOBILE_SOCIAL_ICONS[label]}</span>
-                      <span className={styles.mobileSocialLabelEl}>{label.toUpperCase()}</span>
-                    </a>
-                  </Fragment>
-                )
-              })}
+              {CONTACT_LINKS.map((item, i) => (
+                <Fragment key={item.label}>
+                  {i > 0 && <div className={styles.mobileSocialDivider} aria-hidden />}
+                  <a
+                    href={item.href}
+                    target={item.href.startsWith('http') ? '_blank' : undefined}
+                    rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                    className={styles.mobileSocialLink}
+                    aria-label={item.label}
+                  >
+                    <span className={styles.mobileSocialIconEl}>{MOBILE_CONTACT_ICONS[item.label]}</span>
+                    <span className={styles.mobileSocialLabelEl}>{item.label.toUpperCase()}</span>
+                  </a>
+                </Fragment>
+              ))}
             </div>
             <div className={styles.mobileScrollHint} aria-hidden>
               <FiChevronDown size={18} />
@@ -501,32 +508,26 @@ export default function PublicationsFooterSection() {
               <div className={styles.footerInfo}>
                 <p className={styles.footerDescription}>{profile.description}</p>
                 <div className={styles.footerLinks}>
-                  {profile.socials.slice(0, 4).map((s, i) => (
-                    <span key={s.label} className={styles.footerLinkWrap}>
+                  {CONTACT_LINKS.map((item, i) => (
+                    <span key={item.label} className={styles.footerLinkWrap}>
                       {i > 0 && <span className={styles.footerPipe}>|</span>}
                       <a
-                        href={s.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href={item.href}
+                        target={item.href.startsWith('http') ? '_blank' : undefined}
+                        rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                         className={styles.footerLink}
                       >
-                        {SOCIAL_ICONS[s.label] && (
-                          <span className={styles.socialIcon}>{SOCIAL_ICONS[s.label]}</span>
+                        {item.icon && (
+                          <span className={styles.socialIcon}>{item.icon}</span>
                         )}
-                        {s.label}
+                        {item.label === 'Email (UB)' ? CONTACT.email
+                          : item.label === 'Email (Personal)' ? CONTACT.emailPersonal
+                          : item.label === 'Phone' ? CONTACT.phone
+                          : item.label}
                       </a>
                     </span>
                   ))}
                 </div>
-                <a href={`mailto:${profile.email}`} className={styles.footerMail}>
-                  <FaEnvelope size={12} />
-                  {profile.email}
-                </a>
-                {profile.phone && (
-                  <a href={`tel:${profile.phone.replace(/[^\d+]/g, '')}`} className={styles.footerMail}>
-                    {profile.phone}
-                  </a>
-                )}
               </div>
             </div>
 

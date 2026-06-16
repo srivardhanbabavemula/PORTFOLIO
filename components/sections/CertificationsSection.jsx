@@ -1,17 +1,19 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { FiArrowUpRight } from 'react-icons/fi'
 import { gsap } from '@/lib/gsap'
 import profile from '@/data/profile.json'
+import CertPreviewModal from '@/components/ui/CertPreviewModal'
 import styles from '@/styles/sections/CertificationsSection.module.css'
 
-const CERTS = profile.publications
+const CERTS = profile.publications.filter(c => c.title !== 'Certificate of Skills Portfolio')
 
 export default function CertificationsSection() {
   const sectionRef = useRef(null)
   const headerRef  = useRef(null)
   const listRef    = useRef(null)
+  const [activeCert, setActiveCert] = useState(null)
 
   useEffect(() => {
     const section = sectionRef.current
@@ -46,38 +48,45 @@ export default function CertificationsSection() {
     return () => scroller.removeEventListener('scroll', onScroll)
   }, [])
 
-  return (
-    <section ref={sectionRef} className={styles.section}>
-      <div ref={headerRef} className={styles.header}>
-        <span className={styles.label}>Credentials</span>
-        <h2 className={styles.title}>Certifications</h2>
-        <p className={styles.subtitle}>
-          {CERTS.length}+ professional certifications — IBM, AWS, Azure, Google, Infosys, and more.
-        </p>
-        <a href="/assets/certificate-of-skills.pdf" target="_blank" rel="noopener noreferrer" className={styles.pdfBtn}>
-          View Certificate Portfolio <FiArrowUpRight />
-        </a>
-      </div>
+  function openCert(cert) {
+    if (cert.certImage) setActiveCert(cert)
+    else if (cert.link?.startsWith('http')) window.open(cert.link, '_blank', 'noopener,noreferrer')
+  }
 
-      <div ref={listRef} className={styles.list}>
-        {CERTS.map((cert, i) => (
-          <a
-            key={cert.id}
-            href={cert.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <span className={styles.num}>{String(i + 1).padStart(2, '0')}</span>
-            <div className={styles.body}>
-              <h3 className={styles.cardTitle}>{cert.title}</h3>
-              <p className={styles.platform}>{cert.platform} · {cert.year}</p>
-              <p className={styles.desc}>{cert.desc}</p>
-            </div>
-            <span className={styles.arrow}><FiArrowUpRight /></span>
-          </a>
-        ))}
-      </div>
-    </section>
+  return (
+    <>
+      <section ref={sectionRef} className={styles.section}>
+        <div ref={headerRef} className={styles.header}>
+          <span className={styles.label}>Credentials</span>
+          <h2 className={styles.title}>Certifications</h2>
+          <p className={styles.subtitle}>
+            {CERTS.length} professional certifications — click any entry to preview the certificate image.
+          </p>
+        </div>
+
+        <div ref={listRef} className={styles.list}>
+          {CERTS.map((cert, i) => (
+            <button
+              key={cert.id}
+              type="button"
+              className={styles.card}
+              onClick={() => openCert(cert)}
+            >
+              <span className={styles.num}>{String(i + 1).padStart(2, '0')}</span>
+              <div className={styles.body}>
+                <h3 className={styles.cardTitle}>{cert.title}</h3>
+                <p className={styles.platform}>{cert.platform} · {cert.year}</p>
+                <p className={styles.desc}>{cert.desc}</p>
+              </div>
+              <span className={styles.arrow}>
+                {cert.certImage ? 'Preview' : <FiArrowUpRight />}
+              </span>
+            </button>
+          ))}
+        </div>
+      </section>
+
+      <CertPreviewModal cert={activeCert} onClose={() => setActiveCert(null)} />
+    </>
   )
 }

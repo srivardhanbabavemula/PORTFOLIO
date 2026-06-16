@@ -171,8 +171,8 @@ export default function Home() {
           <VideoIntro />
           <HeroSection />
           <AboutSection />
-          <ProjectsSection />
           <WorkExperienceSection />
+          <ProjectsSection />
           <SkillsSection />
           <CertificationsSection />
           <PublicationsFooterSection />

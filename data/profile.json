@@ -35,24 +35,25 @@
       "title": "20+ Professional Certifications",
       "platform": "IBM · AWS · Azure",
       "year": "2024",
-      "link": "/assets/certificate-of-skills.pdf",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
       "desc": "IBM Data Science, AWS Essentials, Azure AZ-900/AI-900, Generative AI, Python, Spark, SQL, and more."
     }
   ],
   "email": "srivardh@buffalo.edu",
+  "emailPersonal": "ssrivardhanbabavemula@gmail.com",
   "phone": "+1-716-604-4929",
-  "tagline": "Building scalable data systems that process high-volume data and support real-world analytics.",
-  "description": "Data & Software Engineer with 3+ years building ETL/ELT pipelines, REST APIs, ML systems, and cloud data platforms on AWS and Azure. MS Data Science @ University at Buffalo.",
+  "tagline": "Cloud & Data Engineer building ETL pipelines, streaming systems, and AI-integrated applications on AWS and Azure.",
+  "description": "Cloud & Data Engineer with 3+ years delivering cloud-native ETL pipelines, streaming systems, and AI-integrated applications. MS Data Science @ University at Buffalo.",
   "roles": {
     "short": "Data Engineer",
-    "detailed": "Data Engineer | Python, SQL, AWS, PySpark, Kafka | Open to Summer 2026 & Full-Time Roles"
+    "detailed": "Cloud & Data Engineer | Python, SQL, AWS, PySpark, Kafka | Open to Summer 2026 & Full-Time Roles"
   },
   "location": {
     "based": "Buffalo, NY",
     "availability": "Buffalo / Remote / Open to Work"
   },
   "available": true,
-  "bio": "I build scalable data systems that process high-volume data and support real-world analytics. Improved pipeline throughput by 40% processing 200+ files/day, built real-time pipelines handling 500K+ events/hour with Kafka and Spark, reduced query latency by 30%, and processed 100GB+ datasets using PySpark with 65% faster runtimes. With 3+ years across data engineering, analytics, and machine learning, I work with Python, SQL, AWS, Azure, PySpark, Kafka, Airflow, Snowflake, Flask, FastAPI, Docker, Tableau, and Power BI. Currently a Graduate Research Assistant (AI & Data Systems) at the University at Buffalo under Prof. Siwei Lyu, engineering backend and data infrastructure for deepfake-detection research. MS in Data Science at UB (Dec 2026). Former Cloud & Data Engineer at Broadridge. President of Computer Society of India (2020–2023). Open to Data Engineering, Data Science, and Software Engineering roles.",
+  "bio": "Cloud & Data Engineer with 3+ years delivering cloud-native ETL pipelines, streaming systems, and AI-integrated applications on AWS and Azure. Achieved 40% throughput gains, 65% faster batch runtimes, and 99.8% uptime. Currently contributing to deepfake detection research under Prof. Siwei Lyu (IEEE Fellow, Director — UB Institute for AI & Data Science). Experienced with Python, SQL, PySpark, Kafka, Airflow, AWS, Azure, Snowflake, Flask, FastAPI, Docker, Tableau, and Power BI. Open to Data Engineering, Data Science, and Software Engineering roles.",
   "education": [
     {
       "degree": "M.S. Data Science",
@@ -70,173 +71,220 @@
     }
   ],
   "stats": [
-    { "value": "3+", "label": "Years Experience" },
-    { "value": "24+", "label": "Certifications" },
-    { "value": "15+", "label": "GitHub Projects" }
+    {
+      "value": "3+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "17",
+      "label": "Certifications"
+    },
+    {
+      "value": "15+",
+      "label": "GitHub Projects"
+    }
   ],
   "languages": [
-    { "name": "English", "level": "Full Professional" },
-    { "name": "Telugu", "level": "Full Professional" },
-    { "name": "Hindi", "level": "Full Professional" },
-    { "name": "French", "level": "Elementary" }
+    {
+      "name": "English",
+      "level": "Full Professional"
+    },
+    {
+      "name": "Telugu",
+      "level": "Full Professional"
+    },
+    {
+      "name": "Hindi",
+      "level": "Full Professional"
+    },
+    {
+      "name": "French",
+      "level": "Elementary"
+    }
   ],
   "skillGroups": [
     {
-      "title": "Languages & Core",
-      "items": ["Python", "Java", "SQL", "Bash", "R", "JavaScript"]
+      "title": "Languages",
+      "items": [
+        "Python",
+        "SQL",
+        "Java",
+        "R",
+        "Bash",
+        "Unix Shell Scripting"
+      ]
     },
     {
-      "title": "Data & ML",
-      "items": ["PySpark", "Kafka", "Airflow", "Pandas", "scikit-learn", "XGBoost", "TensorFlow", "MLflow", "Spark Streaming"]
+      "title": "ML & AI",
+      "items": [
+        "Deep Learning",
+        "Deepfake Detection",
+        "scikit-learn",
+        "XGBoost",
+        "TensorFlow",
+        "Feature Engineering",
+        "LangChain",
+        "RAG",
+        "OpenAI API"
+      ]
     },
     {
-      "title": "Cloud & Engineering",
-      "items": ["AWS", "Azure", "Docker", "Flask", "FastAPI", "REST APIs", "CI/CD", "Snowflake", "dbt", "PostgreSQL"]
+      "title": "Data Engineering",
+      "items": [
+        "ETL/ELT Pipelines",
+        "Data Modeling",
+        "Schema Design",
+        "Data Quality",
+        "Batch Processing",
+        "Stream Processing",
+        "PySpark",
+        "Kafka",
+        "Spark Streaming"
+      ]
     },
     {
-      "title": "Analytics & AI",
-      "items": ["Power BI", "Tableau", "LangChain", "RAG", "OpenAI API", "FAISS", "ETL/ELT", "React", "Microsoft Copilot"]
+      "title": "Cloud & Big Data",
+      "items": [
+        "AWS (S3, EC2, Lambda)",
+        "Azure (ADF, Azure SQL, Blob Storage)",
+        "Snowflake",
+        "BigQuery",
+        "Docker",
+        "CI/CD",
+        "Git"
+      ]
+    },
+    {
+      "title": "Databases",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server",
+        "Snowflake",
+        "BigQuery"
+      ]
+    },
+    {
+      "title": "Orchestration & BI",
+      "items": [
+        "Apache Airflow",
+        "Tableau",
+        "Power BI",
+        "Excel Power Query",
+        "Sterling File Gateway",
+        "Flask",
+        "FastAPI",
+        "React"
+      ]
     }
   ],
   "skills": [
     "Python",
     "SQL",
-    "AWS",
-    "Azure",
+    "Java",
+    "R",
+    "Bash",
+    "Deep Learning",
     "PySpark",
     "Kafka",
-    "Airflow",
+    "AWS",
+    "Azure",
     "Snowflake",
+    "PostgreSQL",
+    "MySQL",
+    "Airflow",
     "Docker",
-    "Flask",
-    "FastAPI",
-    "REST APIs",
-    "Machine Learning",
+    "CI/CD",
     "TensorFlow",
     "scikit-learn",
     "XGBoost",
-    "LangChain",
-    "RAG",
-    "ETL/ELT",
-    "Power BI",
     "Tableau",
-    "React",
-    "MLflow",
-    "CI/CD",
-    "Data Warehousing",
+    "Power BI",
+    "Flask",
+    "FastAPI",
+    "ETL/ELT",
     "Spark Streaming",
-    "Pandas",
-    "PostgreSQL"
+    "LangChain",
+    "RAG"
   ],
   "experience": [
     {
       "id": 1,
-      "role": "Graduate Research Assistant (AI & Data Systems)",
-      "company": "University at Buffalo — AI & Data Science",
+      "role": "Graduate Research Assistant — AI & Data Systems",
+      "company": "University at Buffalo · UB Media Forensic Lab",
       "companyShort": "UB RESEARCH",
       "type": "Research",
       "location": "Buffalo, NY",
       "period": "Jan 2026",
       "periodEnd": "Present",
       "bullets": [
-        "Built Flask/FastAPI REST APIs for real-time ML inference; reduced latency from 580ms to 378ms, raising throughput by 28%.",
-        "Developed React, Flask, and Jinja frontend/backend components for AI-driven application workflows.",
-        "Engineered PySpark workflows on 100GB+ datasets; cut runtime by 60% via partitioning and broadcast joins.",
-        "Architected Python ETL pipelines ingesting 50K+ multi-modal records into AWS S3 for Deep-O-Meter.",
-        "Implemented MLflow versioning and data lineage across 10+ configs; reduced QA effort by 30%."
+        "Architected Python ETL pipelines loading 50K+ multi-modal records into AWS S3; slashing preprocessing errors by 45% for Deep-O-Meter.",
+        "Engineered PySpark workflows on 100GB+ datasets; halved computation time by 60% via adaptive partitioning and broadcast joins.",
+        "Designed ML feature pipelines (PCA, SMOTE, normalization) for 5+ deepfake models; lifting F1-score by 12%.",
+        "Built Flask REST APIs for live ML inference; drove API latency 580ms → 378ms, raising throughput by 28%.",
+        "Established MLflow model versioning and data lineage across 10+ configs; paring QA effort by 30%."
       ],
-      "desc": "AI & data systems research under Prof. Siwei Lyu at UB Media Forensic Lab.",
-      "tech": ["Python", "Flask", "FastAPI", "React", "PySpark", "AWS S3", "MLflow", "REST APIs"]
+      "desc": "Research under Prof. Siwei Lyu, IEEE Fellow, Director — UB Institute for AI & Data Science.",
+      "tech": [
+        "Python",
+        "PySpark",
+        "Flask",
+        "AWS S3",
+        "MLflow",
+        "Deep Learning"
+      ]
     },
     {
       "id": 2,
-      "role": "Cloud & Data Engineer",
+      "role": "Cloud & Data Engineering Associate",
       "company": "Broadridge Financial Solutions",
       "companyShort": "BROADRIDGE",
       "type": "Full-time",
-      "location": "Hyderabad, India",
+      "location": "India",
       "period": "Sep 2024",
-      "periodEnd": "Aug 2025",
+      "periodEnd": "Jul 2025",
       "bullets": [
-        "Engineered AWS and SFTP pipelines processing 200+ files/day; improved throughput by 40% and saved 15 hrs/week.",
-        "Maintained Sterling File Gateway enterprise workflows with 99.8% system uptime across 12+ production pipelines.",
-        "Optimized 20+ SQL queries and redesigned 4 dimensional schemas; reduced query latency by 30%.",
-        "Built monitoring frameworks (CloudWatch + PagerDuty); cut incident response time by 25%.",
+        "Automated AWS S3 + SFTP ingestion processing 200+ files daily; boosted throughput by 40% and eliminated 15 hrs/week manual reconciliation.",
+        "Integrated Sterling File Gateway with 5+ enterprise systems; enforced SOX-compliant data lineage, lowering cross-system errors by 35%.",
+        "Built SLA observability (CloudWatch + PagerDuty) for 12+ pipelines, sustaining 99.8% uptime; trimmed incident resolution by 25%.",
+        "Refactored 20+ SQL queries to CTEs and window functions; restructured 4 schemas, shrinking query latency by 30%.",
         "Instituted CI/CD test suites across 15+ workflows, cutting post-deployment defects by 40%."
       ],
-      "desc": "Enterprise cloud data engineering, SOX-compliant pipelines, and production observability.",
-      "tech": ["Python", "AWS S3", "SFTP", "SQL", "CloudWatch", "PagerDuty", "CI/CD"]
+      "desc": "Enterprise cloud data engineering with SOX-compliant pipelines and production observability.",
+      "tech": [
+        "Python",
+        "AWS S3",
+        "SFTP",
+        "SQL",
+        "Airflow",
+        "CloudWatch",
+        "CI/CD"
+      ]
     },
     {
       "id": 3,
-      "role": "Data Engineer & Data Analyst",
-      "company": "Freelance (Self-employed)",
+      "role": "Data Analyst & Python Developer",
+      "company": "Freelance",
       "companyShort": "FREELANCE",
       "type": "Contract",
       "location": "Remote",
       "period": "Aug 2022",
       "periodEnd": "Aug 2024",
       "bullets": [
-        "Built Python ETL pipelines ingesting 500K+ records from 10+ sources; reduced processing time by 45%.",
-        "Designed relational schemas and indexing strategies; improved query performance by 60%.",
-        "Developed 15+ Tableau and Power BI dashboards; reduced manual reporting by 6 hrs/week.",
-        "Implemented data validation frameworks ensuring 99.5% accuracy across 2M+ records."
+        "Productionized Python ingestion pipelines processing 500K+ records from 10+ sources; reduced execution time by 45%.",
+        "Restructured relational schemas with composite indexing, achieving 60% faster queries across 8 datasets for 3 enterprise clients.",
+        "Shipped 15+ Tableau and Power BI dashboards saving clients 6+ hrs/week in manual reporting.",
+        "Maintained data workflows with validation and exception handling, sustaining 99.5% accuracy over 2M+ records."
       ],
-      "desc": "End-to-end data pipelines, analytics dashboards, and database optimization for clients.",
-      "tech": ["Python", "SQL", "PostgreSQL", "Tableau", "Power BI", "Pandas", "ETL"]
-    },
-    {
-      "id": 4,
-      "role": "President",
-      "company": "Computer Society of India",
-      "companyShort": "CSI",
-      "type": "Leadership",
-      "location": "India",
-      "period": "Aug 2020",
-      "periodEnd": "Jul 2023",
-      "bullets": [
-        "Led weekly technical seminars and hands-on activities for student skill development in IT.",
-        "Established internships with professionals and direct interaction with DRDO scientists.",
-        "Increased internship and job placement rates through coding, cryptography, and problem-solving programs."
-      ],
-      "desc": "Student leadership driving technical education, career programs, and industry connections.",
-      "tech": ["Leadership", "Technical Training", "Career Development", "Cryptography"]
-    },
-    {
-      "id": 5,
-      "role": "Library User Services Student Assistant",
-      "company": "University at Buffalo",
-      "companyShort": "UB LIBRARY",
-      "type": "Part-time",
-      "location": "Buffalo, NY",
-      "period": "Mar 2026",
-      "periodEnd": "Present",
-      "bullets": [
-        "Managed document delivery workflows including scanning, processing, and distribution of library materials.",
-        "Assisted users with library systems, technology tools, and service workflows.",
-        "Maintained accuracy through detailed record-keeping and verification processes.",
-        "Handled high-volume requests ensuring timely fulfillment and organized processing."
-      ],
-      "desc": "Campus library operations supporting document delivery and user services at UB.",
-      "tech": ["Document Processing", "Customer Service", "Record Keeping"]
-    },
-    {
-      "id": 6,
-      "role": "Student Assistant — Fitness Leader",
-      "company": "University at Buffalo",
-      "companyShort": "UB FITNESS",
-      "type": "Part-time",
-      "location": "Buffalo, NY",
-      "period": "Dec 2025",
-      "periodEnd": "Present",
-      "bullets": [
-        "Monitored equipment usage and enforced safety protocols across fitness facilities.",
-        "Supported daily operations including equipment checks and maintenance coordination.",
-        "Delivered high-quality customer service assisting users with equipment and facility policies.",
-        "Contributed to smooth operations through staff coordination and proactive issue resolution."
-      ],
-      "desc": "Student leadership role ensuring safe, efficient fitness facility operations at UB.",
-      "tech": ["Operations", "Safety Protocols", "Customer Service"]
+      "desc": "End-to-end analytics and Python development for enterprise clients.",
+      "tech": [
+        "Python",
+        "SQL",
+        "PostgreSQL",
+        "Tableau",
+        "Power BI",
+        "ETL"
+      ]
     }
   ],
   "projects": [
@@ -248,7 +296,13 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/ai-data-analyst-chatbot",
       "image": "/assets/projects/ai-chatbot.png",
       "context": "Built as part of my generative AI portfolio — turning business questions into SQL using LangChain and OpenAI, aligned with my data analyst certifications.",
-      "tech": ["Python", "LangChain", "OpenAI API", "SQL", "Pandas"],
+      "tech": [
+        "Python",
+        "LangChain",
+        "OpenAI API",
+        "SQL",
+        "Pandas"
+      ],
       "desc": "AI chatbot that converts natural-language questions into SQL queries. Includes NL-to-SQL pipeline, interactive data exploration, prompt engineering, and analytics dashboards."
     },
     {
@@ -259,7 +313,13 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/rag-ai-document-qa",
       "image": "/assets/projects/rag-qa.png",
       "context": "Combines my NLP interest with production-style retrieval — FAISS vector search and LangChain pipelines similar to tools I use in UB research workflows.",
-      "tech": ["Python", "LangChain", "FAISS", "OpenAI API", "RAG"],
+      "tech": [
+        "Python",
+        "LangChain",
+        "FAISS",
+        "OpenAI API",
+        "RAG"
+      ],
       "desc": "RAG-based document Q&A with FAISS vector search, LangChain retrieval pipelines, and a web UI for uploading documents and asking natural language questions."
     },
     {
@@ -270,7 +330,13 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/real-time-streaming-platform",
       "image": "/assets/projects/streaming.png",
       "context": "Mirrors my Broadridge experience processing 200+ files/day — designed for 500K+ events/hour with sub-2s latency on AWS.",
-      "tech": ["Kafka", "Spark Streaming", "AWS S3", "Python", "Docker"],
+      "tech": [
+        "Kafka",
+        "Spark Streaming",
+        "AWS S3",
+        "Python",
+        "Docker"
+      ],
       "desc": "Production-style streaming platform ingesting 500K+ events/hour via Kafka, processing with Spark Streaming windowed aggregations, and storing in AWS S3 with sub-2s latency."
     },
     {
@@ -281,7 +347,12 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/kafka-streams-examples",
       "image": "/assets/projects/kafka-streams.png",
       "context": "Hands-on reference implementations I use to demonstrate event-driven patterns in interviews and portfolio reviews.",
-      "tech": ["Kafka", "Python", "Event Streaming", "Docker"],
+      "tech": [
+        "Kafka",
+        "Python",
+        "Event Streaming",
+        "Docker"
+      ],
       "desc": "Hands-on Kafka Streams examples covering producers, consumers, windowed aggregations, and fault-tolerant event processing patterns."
     },
     {
@@ -292,7 +363,13 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/airflow-data-pipelines",
       "image": "/assets/projects/airflow.png",
       "context": "Automates ETL workflows I previously ran manually — 98% SLA compliance, saving 20+ hours/week of pipeline operations.",
-      "tech": ["Apache Airflow", "Python", "PostgreSQL", "Docker", "ETL"],
+      "tech": [
+        "Apache Airflow",
+        "Python",
+        "PostgreSQL",
+        "Docker",
+        "ETL"
+      ],
       "desc": "Automated workflow platform with Airflow DAGs, retry logic, and monitoring. Achieved 98% SLA compliance and eliminated manual pipeline operations."
     },
     {
@@ -303,7 +380,12 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/azure-data-factory-etl",
       "image": "/assets/projects/azure-etl.png",
       "context": "Pairs with my Azure AZ-900 & AI-900 certifications — multi-source cloud ETL with parameterized datasets and monitoring.",
-      "tech": ["Azure ADF", "SQL", "ETL/ELT", "Data Integration"],
+      "tech": [
+        "Azure ADF",
+        "SQL",
+        "ETL/ELT",
+        "Data Integration"
+      ],
       "desc": "Azure Data Factory pipelines orchestrating multi-source ETL workflows with parameterized datasets, triggers, and monitoring for cloud analytics."
     },
     {
@@ -314,7 +396,12 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/pyspark-processing",
       "image": "/assets/projects/pyspark.png",
       "context": "Directly related to my UB research — 100GB+ datasets with partitioning and broadcast joins cutting runtime by 60%+.",
-      "tech": ["PySpark", "Python", "Spark SQL", "Partitioning"],
+      "tech": [
+        "PySpark",
+        "Python",
+        "Spark SQL",
+        "Partitioning"
+      ],
       "desc": "PySpark jobs processing large datasets with adaptive partitioning, broadcast joins, and optimized transformations for 60%+ runtime improvements."
     },
     {
@@ -325,7 +412,13 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/analytics-dashboard",
       "image": "/assets/projects/analytics.png",
       "context": "Built during freelance analytics work — 15+ Tableau & Power BI dashboards reducing manual reporting by 6 hrs/week.",
-      "tech": ["Python", "Power BI", "Tableau", "SQL", "Pandas"],
+      "tech": [
+        "Python",
+        "Power BI",
+        "Tableau",
+        "SQL",
+        "Pandas"
+      ],
       "desc": "Interactive analytics dashboard with KPI tracking, drill-down visualizations, and automated reporting reducing manual effort by 6 hrs/week."
     },
     {
@@ -336,7 +429,12 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/financial-forecasting",
       "image": "/assets/projects/forecasting.png",
       "context": "Applies MS Data Science coursework and scikit-learn/XGBoost skills to revenue and trend prediction use cases.",
-      "tech": ["Python", "scikit-learn", "Pandas", "Time Series"],
+      "tech": [
+        "Python",
+        "scikit-learn",
+        "Pandas",
+        "Time Series"
+      ],
       "desc": "Financial forecasting models with feature engineering, cross-validation, and ensemble methods for revenue and trend prediction."
     },
     {
@@ -347,7 +445,12 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/recommendation-system",
       "image": "/assets/projects/recommendation.png",
       "context": "Modular ML pipeline showcasing collaborative filtering — part of my GitHub Project repo for data science roles.",
-      "tech": ["Python", "scikit-learn", "Pandas", "ML"],
+      "tech": [
+        "Python",
+        "scikit-learn",
+        "Pandas",
+        "ML"
+      ],
       "desc": "Recommendation engine using collaborative filtering and content-based methods with evaluation metrics and modular pipeline design."
     },
     {
@@ -358,7 +461,12 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/sentiment-analysis",
       "image": "/assets/projects/sentiment.png",
       "context": "NLP project using text preprocessing and classification — complements my IBM Data Science & analyst certifications.",
-      "tech": ["Python", "NLP", "scikit-learn", "Text Processing"],
+      "tech": [
+        "Python",
+        "NLP",
+        "scikit-learn",
+        "Text Processing"
+      ],
       "desc": "NLP pipeline for sentiment classification with text preprocessing, vectorization, and model evaluation on real-world review datasets."
     },
     {
@@ -369,7 +477,12 @@
       "link": "https://github.com/srivardhanbabavemula/Project/tree/main/web-scraping-pipeline",
       "image": "/assets/projects/web-scraping.png",
       "context": "End-to-end ingestion pipeline — validates, deduplicates, and loads structured data into PostgreSQL for downstream analytics.",
-      "tech": ["Python", "BeautifulSoup", "ETL", "PostgreSQL"],
+      "tech": [
+        "Python",
+        "BeautifulSoup",
+        "ETL",
+        "PostgreSQL"
+      ],
       "desc": "Automated web scraping pipeline ingesting structured data from multiple sources with validation, deduplication, and database loading."
     },
     {
@@ -380,7 +493,12 @@
       "link": "https://github.com/srivardhanbabavemula/SOFTWARE-ENGINEERING-Projects/tree/main/Graph-ML-Fraud-Detection-master",
       "image": "/assets/projects/graph-fraud.png",
       "context": "Graph-based fraud detection using network features — published in my SOFTWARE-ENGINEERING-Projects repository on GitHub.",
-      "tech": ["Python", "Graph ML", "NetworkX", "scikit-learn"],
+      "tech": [
+        "Python",
+        "Graph ML",
+        "NetworkX",
+        "scikit-learn"
+      ],
       "desc": "Graph-based ML pipeline detecting fraudulent transactions using network analysis, feature engineering, and supervised classification."
     },
     {
@@ -391,7 +509,14 @@
       "link": "https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/",
       "image": "/assets/projects/deep-o-meter.png",
       "context": "Live UB Media Forensic Lab research under Prof. Siwei Lyu — Flask/FastAPI APIs, PySpark ETL, and MLflow model versioning.",
-      "tech": ["Flask", "FastAPI", "Docker", "AWS S3", "PySpark", "MLflow"],
+      "tech": [
+        "Flask",
+        "FastAPI",
+        "Docker",
+        "AWS S3",
+        "PySpark",
+        "MLflow"
+      ],
       "desc": "Production deepfake detection inference platform at UB Media Forensic Lab with containerized REST APIs, S3 integration, and MLflow versioning."
     }
   ],
@@ -400,199 +525,175 @@
       "id": 1,
       "title": "IBM Data Science Professional Certificate",
       "platform": "IBM · Coursera",
-      "year": "2022",
-      "link": "https://coursera.org/account/accomplishments/specialization/certificate/6SS3RUJSD6SZ",
-      "desc": "End-to-end data science: Python, ML, SQL, data visualization, and capstone projects."
+      "year": "Oct 2022",
+      "certImage": "/assets/certs/cert-01.png",
+      "link": "https://coursera.org/verify/professional-cert/6SS3RUJSD6SZ",
+      "desc": "10-course professional certificate: Python, SQL, ML, visualization, and capstone."
     },
     {
       "id": 2,
       "title": "IBM Data Analyst Professional Certificate",
       "platform": "IBM · Coursera",
-      "year": "2023",
-      "link": "https://coursera.org/account/accomplishments/specialization/certificate/KQUJBR5S8XAB",
-      "desc": "Data analysis, visualization, Excel, SQL, Python, and analytics workflow fundamentals."
+      "year": "May 2023",
+      "certImage": "/assets/certs/cert-02.png",
+      "link": "https://coursera.org/verify/professional-cert/KQUJBR5S8XAB",
+      "desc": "9-course certificate in Excel, SQL, Python, Cognos Analytics, and data analysis."
     },
     {
       "id": 3,
       "title": "Data Analysis & Visualization Foundations",
       "platform": "IBM · Coursera",
-      "year": "2023",
-      "link": "https://coursera.org/account/accomplishments/specialization/certificate/2ZJ44UX7ASYQ",
-      "desc": "Foundational specialization in data analysis, visualization techniques, and statistical methods."
+      "year": "May 2023",
+      "certImage": "/assets/certs/cert-03.png",
+      "link": "https://coursera.org/verify/specialization/2ZJ44UX7ASYQ",
+      "desc": "Excel, data visualization, pivot tables, and IBM Cognos Analytics dashboards."
     },
     {
       "id": 4,
-      "title": "AWS Essentials for Developers",
-      "platform": "AWS",
-      "year": "2024",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Core AWS services: S3, EC2, Lambda, and cloud architecture for application development."
+      "title": "Google Crash Course on Python",
+      "platform": "Google · Coursera",
+      "year": "Apr 2022",
+      "certImage": "/assets/certs/cert-04.png",
+      "link": "https://coursera.org/verify/5BHT82QXNJXB",
+      "desc": "Python fundamentals, data structures, and problem-solving."
     },
     {
       "id": 5,
-      "title": "Azure Fundamentals (AZ-900)",
-      "platform": "Microsoft",
-      "year": "2024",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Azure cloud concepts, services, security, privacy, compliance, and pricing models."
+      "title": "Infosys Young Python Professional",
+      "platform": "Infosys",
+      "year": "Sep 2023",
+      "certImage": "/assets/certs/cert-05.png",
+      "link": "https://verify.onwingspan.com",
+      "desc": "Advanced Python professional program via Infosys Springboard."
     },
     {
       "id": 6,
-      "title": "Azure AI Fundamentals (AI-900)",
-      "platform": "Microsoft",
-      "year": "2024",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "AI workloads, machine learning concepts, and Azure AI services fundamentals."
+      "title": "Programming Fundamentals using Python — Part 1",
+      "platform": "Infosys",
+      "year": "Aug 2023",
+      "certImage": "/assets/certs/cert-06.png",
+      "link": "https://verify.onwingspan.com",
+      "desc": "Core Python programming fundamentals and problem solving."
     },
     {
       "id": 7,
-      "title": "Career Essentials in Generative AI",
-      "platform": "Microsoft & LinkedIn",
-      "year": "2024",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Generative AI concepts, responsible AI, and practical applications in engineering."
-    },
-    {
-      "id": 22,
-      "title": "Prepare for Microsoft Azure Fundamentals (AZ-900)",
-      "platform": "LinkedIn Learning",
-      "year": "Jul 2025",
-      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
-      "desc": "Azure cloud concepts, core services, security, governance, and pricing — preparation for AZ-900 certification."
-    },
-    {
-      "id": 23,
-      "title": "SQL (Basic) — HackerRank",
-      "platform": "HackerRank",
-      "year": "Jan 2023",
-      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
-      "desc": "SQL fundamentals: queries, joins, aggregations, and relational database operations. Credential ID: 0c19826dcd62."
-    },
-    {
-      "id": 24,
-      "title": "Programming Fundamentals — Science Graduates",
+      "title": "Programming Fundamentals using Python — Part 2",
       "platform": "Infosys",
-      "year": "2023",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Foundation program covering programming logic, problem solving, and software development basics for science graduates."
-    },
-    {
-      "id": 21,
-      "title": "Streamlining Your Work with Microsoft Copilot",
-      "platform": "Microsoft & LinkedIn",
-      "year": "Nov 2024",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Generative AI productivity workflows, responsible AI practices, and Microsoft Copilot for engineering tasks."
+      "year": "Sep 2023",
+      "certImage": "/assets/certs/cert-07.png",
+      "link": "https://verify.onwingspan.com",
+      "desc": "Advanced Python programming concepts and application development."
     },
     {
       "id": 8,
-      "title": "Google Crash Course on Python",
-      "platform": "Google · Coursera",
-      "year": "2022",
-      "link": "https://coursera.org/account/accomplishments/certificate/5BHT82QXNJXB",
-      "desc": "Python programming fundamentals, data structures, and problem-solving techniques."
+      "title": "Object-Oriented Programming using Python",
+      "platform": "Infosys",
+      "year": "Sep 2023",
+      "certImage": "/assets/certs/cert-08.png",
+      "link": "https://verify.onwingspan.com",
+      "desc": "OOP principles, class design, and Python software patterns."
     },
     {
       "id": 9,
-      "title": "Spark Fundamentals I",
-      "platform": "Big Data University",
-      "year": "2022",
-      "link": "https://courses.cognitiveclass.ai/certificates/4537607578e147a2ab76a405cd6d5194",
-      "desc": "Apache Spark architecture, RDDs, DataFrames, and distributed data processing."
+      "title": "SQL & Relational Database 101",
+      "platform": "IBM Cognitive Class",
+      "year": "Mar 2022",
+      "certImage": "/assets/certs/cert-09.png",
+      "link": "https://courses.cognitiveclass.ai/certificates/a08d9f1fbc9c47bb8fe3610f18a580c5",
+      "desc": "Relational database design, SQL querying, and data modeling."
     },
     {
       "id": 10,
-      "title": "DATA SCIENCE 101",
-      "platform": "IBM Cognitive Class",
-      "year": "2022",
-      "link": "https://courses.cognitiveclass.ai/certificates/effedbc4ba5d45f2861930f4749f9127",
-      "desc": "Introduction to data science methodology, tools, and real-world applications."
-    },
-    {
-      "id": 11,
-      "title": "SQL & Relational Database 101",
-      "platform": "IBM Cognitive Class",
-      "year": "2022",
-      "link": "https://courses.cognitiveclass.ai/certificates/a08d9f1fbc9c47bb8fe3610f18a580c5",
-      "desc": "Relational database design, SQL querying, and data modeling fundamentals."
-    },
-    {
-      "id": 12,
-      "title": "Data Structures and Algorithms",
-      "platform": "Infosys",
-      "year": "2023",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Core CS fundamentals: data structures, algorithm design, and complexity analysis."
-    },
-    {
-      "id": 13,
-      "title": "Infosys Young Python Professional",
-      "platform": "Infosys",
-      "year": "2023",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Advanced Python development, OOP, and production-ready coding practices."
-    },
-    {
-      "id": 14,
-      "title": "Object-Oriented Programming Using Python",
-      "platform": "Infosys",
-      "year": "2023",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "OOP principles, class design, inheritance, and Python software engineering patterns."
-    },
-    {
-      "id": 15,
-      "title": "PwC Power BI Virtual Case Experience",
-      "platform": "PwC",
-      "year": "2023",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Business intelligence case study using Power BI for client advisory analytics."
-    },
-    {
-      "id": 16,
-      "title": "Tata Data Visualisation Case Experience",
-      "platform": "Tata Technologies",
-      "year": "2023",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Data visualization and business insights case study for engineering analytics."
-    },
-    {
-      "id": 17,
-      "title": "Create Table & Load Data in MySQL",
-      "platform": "IBM Cognitive Class",
-      "year": "Mar 2022",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "MySQL table creation, data loading with PhpMyAdmin, and relational database fundamentals."
-    },
-    {
-      "id": 18,
       "title": "Keys & Constraints in MySQL",
       "platform": "IBM Cognitive Class",
       "year": "Mar 2022",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Primary keys, foreign keys, constraints, and schema design in MySQL databases."
+      "certImage": "/assets/certs/cert-10.png",
+      "link": "https://courses.cognitiveclass.ai/certificates/7e591e47c2424acb8b433ab9067eff88",
+      "desc": "Primary keys, foreign keys, and MySQL schema constraints."
     },
     {
-      "id": 19,
-      "title": "MySQL & PostgreSQL Certifications",
+      "id": 11,
+      "title": "Create Tables & Load Data in MySQL",
       "platform": "IBM Cognitive Class",
-      "year": "2022",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "MySQL table creation, keys/constraints, and PostgreSQL views and database management."
+      "year": "Mar 2022",
+      "certImage": "/assets/certs/cert-11.png",
+      "link": "https://courses.cognitiveclass.ai/certificates/8e1738e25e2844dca124a4ea102a733b",
+      "desc": "MySQL table creation and data loading with phpMyAdmin."
     },
     {
-      "id": 20,
-      "title": "Certificate of Skills Portfolio",
-      "platform": "View All Credentials",
+      "id": 12,
+      "title": "Views in PostgreSQL",
+      "platform": "IBM Cognitive Class",
+      "year": "Mar 2022",
+      "certImage": "/assets/certs/cert-12.png",
+      "link": "https://courses.cognitiveclass.ai/certificates/16c6e3da46954ddfaade76e46660b5e2",
+      "desc": "PostgreSQL views and database management."
+    },
+    {
+      "id": 13,
+      "title": "Spark Fundamentals I",
+      "platform": "Big Data University",
+      "year": "Mar 2022",
+      "certImage": "/assets/certs/cert-13.png",
+      "link": "https://courses.cognitiveclass.ai/certificates/4537607578e147a2ab76a405cd6d5194",
+      "desc": "Apache Spark architecture, RDDs, and distributed processing."
+    },
+    {
+      "id": 14,
+      "title": "AWS Essentials for Developers",
+      "platform": "AWS",
       "year": "2024",
-      "link": "/assets/certificate-of-skills.pdf",
-      "desc": "Complete consolidated skills certification portfolio — click to view full PDF document."
+      "certImage": "/assets/certs/cert-14.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
+      "desc": "Core AWS services: S3, EC2, Lambda, and cloud architecture."
+    },
+    {
+      "id": 15,
+      "title": "Career Essentials in Azure Fundamentals (AZ-900)",
+      "platform": "Microsoft",
+      "year": "2024",
+      "certImage": "/assets/certs/cert-15.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
+      "desc": "Azure cloud concepts, services, security, and pricing models."
+    },
+    {
+      "id": 16,
+      "title": "Career Essentials in Azure AI Fundamentals (AI-900)",
+      "platform": "Microsoft",
+      "year": "2024",
+      "certImage": "/assets/certs/cert-16.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
+      "desc": "Azure AI workloads, ML concepts, and responsible AI."
+    },
+    {
+      "id": 17,
+      "title": "Career Essentials in Generative AI",
+      "platform": "Microsoft & LinkedIn",
+      "year": "2024",
+      "certImage": "/assets/certs/cert-17.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
+      "desc": "Generative AI concepts, responsible AI, and practical applications."
     }
   ],
   "socials": [
-    { "label": "GitHub",   "href": "https://github.com/srivardhanbabavemula" },
-    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/srivardhan-baba-vemula/" },
-    { "label": "Tableau",  "href": "https://public.tableau.com/app/profile/srivardhan.baba.vemula/vizzes" }
+    {
+      "label": "GitHub",
+      "href": "https://github.com/srivardhanbabavemula"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/srivardhan-baba-vemula/"
+    },
+    {
+      "label": "Tableau",
+      "href": "https://public.tableau.com/app/profile/srivardhan.baba.vemula/vizzes"
+    }
   ],
-  "resume": "/assets/resume.pdf"
+  "resume": "/assets/resume.pdf",
+  "contact": {
+    "linkedin": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
+    "email": "srivardh@buffalo.edu",
+    "emailPersonal": "ssrivardhanbabavemula@gmail.com",
+    "phone": "+1-716-604-4929"
+  }
 }
