@@ -81,7 +81,7 @@ def main() -> None:
             continue
         path = f"/assets/projects/{fname}"
         proj["image"] = path
-        proj["bgImage"] = path
+        # bgImage stays personal photos — do not overwrite with project banners
 
     PROFILE.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Updated {len(data['projects'])} projects in profile.json")

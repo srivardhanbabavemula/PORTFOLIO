@@ -150,9 +150,10 @@ export default function ProjectsSection() {
                       src={proj.bgImage}
                       alt=""
                       fill
-                      quality={85}
+                      quality={90}
                       className={styles.slideBgImg}
                       sizes="100vw"
+                      style={{ objectPosition: proj.bgImagePosition ?? 'center center' }}
                       priority={i === 0}
                     />
                   </div>

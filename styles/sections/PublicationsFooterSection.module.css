@@ -71,9 +71,9 @@
     pointer-events: none;
   }
   .mobileFooterBgImg {
-    object-fit: cover;
-    object-position: center 18%;
-    filter: brightness(0.72);
+    object-fit: contain;
+    object-position: center center;
+    filter: brightness(0.85);
   }
   /* permanent overlay - never animated, keeps image visually identical in all 3 sections */
   .mobileDarkOverlay {
@@ -92,6 +92,7 @@
   top: 0;
   left: 0;
   height: 100%;
+  background: #080808;
   /* width + x set by JS; starts 100vw (background) → shrinks to 50vw centered */
   will-change: transform, opacity, width;
   z-index: 2;
@@ -99,9 +100,9 @@
 }
 
 .imageEl {
-  object-fit: cover;
-  object-position: center 18%;
-  filter: saturate(0.72) brightness(0.78);
+  object-fit: contain;
+  object-position: center center;
+  filter: saturate(0.95) brightness(0.88);
 }
 
 /* Dark overlay so pub text is readable over background image */
