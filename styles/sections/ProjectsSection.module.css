@@ -82,15 +82,16 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(105deg, rgba(248, 250, 252, 0.94) 0%, rgba(248, 250, 252, 0.82) 42%, rgba(238, 242, 255, 0.55) 100%);
-  backdrop-filter: blur(1px);
+    linear-gradient(105deg, rgba(248, 250, 252, 0.82) 0%, rgba(248, 250, 252, 0.68) 40%, rgba(238, 242, 255, 0.45) 100%);
+  backdrop-filter: blur(2px);
 }
 
 .slideBgImg {
   object-fit: cover;
-  object-position: center 25%;
-  filter: saturate(0.85) brightness(1.05);
-  transform: scale(1.04);
+  object-position: center;
+  filter: saturate(1.05) brightness(0.92);
+  transform: scale(1.08);
+  opacity: 0.55;
 }
 
 .visualPanel {
@@ -99,15 +100,15 @@
   height: min(62vh, 520px);
   border-radius: 1rem;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(15, 23, 42, 0.04);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   box-shadow: var(--shadow-lift);
   border: 1px solid rgba(226, 232, 240, 0.95);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 0;
   transform-style: preserve-3d;
   transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
@@ -118,14 +119,13 @@
 }
 
 .visualImg {
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
-  max-width: 100%;
-  max-height: 100%;
-  width: auto !important;
-  height: auto !important;
+  width: 100% !important;
+  height: 100% !important;
   position: relative !important;
   inset: auto !important;
+  border-radius: inherit;
 }
 
 .slideNum {

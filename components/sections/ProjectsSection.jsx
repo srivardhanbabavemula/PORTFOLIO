@@ -196,10 +196,10 @@ export default function ProjectsSection() {
                 <Image
                   src={proj.image}
                   alt={`${proj.title} cover`}
-                  width={960}
-                  height={640}
-                  quality={90}
+                  fill
+                  quality={95}
                   className={styles.visualImg}
+                  sizes="(min-width: 768px) 45vw, 90vw"
                   priority={i === 0}
                 />
               </div>
