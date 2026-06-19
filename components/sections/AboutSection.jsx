@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import { gsap } from '@/lib/gsap'
+import { useTilt3D } from '@/lib/useMouseParallax'
+import ParallaxPhotoLayers from '@/components/ui/ParallaxPhotoLayers'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { IoLogoTableau } from 'react-icons/io5'
 import profile from '@/data/profile.json'
@@ -24,6 +26,10 @@ export default function AboutSection() {
 
   const [typed, setTyped] = useState(0)
   const [done,  setDone]  = useState(false)
+
+  const photoFrameRef = useRef(null)
+
+  useTilt3D(photoFrameRef, 7)
 
   useEffect(() => {
     const section = sectionRef.current
@@ -83,12 +89,17 @@ export default function AboutSection() {
   return (
     <section ref={sectionRef} className={styles.section}>
 
+      <ParallaxPhotoLayers
+        background={{ src: '/assets/photo-bw-dramatic.png', opacity: 0.2, blur: 3, position: 'center 40%' }}
+        variant="side"
+      />
+
       {/* ── Left: photo + signature + socials ───────── */}
       <div ref={photoRef} className={styles.photoCol}>
         <div className={styles.photoWrap}>
-          <div className={styles.photoFrame} data-about-photo>
+          <div ref={photoFrameRef} className={styles.photoFrame} data-about-photo>
             <Image
-              src="/assets/srivardhan-about.png"
+              src="/assets/photo-casual.png"
               alt={profile.name.full}
               fill
               quality={100}

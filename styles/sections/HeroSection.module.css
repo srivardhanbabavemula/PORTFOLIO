@@ -20,13 +20,34 @@
   top: 0;
   height: 100%;
   width: 55%;
-  z-index: 1;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.photoInner {
+  position: relative;
+  width: 92%;
+  height: 92%;
+  will-change: transform;
+}
+
+.photoGlow {
+  position: absolute;
+  inset: 8% 5% 0;
+  background: radial-gradient(ellipse at 50% 80%, rgba(37, 99, 235, 0.18) 0%, transparent 65%);
+  z-index: 0;
+  filter: blur(24px);
+  pointer-events: none;
 }
 
 .photoImg {
   object-fit: contain;
-  object-position: center 28%;
-  background: linear-gradient(180deg, #eef2ff 0%, #f8fafc 100%);
+  object-position: center bottom;
+  z-index: 1;
+  filter: drop-shadow(0 24px 48px rgba(15, 23, 42, 0.15));
 }
 
 /* ─── Social Sidebar ─────────────────────────────────────── */

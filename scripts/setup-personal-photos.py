@@ -13,9 +13,14 @@ OUT = ROOT / "public" / "assets"
 
 # destination -> source filename suffix (unique match in assets folder)
 MAP = {
-    "hero1.png": "IMG-20250926-WA0029.jpg-d8b2c4ee-f431-4a7f-a943-db1eba101bf1.png",
+    "hero-foreground.png": "Gemini_Generated_Image___3_-69bdb6a0-4730-42a7-a798-895071495a5a.png",
+    "hero1.png": "Gemini_Generated_Image___3_-69bdb6a0-4730-42a7-a798-895071495a5a.png",
+    "photo-casual.png": "WhatsApp_Image_2026-06-16_at_1.42.09_PM__2_-f6dd4039-ceaf-4561-aafa-4ffd9a430af1.png",
+    "photo-bw-dramatic.png": "IMG-20250926-WA0012__1_.jpg-cff76224-9163-41ec-9a69-0628d8a6730d.png",
+    "photo-campus-night.png": "CAMPUS__16_-3e1ea21b-5b02-4d31-9f06-fc8e8d2eef23.png",
+    "photo-campus-wide.png": "CAMPUS__9_-bab04615-086d-4676-b317-fc52c6251257.png",
     "srivardhan-about.png": "IMG-20250926-WA0013.jpg-1def63aa-ecf0-46a4-a26e-1f70664c94a9.png",
-    "work-experience.png": "IMG-20250926-WA0012__1_.jpg-951e91d3-6850-4936-aed3-327e441baf6d.png",
+    "work-experience.png": "IMG-20250926-WA0012__1_.jpg-cff76224-9163-41ec-9a69-0628d8a6730d.png",
     "photo-office-1.png": "WhatsApp_Image_2026-06-16_at_1.42.08_PM-c611ec64-7d0e-412a-9cb7-c277746f596b.png",
     "photo-office-2.png": "WhatsApp_Image_2026-06-16_at_1.42.09_PM-8e147b08-38f4-4a05-89d5-d082e6afa5ac.png",
     "photo-office-3.png": "WhatsApp_Image_2026-06-16_at_1.42.08_PM__4_-ee0838da-ab1d-49b8-bd09-4d26e4b1eac8.png",

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react'
 import { gsap } from '@/lib/gsap'
+import ParallaxPhotoLayers from '@/components/ui/ParallaxPhotoLayers'
 import profile from '@/data/profile.json'
 import styles from '@/styles/sections/SkillsSection.module.css'
 
@@ -47,6 +48,10 @@ export default function SkillsSection() {
 
   return (
     <section ref={sectionRef} className={styles.section}>
+      <ParallaxPhotoLayers
+        background={{ src: '/assets/hero-foreground.png', opacity: 0.08, blur: 8, position: 'center 30%' }}
+      />
+
       <div ref={headerRef} className={styles.header}>
         <span className={styles.label}>Technical Skills</span>
         <h2 className={styles.title}>Skills &amp; Stack</h2>

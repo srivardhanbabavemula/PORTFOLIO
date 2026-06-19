@@ -71,6 +71,12 @@
   pointer-events: none;
 }
 
+.slideBgInner {
+  position: absolute;
+  inset: -6%;
+  will-change: transform;
+}
+
 .slideBg::after {
   content: '';
   position: absolute;
@@ -93,13 +99,22 @@
   height: min(62vh, 520px);
   border-radius: 1rem;
   overflow: hidden;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   box-shadow: var(--shadow-lift);
   border: 1px solid rgba(226, 232, 240, 0.95);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  transform-style: preserve-3d;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.visualPanel:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 28px 60px rgba(37, 99, 235, 0.16);
 }
 
 .visualImg {

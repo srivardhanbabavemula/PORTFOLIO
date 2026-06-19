@@ -3,10 +3,14 @@
   top: 0;
   height: 100vh;
   z-index: 3;
-  background: #fff;
+  background: #f8fafc;
   display: grid;
   grid-template-columns: 30% 70%;
   overflow: hidden;
+}
+
+.aboutBg :global(.scrim) {
+  background: linear-gradient(90deg, rgba(248, 250, 252, 0.92) 0%, rgba(248, 250, 252, 0.75) 40%, rgba(248, 250, 252, 0.55) 100%);
 }
 
 /* ── Left column ───────────────────────────── */
@@ -33,13 +37,16 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  border-radius: 6px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  box-shadow: var(--shadow-lift);
+  transform-style: preserve-3d;
+  will-change: transform;
+  border: 1px solid rgba(255, 255, 255, 0.8);
 }
 
 .photoImg {
-  object-fit: contain;
-  object-position: center top;
+  object-fit: cover;
+  object-position: center 15%;
   background: #f1f5f9;
 }
 

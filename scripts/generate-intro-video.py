@@ -22,15 +22,15 @@ W, H = 1280, 720
 FPS = 24
 
 INTRO_CLIPS = [
-    {'file': 'intro-slide-1.png', 'focus_x': 0.62, 'focus_y': 0.30, 'seconds': 6, 'zoom_end': 1.12, 'pan_x': 0.03},
-    {'file': 'intro-slide-2.png', 'focus_x': 0.50, 'focus_y': 0.24, 'seconds': 4, 'zoom_end': 1.10, 'pan_x': 0.018},
-    {'file': 'intro-slide-3.png', 'focus_x': 0.50, 'focus_y': 0.38, 'seconds': 3, 'zoom_end': 1.08, 'pan_x': -0.012},
-    {'file': 'intro-slide-4.png', 'focus_x': 0.50, 'focus_y': 0.18, 'seconds': 3, 'zoom_end': 1.09, 'pan_x': 0.015},
+    {'file': 'hero-foreground.png', 'focus_x': 0.55, 'focus_y': 0.32, 'seconds': 5, 'zoom_end': 1.1, 'pan_x': 0.02},
+    {'file': 'photo-casual.png', 'focus_x': 0.5, 'focus_y': 0.35, 'seconds': 4, 'zoom_end': 1.08, 'pan_x': 0.015},
+    {'file': 'photo-bw-dramatic.png', 'focus_x': 0.5, 'focus_y': 0.4, 'seconds': 4, 'zoom_end': 1.07, 'pan_x': -0.01},
+    {'file': 'photo-campus-night.png', 'focus_x': 0.48, 'focus_y': 0.22, 'seconds': 5, 'zoom_end': 1.09, 'pan_x': 0.012},
 ]
 
 FOOTER_CLIPS = [
-    {'file': 'intro-slide-2.png', 'focus_x': 0.50, 'focus_y': 0.22, 'seconds': 6, 'zoom_end': 1.07, 'pan_x': 0.01},
-    {'file': 'srivardhan-about.png', 'focus_x': 0.50, 'focus_y': 0.24, 'seconds': 6, 'zoom_end': 1.06, 'pan_x': -0.008},
+    {'file': 'photo-casual.png', 'focus_x': 0.5, 'focus_y': 0.3, 'seconds': 6, 'zoom_end': 1.06, 'pan_x': 0.01},
+    {'file': 'srivardhan-about.png', 'focus_x': 0.5, 'focus_y': 0.24, 'seconds': 6, 'zoom_end': 1.05, 'pan_x': -0.008},
 ]
 
 

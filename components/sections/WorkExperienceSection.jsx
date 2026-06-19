@@ -1,8 +1,9 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import Image from 'next/image'
 import { gsap } from '@/lib/gsap'
+import { useTilt3D } from '@/lib/useMouseParallax'
+import ParallaxPhotoLayers from '@/components/ui/ParallaxPhotoLayers'
 import profile from '@/data/profile.json'
 import styles from '@/styles/sections/WorkExperienceSection.module.css'
 
@@ -11,12 +12,15 @@ const EXPS = profile.experience
 export default function WorkExperienceSection() {
   const sectionRef        = useRef(null)
   const lineRef           = useRef(null)
+  const cardWrapRef       = useRef(null)
   const dotRefs           = useRef([])
   const cardRefs          = useRef([])
   const tlRef             = useRef(null)
   const bulletListRefs    = useRef([])
   const collapsedHeights  = useRef([])
   const hoverTlsRef       = useRef([])
+
+  useTilt3D(cardWrapRef, 4)
 
   // Capture each bullet list's natural collapsed height after first paint
   useEffect(() => {
@@ -99,23 +103,18 @@ export default function WorkExperienceSection() {
   return (
     <section ref={sectionRef} className={styles.section}>
 
-      <div className={styles.bgImg} aria-hidden>
-        <Image
-          src="/assets/work-experience.png"
-          alt=""
-          fill
-          quality={100}
-          sizes="100vw"
-          className={styles.bgImgEl}
-        />
-      </div>
+      <ParallaxPhotoLayers
+        background={{ src: '/assets/photo-bw-dramatic.png', opacity: 0.35, blur: 2, position: 'center 35%', scale: 1.12 }}
+        midground={{ src: '/assets/photo-campus-night.png', opacity: 0.06, position: 'right 20%' }}
+        variant="side"
+      />
 
       <div className={styles.header}>
         <span className={styles.label}>Work Experience</span>
         <span className={styles.labelRight}>0{EXPS.length} Roles</span>
       </div>
 
-      <div className={styles.timeline}>
+      <div ref={cardWrapRef} className={styles.timeline}>
         <div className={styles.timelineBody}>
 
           {/* Snake connector */}

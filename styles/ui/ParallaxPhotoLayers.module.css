@@ -1,0 +1,38 @@
+.wrap {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.layer,
+.midLayer {
+  position: absolute;
+  inset: -4%;
+  will-change: transform;
+}
+
+.midLayer {
+  inset: auto;
+  right: -5%;
+  bottom: -8%;
+  width: 55%;
+  height: 75%;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(105deg, rgba(248, 250, 252, 0.88) 0%, rgba(248, 250, 252, 0.55) 45%, rgba(232, 240, 254, 0.35) 100%);
+  pointer-events: none;
+}
+
+.scrimSide {
+  background: linear-gradient(90deg, rgba(248, 250, 252, 0.93) 0%, rgba(248, 250, 252, 0.72) 42%, rgba(248, 250, 252, 0.5) 100%);
+}

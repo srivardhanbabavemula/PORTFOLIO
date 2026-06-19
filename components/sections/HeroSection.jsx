@@ -7,6 +7,8 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { IoLogoTableau } from 'react-icons/io5'
 import { FiArrowUpRight } from 'react-icons/fi'
 import { gsap } from '@/lib/gsap'
+import { useFloatAnimation, useMouseParallax } from '@/lib/useMouseParallax'
+import ParallaxPhotoLayers from '@/components/ui/ParallaxPhotoLayers'
 
 import profile from '@/data/profile.json'
 import content from '@/data/content.json'
@@ -37,6 +39,7 @@ export default function HeroSection() {
   const firstName      = useRef(null)
   const lastName       = useRef(null)
   const photoRef       = useRef(null)
+  const photoInnerRef  = useRef(null)
   const pillsRef       = useRef(null)
   const ctaBtnRef      = useRef(null)
   const statsRef       = useRef(null)
@@ -47,6 +50,11 @@ export default function HeroSection() {
   function handleViewProjects() {
     scrollToSection(SECTION.PROJECTS)
   }
+
+  useMouseParallax(sectionRef, [
+    { ref: photoInnerRef, x: -22, y: -14 },
+  ])
+  useFloatAnimation(photoInnerRef, { y: 16, duration: 4.2 })
 
   useEffect(() => {
     const section = sectionRef.current
@@ -93,16 +101,24 @@ export default function HeroSection() {
   return (
     <section ref={sectionRef} className={styles.section}>
 
+      <ParallaxPhotoLayers
+        background={{ src: '/assets/photo-campus-wide.png', opacity: 0.32, blur: 4, position: 'center 20%' }}
+        midground={{ src: '/assets/photo-campus-night.png', opacity: 0.08, position: 'right bottom' }}
+      />
+
       <HeroBackground />
 
-      {/* Photo */}
+      {/* Photo — foreground portrait */}
       <div ref={photoRef} className={styles.photo}>
-        <Image
-          src="/assets/hero1.png" alt={profile.name.full}
-          fill priority quality={100}
-          sizes="(min-width: 768px) 55vw, 100vw"
-          className={styles.photoImg}
-        />
+        <div ref={photoInnerRef} className={styles.photoInner}>
+          <div className={styles.photoGlow} aria-hidden />
+          <Image
+            src="/assets/hero-foreground.png" alt={profile.name.full}
+            fill priority quality={100}
+            sizes="(min-width: 768px) 55vw, 100vw"
+            className={styles.photoImg}
+          />
+        </div>
       </div>
 
       {/* Social Sidebar */}

@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import { gsap, ScrollTrigger } from '@/lib/gsap'
 import profile from '@/data/profile.json'
@@ -11,10 +11,35 @@ const PROJECTS = profile.projects
 export default function ProjectsSection() {
   const sectionRef  = useRef(null)
   const trackRef    = useRef(null)
+  const bgRefs      = useRef([])
   const contentRefs = useRef([])
   const visualRefs  = useRef([])
   const counterRef  = useRef(null)
   const progressRef = useRef(null)
+
+  useEffect(() => {
+    const section = sectionRef.current
+    if (!section || window.innerWidth < 768) return
+
+    function onMove(e) {
+      const r = section.getBoundingClientRect()
+      const mx = (e.clientX - r.left) / r.width - 0.5
+      const my = (e.clientY - r.top) / r.height - 0.5
+      bgRefs.current.forEach(el => {
+        if (!el) return
+        gsap.to(el, {
+          x: mx * 36,
+          y: my * 22,
+          duration: 0.9,
+          ease: 'power2.out',
+          overwrite: 'auto',
+        })
+      })
+    }
+
+    section.addEventListener('mousemove', onMove)
+    return () => section.removeEventListener('mousemove', onMove)
+  }, [])
 
   useEffect(() => {
     const section = sectionRef.current
@@ -120,15 +145,17 @@ export default function ProjectsSection() {
             <div key={proj.id} className={styles.slide}>
               {proj.bgImage && (
                 <div className={styles.slideBg} aria-hidden>
-                  <Image
-                    src={proj.bgImage}
-                    alt=""
-                    fill
-                    quality={85}
-                    className={styles.slideBgImg}
-                    sizes="100vw"
-                    priority={i === 0}
-                  />
+                  <div ref={el => { bgRefs.current[i] = el }} className={styles.slideBgInner}>
+                    <Image
+                      src={proj.bgImage}
+                      alt=""
+                      fill
+                      quality={85}
+                      className={styles.slideBgImg}
+                      sizes="100vw"
+                      priority={i === 0}
+                    />
+                  </div>
                 </div>
               )}
               <span className={styles.slideNum} aria-hidden>0{i + 1}</span>
