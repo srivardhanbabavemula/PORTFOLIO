@@ -76,7 +76,7 @@
       "label": "Years Experience"
     },
     {
-      "value": "17",
+      "value": "47",
       "label": "Certifications"
     },
     {
@@ -791,39 +791,309 @@
     },
     {
       "id": 14,
-      "title": "AWS Essentials for Developers",
-      "platform": "AWS",
+      "title": "AWS Essential Training for Developers",
+      "platform": "AWS · LinkedIn Learning",
       "year": "2024",
-      "certImage": "/assets/certs/cert-14.png",
-      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
-      "desc": "Core AWS services: S3, EC2, Lambda, and cloud architecture."
+      "certImage": "/assets/certs/linkedin-aws-essential-training-for-developers.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — AWS Essential Training for Developers."
     },
     {
       "id": 15,
-      "title": "Career Essentials in Azure Fundamentals (AZ-900)",
-      "platform": "Microsoft",
+      "title": "Artificial Intelligence Foundations Machine Learning",
+      "platform": "LinkedIn Learning",
       "year": "2024",
-      "certImage": "/assets/certs/cert-15.png",
-      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
-      "desc": "Azure cloud concepts, services, security, and pricing models."
+      "certImage": "/assets/certs/linkedin-artificial-intelligence-foundations-machine-learning.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Artificial Intelligence Foundations Machine Learning."
     },
     {
       "id": 16,
-      "title": "Career Essentials in Azure AI Fundamentals (AI-900)",
-      "platform": "Microsoft",
+      "title": "Azure AI Fundamentals AI900 Cert Prep 1 Conversational AI on Azure",
+      "platform": "Microsoft · LinkedIn Learning",
       "year": "2024",
-      "certImage": "/assets/certs/cert-16.png",
-      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
-      "desc": "Azure AI workloads, ML concepts, and responsible AI."
+      "certImage": "/assets/certs/linkedin-azure-ai-fundamentals-ai900-cert-prep-1-conversational-ai-on-azure.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Azure AI Fundamentals AI900 Cert Prep 1 Conversational AI on Azure."
     },
     {
       "id": 17,
-      "title": "Career Essentials in Generative AI",
-      "platform": "Microsoft & LinkedIn",
+      "title": "Azure AI Fundamentals AI900 Cert Prep 2 Principles of Machine Learning on Azure",
+      "platform": "Microsoft · LinkedIn Learning",
       "year": "2024",
-      "certImage": "/assets/certs/cert-17.png",
-      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/",
-      "desc": "Generative AI concepts, responsible AI, and practical applications."
+      "certImage": "/assets/certs/linkedin-azure-ai-fundamentals-ai900-cert-prep-2-principles-of-machine-learning-on-azure.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Azure AI Fundamentals AI900 Cert Prep 2 Principles of Machine Learning on Azure."
+    },
+    {
+      "id": 18,
+      "title": "Azure AI Fundamentals AI900 Cert Prep 3 Computer Vision Workloads on Azure",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-azure-ai-fundamentals-ai900-cert-prep-3-computer-vision-workloads-on-azure.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Azure AI Fundamentals AI900 Cert Prep 3 Computer Vision Workloads on Azure."
+    },
+    {
+      "id": 19,
+      "title": "Azure AI Fundamentals AI900 Cert Prep 4 Natural Language Processing NLP Workloads on Azure",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-azure-ai-fundamentals-ai900-cert-prep-4-natural-language-processing-nlp-workload.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Azure AI Fundamentals AI900 Cert Prep 4 Natural Language Processing NLP Workloads on Azure."
+    },
+    {
+      "id": 20,
+      "title": "Building a Personalized Chatbot with OpenAI and LangChain",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-building-a-personalized-chatbot-with-openai-and-langchain.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Building a Personalized Chatbot with OpenAI and LangChain."
+    },
+    {
+      "id": 21,
+      "title": "Business Analysis Foundations",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-business-analysis-foundations.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Business Analysis Foundations."
+    },
+    {
+      "id": 22,
+      "title": "Business Etiquette Phone Email and Text",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-business-etiquette-phone-email-and-text.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Business Etiquette Phone Email and Text."
+    },
+    {
+      "id": 23,
+      "title": "Career Essentials in Cybersecurity by Microsoft and LinkedIn",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-career-essentials-in-cybersecurity-by-microsoft-and-linkedin.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Career Essentials in Cybersecurity by Microsoft and LinkedIn."
+    },
+    {
+      "id": 24,
+      "title": "Career Essentials in Generative AI by Microsoft and LinkedIn",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-career-essentials-in-generative-ai-by-microsoft-and-linkedin.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Career Essentials in Generative AI by Microsoft and LinkedIn."
+    },
+    {
+      "id": 25,
+      "title": "Cybersecurity Awareness Cybersecurity Terminology",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-cybersecurity-awareness-cybersecurity-terminology.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Cybersecurity Awareness Cybersecurity Terminology."
+    },
+    {
+      "id": 26,
+      "title": "Cybersecurity Foundations",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-cybersecurity-foundations.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Cybersecurity Foundations."
+    },
+    {
+      "id": 27,
+      "title": "Ethics in the Age of Generative AI",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-ethics-in-the-age-of-generative-ai.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Ethics in the Age of Generative AI."
+    },
+    {
+      "id": 28,
+      "title": "Generative AI The Evolution of Thoughtful Online Search",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-generative-ai-the-evolution-of-thoughtful-online-search.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Generative AI The Evolution of Thoughtful Online Search."
+    },
+    {
+      "id": 29,
+      "title": "Introduction to Artificial Intelligence",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-introduction-to-artificial-intelligence.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Introduction to Artificial Intelligence."
+    },
+    {
+      "id": 30,
+      "title": "Learning Linux Command Line",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-learning-linux-command-line.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Learning Linux Command Line."
+    },
+    {
+      "id": 31,
+      "title": "Learning Microsoft 365 Copilot for Work",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-learning-microsoft-365-copilot-for-work.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Learning Microsoft 365 Copilot for Work."
+    },
+    {
+      "id": 32,
+      "title": "Microsoft Azure AI Essentials Workloads and Machine Learning on Azure",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-microsoft-azure-ai-essentials-workloads-and-machine-learning-on-azure.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Microsoft Azure AI Essentials Workloads and Machine Learning on Azure."
+    },
+    {
+      "id": 33,
+      "title": "Microsoft Azure AI Fundamentals AI900 Exam Tips",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-microsoft-azure-ai-fundamentals-ai900-exam-tips.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Microsoft Azure AI Fundamentals AI900 Exam Tips."
+    },
+    {
+      "id": 34,
+      "title": "Microsoft Azure Fundamentals AZ900 Cert Prep 1 Cloud Concepts",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-microsoft-azure-fundamentals-az900-cert-prep-1-cloud-concepts.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Microsoft Azure Fundamentals AZ900 Cert Prep 1 Cloud Concepts."
+    },
+    {
+      "id": 35,
+      "title": "Microsoft Azure Fundamentals AZ900 Cert Prep 2 Azure Architecture and Security",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-microsoft-azure-fundamentals-az900-cert-prep-2-azure-architecture-and-security.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Microsoft Azure Fundamentals AZ900 Cert Prep 2 Azure Architecture and Security."
+    },
+    {
+      "id": 36,
+      "title": "Microsoft Azure Fundamentals AZ900 Cert Prep 3 Azure Services",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-microsoft-azure-fundamentals-az900-cert-prep-3-azure-services.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Microsoft Azure Fundamentals AZ900 Cert Prep 3 Azure Services."
+    },
+    {
+      "id": 37,
+      "title": "Microsoft Azure Fundamentals AZ900 Cert Prep 4 Azure Management and Governance",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-microsoft-azure-fundamentals-az900-cert-prep-4-azure-management-and-governance.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Microsoft Azure Fundamentals AZ900 Cert Prep 4 Azure Management and Governance."
+    },
+    {
+      "id": 38,
+      "title": "Microsoft Power Platform Fundamentals PL900 Cert Prep Core Components",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-microsoft-power-platform-fundamentals-pl900-cert-prep-core-components.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Microsoft Power Platform Fundamentals PL900 Cert Prep Core Components."
+    },
+    {
+      "id": 39,
+      "title": "Microsoft Power Platform Fundamentals PL900 Cert Prep Power BI",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-microsoft-power-platform-fundamentals-pl900-cert-prep-power-bi.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Microsoft Power Platform Fundamentals PL900 Cert Prep Power BI."
+    },
+    {
+      "id": 40,
+      "title": "Microsoft Security Copilot",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-microsoft-security-copilot.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Microsoft Security Copilot."
+    },
+    {
+      "id": 41,
+      "title": "Prepare for the Microsoft Azure AI Fundamentals AI900 Certification",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-prepare-for-the-microsoft-azure-ai-fundamentals-ai900-certification.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Prepare for the Microsoft Azure AI Fundamentals AI900 Certification."
+    },
+    {
+      "id": 42,
+      "title": "Prepare for the Microsoft Azure Fundamentals AZ900 Certification",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-prepare-for-the-microsoft-azure-fundamentals-az900-certification.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Prepare for the Microsoft Azure Fundamentals AZ900 Certification."
+    },
+    {
+      "id": 43,
+      "title": "Streamlining Your Work with Microsoft Copilot Nov 2024",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-streamlining-your-work-with-microsoft-copilot-nov-2024.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Streamlining Your Work with Microsoft Copilot Nov 2024."
+    },
+    {
+      "id": 44,
+      "title": "The Cybersecurity Threat Landscape",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-the-cybersecurity-threat-landscape.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — The Cybersecurity Threat Landscape."
+    },
+    {
+      "id": 45,
+      "title": "What Is Business Analysis",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-what-is-business-analysis.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — What Is Business Analysis."
+    },
+    {
+      "id": 46,
+      "title": "What Is Generative AI",
+      "platform": "LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-what-is-generative-ai.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — What Is Generative AI."
+    },
+    {
+      "id": 47,
+      "title": "Windows 10 Administration",
+      "platform": "Microsoft · LinkedIn Learning",
+      "year": "2024",
+      "certImage": "/assets/certs/linkedin-windows-10-administration.png",
+      "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
+      "desc": "LinkedIn Learning certificate of completion — Windows 10 Administration."
     }
   ],
   "socials": [
