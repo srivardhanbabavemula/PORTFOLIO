@@ -57,44 +57,91 @@
   "education": [
     {
       "id": 1,
-      "degree": "M.S. Data Science",
+      "degree": "Master of Science (M.S.), Data Science",
       "school": "University at Buffalo, The State University of New York",
       "period": "Aug 2025",
       "periodEnd": "Dec 2026",
       "status": "In Progress",
-      "location": "Buffalo, NY",
+      "location": "Buffalo, New York, United States",
       "highlights": [
-        "Graduate research at the Institute for Artificial Intelligence and Data Science under Prof. Siwei Lyu (IEEE Fellow).",
-        "Focus on machine learning, cloud data engineering, statistical modeling, and large-scale analytics.",
-        "Building production ETL pipelines, PySpark workflows, and ML inference systems for deepfake detection research."
+        "Pursuing graduate studies in data science with focus on machine learning, statistical modeling, and large-scale analytics.",
+        "Graduate Research Assistant at the Institute for Artificial Intelligence and Data Science under Prof. Siwei Lyu (IEEE Fellow).",
+        "Building production ETL pipelines, PySpark workflows, ML inference systems, and MLOps practices for deepfake detection research."
       ],
       "coursework": [
         "Machine Learning",
-        "Statistical Data Mining",
-        "Big Data Analytics",
-        "Cloud Computing",
-        "Database Management"
+        "Statistical Learning",
+        "Data Mining",
+        "Predictive Analytics",
+        "Probability",
+        "Introduction to Probability Theory for Data Science (EAS502)",
+        "Database Systems",
+        "SQL",
+        "Numerical Computing"
       ]
     },
     {
       "id": 2,
-      "degree": "B.Tech Computer Science & Engineering",
+      "degree": "Bachelor of Technology (B.Tech), Computer Science",
       "school": "Kshatriya College of Engineering",
       "period": "Aug 2019",
       "periodEnd": "Jul 2023",
       "status": "Completed",
-      "location": "Hyderabad, India",
+      "location": "Armoor, Telangana, India",
       "highlights": [
-        "President, CSI Chapter HYD — led student technical programs, workshops, and industry collaborations.",
-        "Delivered Engineers' Day technical presentations and faculty-supervised Android development sessions.",
-        "Built foundation in algorithms, software engineering, databases, and data structures."
+        "Four-year undergraduate program in computer science and engineering.",
+        "President, CSI Student Chapter — led technical workshops, industry sessions, and student initiatives.",
+        "Delivered Engineers' Day technical talks and Azure technology awareness sessions for peers.",
+        "Built strong foundation in algorithms, software engineering, databases, and systems programming."
       ],
       "coursework": [
         "Data Structures & Algorithms",
         "Database Management Systems",
         "Operating Systems",
         "Computer Networks",
-        "Software Engineering"
+        "Software Engineering",
+        "Engineering Graphics"
+      ]
+    },
+    {
+      "id": 3,
+      "degree": "MPC (Intermediate)",
+      "school": "C V Raman Junior College",
+      "period": "Jun 2016",
+      "periodEnd": "Apr 2018",
+      "status": "Completed",
+      "location": "Telangana, India",
+      "highlights": [
+        "Completed intermediate education in Mathematics, Physics, and Chemistry (MPC stream).",
+        "Built academic foundation for engineering entrance preparation and undergraduate studies.",
+        "Recognized for consistent academic performance during pre-university coursework."
+      ],
+      "coursework": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "English"
+      ]
+    },
+    {
+      "id": 4,
+      "degree": "SSC (Secondary School Certificate)",
+      "school": "Zilla Parishad High School",
+      "period": "Jun 2015",
+      "periodEnd": "Apr 2016",
+      "status": "Completed",
+      "location": "Telangana, India",
+      "highlights": [
+        "Completed Secondary School Certificate (SSC) with top academic performance.",
+        "Secured 1st rank at Mandal and District level in SSC examination (2016).",
+        "INSPIRE Award recipient — national-level recognition for innovation and academic excellence."
+      ],
+      "coursework": [
+        "Mathematics",
+        "General Science",
+        "Social Studies",
+        "English",
+        "Telugu"
       ]
     }
   ],

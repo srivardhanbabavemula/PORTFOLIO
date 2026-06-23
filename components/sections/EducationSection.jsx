@@ -56,7 +56,7 @@ export default function EducationSection() {
         <span className={styles.label}>Academic Background</span>
         <h2 className={styles.title}>Education</h2>
         <p className={styles.subtitle}>
-          {profile.name.full} — graduate studies in data science and undergraduate training in computer science.
+          {EDUCATION.length} degrees — from SSC and intermediate studies through B.Tech and M.S. Data Science at University at Buffalo.
         </p>
       </div>
 
