@@ -6,8 +6,10 @@ import Navbar                from '@/components/ui/Navbar'
 import VideoIntro            from '@/components/sections/VideoIntro'
 import HeroSection           from '@/components/sections/HeroSection'
 import AboutSection          from '@/components/sections/AboutSection'
+import EducationSection      from '@/components/sections/EducationSection'
 import ProjectsSection       from '@/components/sections/ProjectsSection'
 import WorkExperienceSection from '@/components/sections/WorkExperienceSection'
+import AccomplishmentsSection  from '@/components/sections/AccomplishmentsSection'
 import SkillsSection         from '@/components/sections/SkillsSection'
 import CertificationsSection from '@/components/sections/CertificationsSection'
 import PublicationsFooterSection from '@/components/sections/PublicationsFooterSection'
@@ -171,7 +173,9 @@ export default function Home() {
           <VideoIntro />
           <HeroSection />
           <AboutSection />
+          <EducationSection />
           <WorkExperienceSection />
+          <AccomplishmentsSection />
           <ProjectsSection />
           <SkillsSection />
           <CertificationsSection />

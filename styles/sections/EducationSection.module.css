@@ -1,0 +1,176 @@
+.section {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  z-index: 5;
+  background: linear-gradient(160deg, #f0f9ff 0%, #eef2ff 50%, #f8fafc 100%);
+  display: flex;
+  flex-direction: column;
+  padding: clamp(4.5rem, 8vh, 6rem) clamp(1.5rem, 5vw, 4rem) clamp(2rem, 4vh, 3rem);
+  overflow: hidden;
+}
+
+.section::before {
+  content: 'EDUCATION';
+  position: absolute;
+  bottom: -0.06em;
+  right: -0.04em;
+  font-size: clamp(4rem, 10vw, 11rem);
+  font-weight: 900;
+  color: rgba(37, 99, 235, 0.05);
+  letter-spacing: -0.05em;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.header {
+  margin-bottom: 1.25rem;
+  position: relative;
+  z-index: 1;
+}
+
+.label {
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.title {
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  font-weight: 900;
+  color: var(--text-primary);
+  letter-spacing: -0.03em;
+  margin: 0.35rem 0 0.5rem;
+}
+
+.subtitle {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: 0;
+  max-width: 52rem;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(37, 99, 235, 0.25) transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.card {
+  background: var(--surface-glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+  border-radius: 1rem;
+  padding: 1.25rem 1.35rem;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lift);
+}
+
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.degree {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.02em;
+}
+
+.school {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.badge {
+  flex-shrink: 0;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--accent);
+  border-radius: 999px;
+  padding: 0.35rem 0.65rem;
+}
+
+.meta {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin: 0 0 0.85rem;
+  font-family: var(--font-geist-mono), monospace;
+}
+
+.list {
+  margin: 0 0 0.85rem;
+  padding-left: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.list li {
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+}
+
+.coursework {
+  margin-top: 0.25rem;
+}
+
+.courseLabel {
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 0 0.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.tag {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  background: rgba(37, 99, 235, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 999px;
+  padding: 0.25rem 0.6rem;
+}
+
+@media (max-width: 767px) {
+  .grid { grid-template-columns: 1fr; }
+  .subtitle { font-size: 0.72rem; }
+}

@@ -136,6 +136,22 @@
   to   { transform: translateX(-50%); }
 }
 
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.7rem;
+  }
+
+  .card {
+    padding: 0.85rem 0.95rem;
+  }
+
+  .tag {
+    font-size: 0.66rem;
+    padding: 0.22rem 0.55rem;
+  }
+}
+
 @media (max-width: 767px) {
   .grid { grid-template-columns: 1fr; }
   .subtitle { font-size: 0.72rem; }

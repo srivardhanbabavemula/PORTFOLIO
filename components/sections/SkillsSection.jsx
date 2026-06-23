@@ -56,7 +56,7 @@ export default function SkillsSection() {
         <span className={styles.label}>Technical Skills</span>
         <h2 className={styles.title}>Skills &amp; Stack</h2>
         <p className={styles.subtitle}>
-          {profile.name.full} — {profile.roles.detailed}
+          {SKILL_GROUPS.length} technical skill areas — {profile.roles.detailed}
         </p>
       </div>
 

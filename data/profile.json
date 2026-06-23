@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "title": "20+ Professional Certifications",
+      "title": "47+ Professional Certifications",
       "platform": "IBM · AWS · Azure",
       "year": "2024",
       "link": "https://www.linkedin.com/in/srivardhan-baba-vemula/details/certifications/",
@@ -56,18 +56,130 @@
   "bio": "Cloud & Data Engineer with 3+ years delivering cloud-native ETL pipelines, streaming systems, and AI-integrated applications on AWS and Azure. Achieved 40% throughput gains, 65% faster batch runtimes, and 99.8% uptime. Currently contributing to deepfake detection research at the Institute for Artificial Intelligence and Data Science, University at Buffalo, under Prof. Siwei Lyu (IEEE Fellow). Experienced with Python, SQL, PySpark, Kafka, Airflow, AWS, Azure, Snowflake, Flask, FastAPI, Docker, Tableau, and Power BI. Open to Data Engineering, Data Science, and Software Engineering roles.",
   "education": [
     {
+      "id": 1,
       "degree": "M.S. Data Science",
-      "school": "University at Buffalo",
+      "school": "University at Buffalo, The State University of New York",
       "period": "Aug 2025",
       "periodEnd": "Dec 2026",
-      "location": "Buffalo, NY"
+      "status": "In Progress",
+      "location": "Buffalo, NY",
+      "highlights": [
+        "Graduate research at the Institute for Artificial Intelligence and Data Science under Prof. Siwei Lyu (IEEE Fellow).",
+        "Focus on machine learning, cloud data engineering, statistical modeling, and large-scale analytics.",
+        "Building production ETL pipelines, PySpark workflows, and ML inference systems for deepfake detection research."
+      ],
+      "coursework": [
+        "Machine Learning",
+        "Statistical Data Mining",
+        "Big Data Analytics",
+        "Cloud Computing",
+        "Database Management"
+      ]
     },
     {
-      "degree": "B.Tech Computer Science",
+      "id": 2,
+      "degree": "B.Tech Computer Science & Engineering",
       "school": "Kshatriya College of Engineering",
       "period": "Aug 2019",
       "periodEnd": "Jul 2023",
-      "location": "India"
+      "status": "Completed",
+      "location": "Hyderabad, India",
+      "highlights": [
+        "President, CSI Chapter HYD — led student technical programs, workshops, and industry collaborations.",
+        "Delivered Engineers' Day technical presentations and faculty-supervised Android development sessions.",
+        "Built foundation in algorithms, software engineering, databases, and data structures."
+      ],
+      "coursework": [
+        "Data Structures & Algorithms",
+        "Database Management Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Software Engineering"
+      ]
+    }
+  ],
+  "accomplishments": [
+    {
+      "id": 1,
+      "category": "Leadership",
+      "title": "President, CSI Chapter HYD",
+      "organization": "Computer Society of India",
+      "period": "Aug 2020 – Jul 2023",
+      "location": "Hyderabad, India",
+      "type": "Voluntary Leadership",
+      "highlights": [
+        "Led a 10+ member team to organize technical workshops and campus-wide IT skill programs.",
+        "Organized a two-day cryptography course featuring a guest session with a DRDO scientist.",
+        "Increased internship and placement readiness through coding, cryptography, and problem-solving initiatives.",
+        "Established professional mentorship and internship connections for undergraduate students."
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Technical Outreach",
+      "title": "Engineers' Day Technical Talks — Android Development",
+      "organization": "Kshatriya College of Engineering",
+      "period": "Engineers' Day Annual Event",
+      "location": "Hyderabad, India",
+      "type": "Voluntary",
+      "highlights": [
+        "Delivered technical talks on Android development for college Engineers' Day celebrations.",
+        "Presented under faculty supervision alongside a team of ten staff members.",
+        "Guided peers on mobile app fundamentals, development workflows, and industry practices."
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Training",
+      "title": "Azure Data Factory Academic Training",
+      "organization": "Kshatriya College of Engineering",
+      "period": "Undergraduate Cohort Session",
+      "location": "Hyderabad, India",
+      "type": "Voluntary",
+      "highlights": [
+        "Conducted an academic training session on Microsoft Azure Data Factory for undergraduate students.",
+        "Taught cloud ETL concepts, pipeline design, and practical Azure data integration workflows.",
+        "Supported classmates in building job-ready cloud data engineering skills."
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Workshops",
+      "title": "Business Intelligence & Visual Analytics Workshop",
+      "organization": "Institute of Publication",
+      "period": "Single-Day Intensive Workshop",
+      "location": "India",
+      "type": "Certification",
+      "highlights": [
+        "Completed a single-day workshop on business intelligence and visual analytics.",
+        "Earned certificate for hands-on training in BI tools, dashboards, and analytics storytelling."
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Awards",
+      "title": "2nd Place — Group Discussion on Cyber Crime",
+      "organization": "Inter-college Competition",
+      "period": "Competition",
+      "location": "India",
+      "type": "Award",
+      "highlights": [
+        "Awarded Certificate of Appreciation for achieving 2nd place in a group discussion on cyber crime.",
+        "Demonstrated analytical reasoning, awareness of cybersecurity themes, and effective communication."
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Recognition",
+      "title": "Technical Workshops, Competitions & Academic Merit",
+      "organization": "Various Programs",
+      "period": "2019 – 2023",
+      "location": "India",
+      "type": "Certificates & Awards",
+      "highlights": [
+        "Earned certificates for technical workshops spanning cloud, data, and software engineering topics.",
+        "Recognized for leadership contributions, competition performance, and academic merit during undergraduate studies."
+      ]
     }
   ],
   "stats": [
@@ -123,66 +235,95 @@
       ]
     },
     {
-      "title": "ML & AI",
+      "title": "Python Libraries",
       "items": [
-        "Deep Learning",
-        "Deepfake Detection",
-        "scikit-learn",
-        "XGBoost",
+        "Pandas",
+        "NumPy",
+        "Scikit-Learn",
         "TensorFlow",
-        "Feature Engineering",
-        "LangChain",
-        "RAG",
-        "OpenAI API"
+        "PyTorch",
+        "XGBoost"
       ]
     },
     {
       "title": "Data Engineering",
       "items": [
-        "ETL/ELT Pipelines",
-        "Data Modeling",
-        "Schema Design",
-        "Data Quality",
+        "ETL/ELT",
+        "Data Modeling (Star/Snowflake Schemas)",
+        "Data Lakes",
+        "Delta Lake",
+        "Parquet",
         "Batch Processing",
         "Stream Processing",
-        "PySpark",
-        "Kafka",
         "Spark Streaming"
       ]
     },
     {
-      "title": "Cloud & Big Data",
+      "title": "Cloud & Distributed Systems",
       "items": [
-        "AWS (S3, EC2, Lambda)",
-        "Azure (ADF, Azure SQL, Blob Storage)",
-        "Snowflake",
-        "BigQuery",
+        "AWS (S3, EC2, Lambda, CloudWatch)",
+        "Azure (ADF, Azure SQL)",
+        "PySpark",
+        "Apache Kafka",
+        "Hadoop",
         "Docker",
         "CI/CD",
         "Git"
       ]
     },
     {
-      "title": "Databases",
+      "title": "Machine Learning",
       "items": [
-        "PostgreSQL",
-        "MySQL",
-        "SQL Server",
-        "Snowflake",
-        "BigQuery"
+        "Regression",
+        "Classification",
+        "Forecasting",
+        "Predictive Modeling",
+        "Statistical Analysis",
+        "Hypothesis Testing",
+        "NLP",
+        "Feature Engineering",
+        "Model Evaluation",
+        "Cross Validation",
+        "Hyperparameter Tuning",
+        "Deep Learning",
+        "Deepfake Detection",
+        "LangChain",
+        "RAG"
       ]
     },
     {
-      "title": "Orchestration & BI",
+      "title": "Databases & Warehouses",
       "items": [
-        "Apache Airflow",
-        "Tableau",
-        "Power BI",
-        "Excel Power Query",
-        "Sterling File Gateway",
+        "PostgreSQL",
+        "Snowflake",
+        "Google BigQuery",
+        "MySQL",
+        "Microsoft SQL Server"
+      ]
+    },
+    {
+      "title": "Analytics, Statistics & Deployment",
+      "items": [
+        "MLflow",
+        "Airflow",
+        "Git",
+        "Docker",
+        "A/B Testing",
+        "Statistical Testing",
+        "Model Monitoring",
         "Flask",
         "FastAPI",
         "React"
+      ]
+    },
+    {
+      "title": "Data Quality & BI",
+      "items": [
+        "Automated Validation (Pytest/Great Expectations)",
+        "Tableau",
+        "Power BI",
+        "Excel Power Query",
+        "Sterling File Gateway"
       ]
     }
   ],
@@ -192,28 +333,36 @@
     "Java",
     "R",
     "Bash",
-    "Deep Learning",
+    "Pandas",
+    "NumPy",
+    "Scikit-Learn",
+    "TensorFlow",
+    "PyTorch",
+    "XGBoost",
+    "ETL/ELT",
     "PySpark",
-    "Kafka",
+    "Apache Kafka",
+    "Hadoop",
     "AWS",
     "Azure",
     "Snowflake",
+    "BigQuery",
     "PostgreSQL",
     "MySQL",
+    "MLflow",
     "Airflow",
     "Docker",
-    "CI/CD",
-    "TensorFlow",
-    "scikit-learn",
-    "XGBoost",
     "Tableau",
     "Power BI",
+    "NLP",
+    "Regression",
+    "Forecasting",
+    "Deep Learning",
+    "LangChain",
+    "RAG",
     "Flask",
     "FastAPI",
-    "ETL/ELT",
-    "Spark Streaming",
-    "LangChain",
-    "RAG"
+    "React"
   ],
   "experience": [
     {

@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/navigation-menu'
 import { gsap } from '@/lib/gsap'
 import profile from '@/data/profile.json'
-import { NAV_ITEMS, scrollToSection } from '@/lib/sections'
+import { NAV_ITEMS, SECTION, scrollToSection } from '@/lib/sections'
 import styles from '@/styles/ui/Navbar.module.css'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
@@ -27,6 +27,7 @@ export default function Navbar() {
   const [time,    setTime]    = useState('')
   const [onIntro, setOnIntro] = useState(true)
   const [onDark,  setOnDark]  = useState(false)
+  const [activeIdx, setActiveIdx] = useState(SECTION.VIDEO)
   const [menuOpen, setMenuOpen] = useState(false)
   const headerRef   = useRef(null)
   const lastY       = useRef(0)
@@ -54,8 +55,9 @@ export default function Navbar() {
       const delta    = currentY - lastY.current
 
       const sectionIdx = Math.round(currentY / vh)
+      setActiveIdx(sectionIdx)
       setOnIntro(currentY < vh * 0.8)
-      setOnDark(sectionIdx >= 3)
+      setOnDark(sectionIdx >= SECTION.EXPERIENCE && sectionIdx < SECTION.SKILLS)
 
       if (delta > 8 && !hidden.current) {
         gsap.to(headerRef.current, { y: '-100%', duration: 0.35, ease: 'power2.inOut' })
@@ -88,18 +90,24 @@ export default function Navbar() {
         <span className={styles.time}>BUFFALO TIME - {time}</span>
 
         <NavigationMenu className={styles.navMenu}>
-          <NavigationMenuList className="flex gap-6">
-            {NAV_ITEMS.map(({ label, idx }) => (
-              <NavigationMenuItem key={label}>
-                <NavigationMenuLink
-                  className={styles.navLink}
-                  onClick={() => handleNavClick(idx)}
-                  style={{ cursor: 'pointer' }}
-                >
-                  {label}
-                </NavigationMenuLink>
-              </NavigationMenuItem>
-            ))}
+          <NavigationMenuList className={styles.navList}>
+            {NAV_ITEMS.map(({ label, idx, featured }) => {
+              const isActive = activeIdx === idx ||
+                (label === 'Projects' && activeIdx >= SECTION.PROJECTS && activeIdx < SECTION.SKILLS) ||
+                (label === 'Contact' && activeIdx >= SECTION.PUBLICATIONS)
+
+              return (
+                <NavigationMenuItem key={label}>
+                  <NavigationMenuLink
+                    className={`${styles.navLink} ${isActive ? styles.navLinkActive : ''} ${featured ? styles.navLinkFeatured : ''}`}
+                    onClick={() => handleNavClick(idx)}
+                    style={{ cursor: 'pointer' }}
+                  >
+                    {label}
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+              )
+            })}
           </NavigationMenuList>
         </NavigationMenu>
 
@@ -131,15 +139,21 @@ export default function Navbar() {
 
       {menuOpen && (
         <div className={styles.mobileMenu}>
-          {NAV_ITEMS.map(({ label, idx }) => (
-            <button
-              key={label}
-              className={styles.mobileNavLink}
-              onClick={() => handleNavClick(idx)}
-            >
-              {label}
-            </button>
-          ))}
+          {NAV_ITEMS.map(({ label, idx, featured }) => {
+            const isActive = activeIdx === idx ||
+              (label === 'Projects' && activeIdx >= SECTION.PROJECTS && activeIdx < SECTION.SKILLS) ||
+              (label === 'Contact' && activeIdx >= SECTION.PUBLICATIONS)
+
+            return (
+              <button
+                key={label}
+                className={`${styles.mobileNavLink} ${isActive ? styles.mobileNavLinkActive : ''} ${featured ? styles.mobileNavLinkFeatured : ''}`}
+                onClick={() => handleNavClick(idx)}
+              >
+                {label}
+              </button>
+            )
+          })}
           <a
             href={profile.resume ?? '/assets/resume.pdf'}
             target="_blank"
