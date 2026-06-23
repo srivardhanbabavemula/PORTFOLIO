@@ -53,10 +53,10 @@ export default function AccomplishmentsSection() {
       />
 
       <div ref={headerRef} className={styles.header}>
-        <span className={styles.label}>Leadership & Voluntary Work</span>
+        <span className={styles.label}>Leadership · Public Speaking · Awards</span>
         <h2 className={styles.title}>Accomplishments</h2>
         <p className={styles.subtitle}>
-          Technical workshops, student leadership, training sessions, competitions, and recognition.
+          {ITEMS.length} entries — CSI presidency, technical workshops, Engineers&apos; Day presentations, INSPIRE Award, SSC merit, and community recognition.
         </p>
       </div>
 

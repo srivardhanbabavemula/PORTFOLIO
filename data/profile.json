@@ -101,84 +101,131 @@
   "accomplishments": [
     {
       "id": 1,
-      "category": "Leadership",
-      "title": "President, CSI Chapter HYD",
-      "organization": "Computer Society of India",
+      "category": "Leadership & Organizational",
+      "title": "President, Computer Society of India (CSI) Student Chapter",
+      "organization": "Computer Society of India · CSI Chapter HYD",
       "period": "Aug 2020 – Jul 2023",
       "location": "Hyderabad, India",
-      "type": "Voluntary Leadership",
+      "type": "Student Leadership",
       "highlights": [
-        "Led a 10+ member team to organize technical workshops and campus-wide IT skill programs.",
+        "Led a 10+ member team and coordinated student chapter activities, technical events, and community engagement programs for engineering students.",
+        "Organized technical workshops, technology awareness programs, and student initiatives across cloud, software, and IT domains.",
+        "Coordinated industry sessions, guest speakers, event logistics, and student leadership meetings.",
         "Organized a two-day cryptography course featuring a guest session with a DRDO scientist.",
-        "Increased internship and placement readiness through coding, cryptography, and problem-solving initiatives.",
-        "Established professional mentorship and internship connections for undergraduate students."
+        "Established mentorship and internship connections; improved placement readiness through coding and problem-solving programs."
       ]
     },
     {
       "id": 2,
-      "category": "Technical Outreach",
-      "title": "Engineers' Day Technical Talks — Android Development",
-      "organization": "Kshatriya College of Engineering",
-      "period": "Engineers' Day Annual Event",
+      "category": "Public Speaking & Community",
+      "title": "Technical Sessions & Workshops — Cloud & Emerging Technologies",
+      "organization": "Kshatriya College of Engineering & Student Programs",
+      "period": "2019 – 2023",
       "location": "Hyderabad, India",
-      "type": "Voluntary",
+      "type": "Public Speaking",
       "highlights": [
-        "Delivered technical talks on Android development for college Engineers' Day celebrations.",
-        "Presented under faculty supervision alongside a team of ten staff members.",
-        "Guided peers on mobile app fundamentals, development workflows, and industry practices."
+        "Conducted technical sessions and workshops for student audiences on cloud computing, Azure technologies, and emerging software trends.",
+        "Delivered presentations on cloud platforms, modern software engineering practices, and industry-relevant technology stacks.",
+        "Led Azure and technology awareness sessions to help peers build job-ready cloud and data engineering skills.",
+        "Facilitated student leadership meetings and community-facing technical outreach programs."
       ]
     },
     {
       "id": 3,
-      "category": "Training",
+      "category": "Public Speaking & Community",
       "title": "Azure Data Factory Academic Training",
       "organization": "Kshatriya College of Engineering",
       "period": "Undergraduate Cohort Session",
       "location": "Hyderabad, India",
-      "type": "Voluntary",
+      "type": "Training",
       "highlights": [
-        "Conducted an academic training session on Microsoft Azure Data Factory for undergraduate students.",
+        "Conducted an academic training session on Microsoft Azure Data Factory for undergraduate cohorts.",
         "Taught cloud ETL concepts, pipeline design, and practical Azure data integration workflows.",
-        "Supported classmates in building job-ready cloud data engineering skills."
+        "Supported classmates in translating classroom concepts into hands-on cloud data engineering practice."
       ]
     },
     {
       "id": 4,
-      "category": "Workshops",
+      "category": "Public Speaking & Community",
+      "title": "Engineers' Day & Engineering Event Presentations",
+      "organization": "Kshatriya College of Engineering",
+      "period": "Engineers' Day Annual Programs",
+      "location": "Hyderabad, India",
+      "type": "Public Speaking",
+      "highlights": [
+        "Presented technical topics during Engineers' Day celebrations and student engineering programs.",
+        "Delivered Engineers' Day technical talks on Android development under faculty supervision.",
+        "Collaborated with a team of ten staff members to guide peers on mobile app fundamentals and development workflows.",
+        "Participated in campus technical programs focused on practical engineering skills and student engagement."
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Awards & Recognition",
+      "title": "INSPIRE Award Recipient — National Level",
+      "organization": "Department of Science & Technology, Government of India",
+      "period": "National Recognition",
+      "location": "New Delhi, India",
+      "type": "National Award",
+      "highlights": [
+        "Recognized at the national level by the Government of India for innovation and academic excellence.",
+        "INSPIRE Award recipient — among India's prestigious science and innovation honors for young scholars.",
+        "Award presented through the national INSPIRE program based in New Delhi."
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Awards & Recognition",
+      "title": "Merit Certificate — 1st Rank at Mandal & District Level (SSC)",
+      "organization": "Secondary School Certificate (SSC) Examination",
+      "period": "2016",
+      "location": "Telangana, India",
+      "type": "Academic Award",
+      "highlights": [
+        "Secured 1st rank at Mandal level in the SSC examination.",
+        "Achieved 1st rank at District level, earning a Merit Certificate for top academic performance.",
+        "Demonstrated consistent academic excellence during secondary education."
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Awards & Recognition",
+      "title": "Certificate of Appreciation — Group Discussion on Cyber Crime",
+      "organization": "Inter-college Competition",
+      "period": "Competition",
+      "location": "India",
+      "type": "Competition Award",
+      "highlights": [
+        "Awarded Certificate of Appreciation for achieving 2nd place in a group discussion on cyber crime.",
+        "Demonstrated analytical reasoning, cybersecurity awareness, and effective public communication.",
+        "Recognized for articulating technical and social implications of cyber crime to a panel audience."
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Workshops & Certifications",
       "title": "Business Intelligence & Visual Analytics Workshop",
       "organization": "Institute of Publication",
       "period": "Single-Day Intensive Workshop",
       "location": "India",
-      "type": "Certification",
+      "type": "Workshop Certificate",
       "highlights": [
         "Completed a single-day workshop on business intelligence and visual analytics.",
         "Earned certificate for hands-on training in BI tools, dashboards, and analytics storytelling."
       ]
     },
     {
-      "id": 5,
-      "category": "Awards",
-      "title": "2nd Place — Group Discussion on Cyber Crime",
-      "organization": "Inter-college Competition",
-      "period": "Competition",
-      "location": "India",
-      "type": "Award",
-      "highlights": [
-        "Awarded Certificate of Appreciation for achieving 2nd place in a group discussion on cyber crime.",
-        "Demonstrated analytical reasoning, awareness of cybersecurity themes, and effective communication."
-      ]
-    },
-    {
-      "id": 6,
-      "category": "Recognition",
+      "id": 9,
+      "category": "Leadership & Recognition",
       "title": "Technical Workshops, Competitions & Academic Merit",
-      "organization": "Various Programs",
-      "period": "2019 – 2023",
+      "organization": "Various Campus & External Programs",
+      "period": "2016 – 2023",
       "location": "India",
       "type": "Certificates & Awards",
       "highlights": [
-        "Earned certificates for technical workshops spanning cloud, data, and software engineering topics.",
-        "Recognized for leadership contributions, competition performance, and academic merit during undergraduate studies."
+        "Earned certificates for technical workshops spanning cloud, data, cybersecurity, and software engineering.",
+        "Recognized for leadership contributions, competition performance, and academic merit across school and college.",
+        "Combined public speaking, workshop delivery, and organizational leadership into sustained student community impact."
       ]
     }
   ],
