@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/navigation-menu'
 import { gsap } from '@/lib/gsap'
 import profile from '@/data/profile.json'
-import { NAV_ITEMS, SECTION, scrollToSection } from '@/lib/sections'
+import { NAV_ITEMS, SECTION, isNavItemActive, scrollToSection } from '@/lib/sections'
 import styles from '@/styles/ui/Navbar.module.css'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
@@ -91,15 +91,13 @@ export default function Navbar() {
 
         <NavigationMenu className={styles.navMenu}>
           <NavigationMenuList className={styles.navList}>
-            {NAV_ITEMS.map(({ label, idx, featured }) => {
-              const isActive = activeIdx === idx ||
-                (label === 'Projects' && activeIdx >= SECTION.PROJECTS && activeIdx < SECTION.SKILLS) ||
-                (label === 'Contact' && activeIdx >= SECTION.PUBLICATIONS)
+            {NAV_ITEMS.map(({ label, idx }) => {
+              const isActive = isNavItemActive(label, idx, activeIdx)
 
               return (
                 <NavigationMenuItem key={label}>
                   <NavigationMenuLink
-                    className={`${styles.navLink} ${isActive ? styles.navLinkActive : ''} ${featured ? styles.navLinkFeatured : ''}`}
+                    className={`${styles.navLink} ${isActive ? styles.navLinkActive : ''}`}
                     onClick={() => handleNavClick(idx)}
                     style={{ cursor: 'pointer' }}
                   >
@@ -139,15 +137,13 @@ export default function Navbar() {
 
       {menuOpen && (
         <div className={styles.mobileMenu}>
-          {NAV_ITEMS.map(({ label, idx, featured }) => {
-            const isActive = activeIdx === idx ||
-              (label === 'Projects' && activeIdx >= SECTION.PROJECTS && activeIdx < SECTION.SKILLS) ||
-              (label === 'Contact' && activeIdx >= SECTION.PUBLICATIONS)
+          {NAV_ITEMS.map(({ label, idx }) => {
+            const isActive = isNavItemActive(label, idx, activeIdx)
 
             return (
               <button
                 key={label}
-                className={`${styles.mobileNavLink} ${isActive ? styles.mobileNavLinkActive : ''} ${featured ? styles.mobileNavLinkFeatured : ''}`}
+                className={`${styles.mobileNavLink} ${isActive ? styles.mobileNavLinkActive : ''}`}
                 onClick={() => handleNavClick(idx)}
               >
                 {label}

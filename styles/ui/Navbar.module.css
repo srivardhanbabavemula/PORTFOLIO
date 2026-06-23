@@ -39,32 +39,26 @@
   text-transform: uppercase;
   cursor: pointer;
   color: var(--navbar-text);
-  transition: color 0.2s, opacity 0.2s, background 0.2s, box-shadow 0.2s;
+  transition: color 0.2s, opacity 0.2s, background 0.2s, box-shadow 0.2s, border-color 0.2s;
   padding: 0.35rem 0.55rem;
   border-radius: 999px;
   position: relative;
+  background: rgba(247, 147, 30, 0.1);
+  border: 1px solid rgba(247, 147, 30, 0.24);
 }
 
 .navLink:hover {
-  opacity: 0.85;
-}
-
-.navLinkFeatured {
-  color: var(--accent);
-  background: rgba(247, 147, 30, 0.12);
-  border: 1px solid rgba(247, 147, 30, 0.28);
+  opacity: 0.92;
+  background: rgba(247, 147, 30, 0.16);
+  border-color: rgba(247, 147, 30, 0.38);
 }
 
 .navLinkActive {
   color: #000;
   background: var(--accent);
+  border-color: transparent;
   box-shadow: 0 0 0 1px rgba(247, 147, 30, 0.35), 0 4px 14px rgba(247, 147, 30, 0.25);
   opacity: 1;
-}
-
-.navLinkActive.navLinkFeatured {
-  color: #000;
-  border-color: transparent;
 }
 
 .emailBtn {
@@ -107,7 +101,15 @@
 }
 
 .darkMode .navLink {
-  color: rgba(255, 255, 255, 0.88);
+  color: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.darkMode .navLinkActive {
+  color: #000;
+  background: var(--accent);
+  border-color: transparent;
 }
 
 .darkMode .emailBtn {
@@ -162,30 +164,31 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2.2rem;
+  gap: 1rem;
 }
 
 .mobileNavLink {
-  background: none;
-  border: none;
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1.4rem;
+  background: rgba(247, 147, 30, 0.1);
+  border: 1px solid rgba(247, 147, 30, 0.28);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 1.05rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   cursor: pointer;
-  transition: color 0.2s, transform 0.2s;
+  transition: color 0.2s, transform 0.2s, background 0.2s, border-color 0.2s;
   font-family: var(--font-geist-sans);
-}
-
-.mobileNavLinkFeatured {
-  color: var(--accent);
+  padding: 0.55rem 1.25rem;
+  min-width: min(18rem, 80vw);
 }
 
 .mobileNavLinkActive {
-  color: #fff;
-  transform: scale(1.04);
-  text-shadow: 0 0 18px rgba(247, 147, 30, 0.45);
+  color: #000;
+  background: var(--accent);
+  border-color: transparent;
+  transform: scale(1.02);
+  box-shadow: 0 0 24px rgba(247, 147, 30, 0.35);
 }
 
 .mobileNavLink:hover {
