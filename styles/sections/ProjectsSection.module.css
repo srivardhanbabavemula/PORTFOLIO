@@ -1,9 +1,16 @@
+/* -- Scroll slot: isolates project slides above prior sections -- */
+.wrapper {
+  position: relative;
+  z-index: 6;
+  isolation: isolate;
+}
+
 /* -- Section: light, clean project showcase -- */
 .section {
   position: sticky;
   top: 0;
   height: 100vh;
-  z-index: 6;
+  z-index: 10;
   background: linear-gradient(165deg, #f8fafc 0%, #eef2ff 55%, #f0f9ff 100%);
   overflow: hidden;
 }

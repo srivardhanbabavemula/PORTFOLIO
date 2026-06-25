@@ -6,7 +6,7 @@
   padding: clamp(4.5rem, 8vh, 6rem) clamp(1.5rem, 5vw, 4rem) clamp(2rem, 4vh, 3rem);
   overflow: hidden;
   position: relative;
-  z-index: 4;
+  z-index: 3;
 }
 
 .section::before {
