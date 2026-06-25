@@ -3,7 +3,7 @@
   position: sticky;
   top: 0;
   height: 100vh;
-  z-index: 4;
+  z-index: 6;
   background: linear-gradient(165deg, #f8fafc 0%, #eef2ff 55%, #f0f9ff 100%);
   overflow: hidden;
 }
