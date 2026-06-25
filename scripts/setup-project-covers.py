@@ -1,4 +1,4 @@
-"""Copy user-provided project banner images into public/assets/projects."""
+"""Copy project banner images into public/assets/projects and update profile.json."""
 from __future__ import annotations
 
 import json
@@ -13,25 +13,24 @@ SRC = Path(
 OUT = ROOT / "public" / "assets" / "projects"
 PROFILE = ROOT / "data" / "profile.json"
 
-# source filename fragment -> output filename
-COVERS = {
-    "ai-data-analyst-chatbot": "ai-chatbot.png",
-    "rag-ai-document-qa": "rag-qa.png",
-    "real-time-streaming": "streaming.png",
-    "kafka-streams": "kafka-streams.png",
-    "airflow-data-pipelines": "airflow.png",
-    "azure-data-factory-etl": "azure-etl.png",
-    "pyspark-processing": "pyspark.png",
-    "analytics-dashboard": "analytics.png",
-    "financial-forecasting": "forecasting.png",
-    "recommendation-system": "recommendation.png",
-    "sentiment-analysis": "sentiment.png",
-    "web-scraping-pipeline": "web-scraping.png",
-    "graph-ml-fraud": "graph-fraud.png",
-    "enterprise-ai": "deep-o-meter.png",
+# fragment in source filename -> output filename (14 portfolio projects)
+PROJECT_COVERS = {
+    "ChatGPT_Image_Jun_25__2026__02_13_38_PM-3ca266f7": "ai-chatbot.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_04_PM-55588735": "rag-qa.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_45_PM-f5cefb9d": "streaming.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_41_PM-92506bef": "kafka-streams.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_39_PM-50bb242a": "airflow.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_40_PM-3e6efdf8": "azure-etl.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_43_PM-dcbdaef6": "pyspark.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_10_PM-8f2d6a9d": "analytics.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_17_PM-ff30e119": "forecasting.png",
+    "recommendation-system-a383d243": "recommendation.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_14_PM-52f386af": "sentiment.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_46_PM-4c2fae24": "web-scraping.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_05_PM-9fdc27ca": "graph-fraud.png",
+    "ChatGPT_Image_Jun_25__2026__02_13_07_PM-947d763f": "deep-o-meter.png",
 }
 
-# project title substring -> output filename (must match COVERS values)
 TITLE_MAP = {
     "AI Data Analyst Chatbot": "ai-chatbot.png",
     "RAG Document Q&A": "rag-qa.png",
@@ -57,17 +56,15 @@ def find_source(fragment: str) -> Path | None:
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    copied = {}
 
-    for fragment, dst_name in COVERS.items():
+    for fragment, dst_name in PROJECT_COVERS.items():
         src = find_source(fragment)
         if not src:
-            print(f"MISSING: {fragment}")
+            print(f"MISSING: {fragment} -> {dst_name}")
             continue
         target = OUT / dst_name
         shutil.copy2(src, target)
-        copied[dst_name] = target
-        print(f"Copied -> {dst_name}")
+        print(f"Copied {src.name[:48]}... -> {dst_name}")
 
     data = json.loads(PROFILE.read_text(encoding="utf-8"))
     for proj in data["projects"]:
@@ -79,9 +76,7 @@ def main() -> None:
         if not fname:
             print(f"No mapping for: {proj['title']}")
             continue
-        path = f"/assets/projects/{fname}"
-        proj["image"] = path
-        # bgImage stays personal photos — do not overwrite with project banners
+        proj["image"] = f"/assets/projects/{fname}"
 
     PROFILE.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Updated {len(data['projects'])} projects in profile.json")
