@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import { gsap } from '@/lib/gsap'
+import { gsap, ScrollTrigger } from '@/lib/gsap'
 import Navbar                from '@/components/ui/Navbar'
 import VideoIntro            from '@/components/sections/VideoIntro'
 import HeroSection           from '@/components/sections/HeroSection'
@@ -41,6 +41,7 @@ export default function Home() {
         onComplete: () => {
           el.scrollTop    = targetScrollTop
           idxRef.current  = targetIdx
+          ScrollTrigger.update()
           gsap.to(loopOverlayRef.current, {
             opacity: 0,
             duration: 0.7,
@@ -75,9 +76,13 @@ export default function Home() {
       tweenRef.current?.kill()
       tweenRef.current = gsap.to(el, {
         scrollTop: getScrollTopForIdx(idx),
-        duration: 1.0,
+        duration: 0.85,
         ease: 'power3.inOut',
-        onComplete: () => { setTimeout(() => { busyRef.current = false }, 600) },
+        onUpdate: () => ScrollTrigger.update(),
+        onComplete: () => {
+          ScrollTrigger.update()
+          setTimeout(() => { busyRef.current = false }, 350)
+        },
       })
     }
 
@@ -92,10 +97,15 @@ export default function Home() {
     function onTouchEnd(e) {
       const dy = touchY - e.changedTouches[0].clientY
       if (Math.abs(dy) < 40 || busyRef.current) return
+      const atBottom = el.scrollTop + el.clientHeight >= el.scrollHeight - 8
+      const atTop    = el.scrollTop < 8
+      if (dy > 0 && atBottom) { fadeLoop(0, 0); return }
+      if (dy < 0 && atTop)    { fadeLoop(getScrollTopForIdx(TOTAL - 1), TOTAL - 1); return }
       goTo(idxRef.current + (dy > 0 ? 1 : -1))
     }
 
     function onScroll() {
+      if (busyRef.current) return
       idxRef.current = getIdxFromScrollTop(el.scrollTop)
     }
 
@@ -108,44 +118,20 @@ export default function Home() {
       goTo(e.detail.idx)
     }
 
-    const isMobile = window.matchMedia('(max-width: 767px)').matches
-
     el.addEventListener('wheel',  onWheel,  { passive: false })
     el.addEventListener('scroll', onScroll, { passive: true  })
+    el.addEventListener('touchstart', onTouchStart, { passive: true })
+    el.addEventListener('touchend',   onTouchEnd,   { passive: true })
     window.addEventListener('navigate-section', onNavigate)
     window.addEventListener('footer-loop-back', onFooterLoop)
-
-    let mTouchY = 0
-    function onMobileTouchStart(e) { mTouchY = e.touches[0].clientY }
-    function onMobileTouchEnd(e) {
-      const dy = mTouchY - e.changedTouches[0].clientY
-      if (Math.abs(dy) < 40) return
-      const atBottom = el.scrollTop + el.clientHeight >= el.scrollHeight - 8
-      const atTop    = el.scrollTop < 8
-      if (dy > 0 && atBottom) fadeLoop(0, 0)
-      if (dy < 0 && atTop)    fadeLoop(getScrollTopForIdx(TOTAL - 1), TOTAL - 1)
-    }
-
-    if (!isMobile) {
-      el.addEventListener('touchstart', onTouchStart, { passive: true })
-      el.addEventListener('touchend',   onTouchEnd,   { passive: true })
-    } else {
-      el.addEventListener('touchstart', onMobileTouchStart, { passive: true })
-      el.addEventListener('touchend',   onMobileTouchEnd,   { passive: true })
-    }
 
     return () => {
       el.removeEventListener('wheel',  onWheel)
       el.removeEventListener('scroll', onScroll)
       window.removeEventListener('navigate-section', onNavigate)
       window.removeEventListener('footer-loop-back', onFooterLoop)
-      if (!isMobile) {
-        el.removeEventListener('touchstart', onTouchStart)
-        el.removeEventListener('touchend',   onTouchEnd)
-      } else {
-        el.removeEventListener('touchstart', onMobileTouchStart)
-        el.removeEventListener('touchend',   onMobileTouchEnd)
-      }
+      el.removeEventListener('touchstart', onTouchStart)
+      el.removeEventListener('touchend',   onTouchEnd)
       tweenRef.current?.kill()
     }
   }, [])

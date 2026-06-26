@@ -59,7 +59,25 @@ export default function ProjectsSection() {
       if (el && i > 0) gsap.set(el, { opacity: 0, scale: 0.96 })
     })
 
-    const tl = gsap.timeline({ paused: true })
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: section,
+        scroller,
+        start: 'top top',
+        end: () => `+=${(n - 1) * window.innerHeight}`,
+        scrub: 0.35,
+        invalidateOnRefresh: true,
+        onUpdate: (self) => {
+          const activeIdx = Math.round(self.progress * (n - 1))
+          if (progressRef.current) {
+            gsap.set(progressRef.current, {
+              scaleX: self.progress, transformOrigin: 'left center', overwrite: true,
+            })
+          }
+          if (counterRef.current) counterRef.current.textContent = `0${activeIdx + 1}`
+        },
+      },
+    })
 
     tl.to(track, {
       xPercent: -((n - 1) / n * 100),
@@ -103,24 +121,19 @@ export default function ProjectsSection() {
       }
     }
 
-    const st = ScrollTrigger.create({
-      trigger: section,
-      scroller,
-      start: 'top top',
-      end: () => `+=${(n - 1) * window.innerHeight}`,
-      onUpdate: (self) => {
-        tl.progress(self.progress)
-        const activeIdx = Math.round(self.progress * (n - 1))
-        if (progressRef.current) {
-          gsap.set(progressRef.current, {
-            scaleX: self.progress, transformOrigin: 'left center', overwrite: true,
-          })
-        }
-        if (counterRef.current) counterRef.current.textContent = `0${activeIdx + 1}`
-      },
-    })
+    const refresh = () => ScrollTrigger.refresh()
+    const onLoad = () => { refresh(); window.removeEventListener('load', onLoad) }
+    window.addEventListener('load', onLoad)
+    window.addEventListener('resize', refresh)
+    const t = setTimeout(refresh, 150)
 
-    return () => st.kill()
+    return () => {
+      clearTimeout(t)
+      window.removeEventListener('load', onLoad)
+      window.removeEventListener('resize', refresh)
+      tl.scrollTrigger?.kill()
+      tl.kill()
+    }
   }, [])
 
   return (
