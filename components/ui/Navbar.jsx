@@ -10,7 +10,7 @@ import {
 import { gsap } from '@/lib/gsap'
 import profile from '@/data/profile.json'
 import { NAV_ITEMS, SECTION, isNavItemActive, scrollToSection } from '@/lib/sections'
-import { getIdxFromScrollTop, getViewportHeight } from '@/lib/scrollSnap'
+import { getIdxFromScrollTop, getNavActiveIdx, getViewportHeight } from '@/lib/scrollSnap'
 import styles from '@/styles/ui/Navbar.module.css'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
@@ -55,10 +55,10 @@ export default function Navbar() {
       const currentY = scroller.scrollTop ?? window.scrollY
       const delta    = currentY - lastY.current
 
-      const sectionIdx = getIdxFromScrollTop(currentY, vh)
+      const sectionIdx = getNavActiveIdx(currentY, getIdxFromScrollTop(currentY, vh), vh)
       setActiveIdx(sectionIdx)
       setOnIntro(currentY < vh * 0.8)
-      setOnDark(sectionIdx >= SECTION.EXPERIENCE && sectionIdx < SECTION.SKILLS)
+      setOnDark(sectionIdx === SECTION.EXPERIENCE)
 
       if (delta > 8 && !hidden.current) {
         gsap.to(headerRef.current, { y: '-100%', duration: 0.35, ease: 'power2.inOut' })
