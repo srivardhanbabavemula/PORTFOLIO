@@ -670,8 +670,7 @@
         "Pandas"
       ],
       "desc": "AI chatbot that converts natural-language questions into SQL queries. Includes NL-to-SQL pipeline, interactive data exploration, prompt engineering, and analytics dashboards.",
-      "bgImage": "/assets/hero-foreground.png",
-      "bgImagePosition": "center 35%"
+      "bgImage": "/assets/projects/bg/ai-chatbot-bg.png"
     },
     {
       "id": 2,
@@ -689,8 +688,7 @@
         "RAG"
       ],
       "desc": "RAG-based document Q&A with FAISS vector search, LangChain retrieval pipelines, and a web UI for uploading documents and asking natural language questions.",
-      "bgImage": "/assets/photo-office-1.png",
-      "bgImagePosition": "center 30%"
+      "bgImage": "/assets/projects/bg/rag-qa-bg.png"
     },
     {
       "id": 3,
@@ -708,8 +706,7 @@
         "Docker"
       ],
       "desc": "Production-style streaming platform ingesting 500K+ events/hour via Kafka, processing with Spark Streaming windowed aggregations, and storing in AWS S3 with sub-2s latency.",
-      "bgImage": "/assets/photo-portrait.png",
-      "bgImagePosition": "center 25%"
+      "bgImage": "/assets/projects/bg/streaming-bg.png"
     },
     {
       "id": 4,
@@ -726,8 +723,7 @@
         "Docker"
       ],
       "desc": "Hands-on Kafka Streams examples covering producers, consumers, windowed aggregations, and fault-tolerant event processing patterns.",
-      "bgImage": "/assets/photo-casual.png",
-      "bgImagePosition": "center 20%"
+      "bgImage": "/assets/projects/bg/kafka-streams-bg.png"
     },
     {
       "id": 5,
@@ -745,8 +741,7 @@
         "ETL"
       ],
       "desc": "Automated workflow platform with Airflow DAGs, retry logic, and monitoring. Achieved 98% SLA compliance and eliminated manual pipeline operations.",
-      "bgImage": "/assets/photo-office-2.png",
-      "bgImagePosition": "center 30%"
+      "bgImage": "/assets/projects/bg/airflow-bg.png"
     },
     {
       "id": 6,
@@ -763,8 +758,7 @@
         "Data Integration"
       ],
       "desc": "Azure Data Factory pipelines orchestrating multi-source ETL workflows with parameterized datasets, triggers, and monitoring for cloud analytics.",
-      "bgImage": "/assets/srivardhan-about.png",
-      "bgImagePosition": "center 22%"
+      "bgImage": "/assets/projects/bg/azure-etl-bg.png"
     },
     {
       "id": 7,
@@ -781,8 +775,7 @@
         "Partitioning"
       ],
       "desc": "PySpark jobs processing large datasets with adaptive partitioning, broadcast joins, and optimized transformations for 60%+ runtime improvements.",
-      "bgImage": "/assets/photo-office-3.png",
-      "bgImagePosition": "center 28%"
+      "bgImage": "/assets/projects/bg/pyspark-bg.png"
     },
     {
       "id": 8,
@@ -800,8 +793,7 @@
         "Pandas"
       ],
       "desc": "Interactive analytics dashboard with KPI tracking, drill-down visualizations, and automated reporting reducing manual effort by 6 hrs/week.",
-      "bgImage": "/assets/photo-campus-night.png",
-      "bgImagePosition": "center 25%"
+      "bgImage": "/assets/projects/bg/analytics-bg.png"
     },
     {
       "id": 9,
@@ -818,8 +810,7 @@
         "Time Series"
       ],
       "desc": "Financial forecasting models with feature engineering, cross-validation, and ensemble methods for revenue and trend prediction.",
-      "bgImage": "/assets/photo-campus-wide.png",
-      "bgImagePosition": "center 15%"
+      "bgImage": "/assets/projects/bg/forecasting-bg.png"
     },
     {
       "id": 10,
@@ -836,8 +827,7 @@
         "ML"
       ],
       "desc": "Recommendation engine using collaborative filtering and content-based methods with evaluation metrics and modular pipeline design.",
-      "bgImage": "/assets/photo-campus-1.png",
-      "bgImagePosition": "center 20%"
+      "bgImage": "/assets/projects/bg/recommendation-bg.png"
     },
     {
       "id": 11,
@@ -854,8 +844,7 @@
         "Text Processing"
       ],
       "desc": "NLP pipeline for sentiment classification with text preprocessing, vectorization, and model evaluation on real-world review datasets.",
-      "bgImage": "/assets/photo-campus-2.png",
-      "bgImagePosition": "center 18%"
+      "bgImage": "/assets/projects/bg/sentiment-bg.png"
     },
     {
       "id": 12,
@@ -872,8 +861,7 @@
         "PostgreSQL"
       ],
       "desc": "Automated web scraping pipeline ingesting structured data from multiple sources with validation, deduplication, and database loading.",
-      "bgImage": "/assets/photo-bw-dramatic.png",
-      "bgImagePosition": "center 35%"
+      "bgImage": "/assets/projects/bg/web-scraping-bg.png"
     },
     {
       "id": 13,
@@ -890,8 +878,7 @@
         "scikit-learn"
       ],
       "desc": "Graph-based ML pipeline detecting fraudulent transactions using network analysis, feature engineering, and supervised classification.",
-      "bgImage": "/assets/photo-campus-3.png",
-      "bgImagePosition": "center 22%"
+      "bgImage": "/assets/projects/bg/graph-fraud-bg.png"
     },
     {
       "id": 14,
@@ -910,8 +897,7 @@
         "MLflow"
       ],
       "desc": "Production deepfake detection inference platform at the Institute for Artificial Intelligence and Data Science, University at Buffalo, with containerized REST APIs, S3 integration, and MLflow versioning.",
-      "bgImage": "/assets/photo-campus-4.png",
-      "bgImagePosition": "center 20%"
+      "bgImage": "/assets/projects/bg/deep-o-meter-bg.png"
     }
   ],
   "publications": [
