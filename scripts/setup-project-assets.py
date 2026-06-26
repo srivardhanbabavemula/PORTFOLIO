@@ -38,7 +38,7 @@ PANEL_COVERS = {
     'ChatGPT_Image_Jun_25__2026__02_13_14_PM-52f386af': 'sentiment.png',
     'ChatGPT_Image_Jun_25__2026__02_13_46_PM-4c2fae24': 'web-scraping.png',
     'ChatGPT_Image_Jun_25__2026__02_13_05_PM-9fdc27ca': 'graph-fraud.png',
-    'image-c54b80b0-1bc5-40b8-a66a': 'deep-o-meter.png',
+    'image-aa0b55ca-cfe2-4b64-a87c-7d814bd5835d': 'deep-o-meter.png',
 }
 
 TITLE_TO_FILE = {
