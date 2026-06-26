@@ -47,17 +47,18 @@
 .cTot { color: var(--text-muted); }
 
 .track {
+  display: flex;
+  height: 100vh;
+  will-change: transform;
   position: relative;
-  width: 100%;
-  height: 100%;
   z-index: 1;
 }
 
 .slide {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  position: relative;
   overflow: hidden;
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
