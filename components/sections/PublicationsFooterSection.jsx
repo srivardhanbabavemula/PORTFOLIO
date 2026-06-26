@@ -328,7 +328,7 @@ export default function PublicationsFooterSection() {
   const year = new Date().getFullYear()
 
   return (
-    <div ref={wrapperRef} className={styles.wrapper}>
+    <div ref={wrapperRef} className={styles.wrapper} data-snap-anchor="footer">
       <div ref={stickyRef} className={styles.sticky}>
 
         {/* -- Video canvas (footer background - desktop) -- */}

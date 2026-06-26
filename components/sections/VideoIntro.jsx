@@ -112,7 +112,7 @@ export default function VideoIntro() {
   }
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} data-snap-index="0">
 
       <video
         src={INTRO_VIDEO}

@@ -10,6 +10,7 @@ import {
 import { gsap } from '@/lib/gsap'
 import profile from '@/data/profile.json'
 import { NAV_ITEMS, SECTION, isNavItemActive, scrollToSection } from '@/lib/sections'
+import { getIdxFromScrollTop, getViewportHeight } from '@/lib/scrollSnap'
 import styles from '@/styles/ui/Navbar.module.css'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
@@ -42,7 +43,6 @@ export default function Navbar() {
 
   useEffect(() => {
     const scroller = document.querySelector('main') ?? window
-    const vh = window.innerHeight
 
     function showNavbar() {
       if (!hidden.current) return
@@ -51,10 +51,11 @@ export default function Navbar() {
     }
 
     const onScroll = () => {
+      const vh = getViewportHeight()
       const currentY = scroller.scrollTop ?? window.scrollY
       const delta    = currentY - lastY.current
 
-      const sectionIdx = Math.round(currentY / vh)
+      const sectionIdx = getIdxFromScrollTop(currentY, vh)
       setActiveIdx(sectionIdx)
       setOnIntro(currentY < vh * 0.8)
       setOnDark(sectionIdx >= SECTION.EXPERIENCE && sectionIdx < SECTION.SKILLS)

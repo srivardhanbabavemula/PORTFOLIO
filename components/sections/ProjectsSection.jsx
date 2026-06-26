@@ -124,7 +124,7 @@ export default function ProjectsSection() {
   }, [])
 
   return (
-    <div className={styles.wrapper} style={{ height: `${PROJECTS.length * 100}vh` }}>
+    <div className={styles.wrapper} style={{ height: `${PROJECTS.length * 100}vh` }} data-snap-anchor="projects">
       <section ref={sectionRef} className={styles.section}>
 
         <div className={styles.topBar}>

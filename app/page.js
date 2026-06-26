@@ -15,6 +15,7 @@ import CertificationsSection from '@/components/sections/CertificationsSection'
 import PublicationsFooterSection from '@/components/sections/PublicationsFooterSection'
 import ScreenLoader from '@/components/sections/ScreenLoader'
 import { TOTAL_SNAPS } from '@/lib/sections'
+import { getScrollTopForIdx, getIdxFromScrollTop, getViewportHeight } from '@/lib/scrollSnap'
 
 const TOTAL = TOTAL_SNAPS
 
@@ -65,7 +66,7 @@ export default function Home() {
       }
 
       if (idxRef.current === 0 && idx === TOTAL - 1) {
-        fadeLoop((TOTAL - 1) * window.innerHeight, TOTAL - 1)
+        fadeLoop(getScrollTopForIdx(TOTAL - 1), TOTAL - 1)
         return
       }
 
@@ -73,7 +74,7 @@ export default function Home() {
       busyRef.current = true
       tweenRef.current?.kill()
       tweenRef.current = gsap.to(el, {
-        scrollTop: idx * window.innerHeight,
+        scrollTop: getScrollTopForIdx(idx),
         duration: 1.0,
         ease: 'power3.inOut',
         onComplete: () => { setTimeout(() => { busyRef.current = false }, 600) },
@@ -95,7 +96,7 @@ export default function Home() {
     }
 
     function onScroll() {
-      idxRef.current = Math.round(el.scrollTop / window.innerHeight)
+      idxRef.current = getIdxFromScrollTop(el.scrollTop)
     }
 
     function onFooterLoop() {
@@ -122,7 +123,7 @@ export default function Home() {
       const atBottom = el.scrollTop + el.clientHeight >= el.scrollHeight - 8
       const atTop    = el.scrollTop < 8
       if (dy > 0 && atBottom) fadeLoop(0, 0)
-      if (dy < 0 && atTop)    fadeLoop(el.scrollHeight - el.clientHeight, TOTAL - 1)
+      if (dy < 0 && atTop)    fadeLoop(getScrollTopForIdx(TOTAL - 1), TOTAL - 1)
     }
 
     if (!isMobile) {

@@ -99,7 +99,7 @@ export default function HeroSection() {
     .filter(Boolean)
 
   return (
-    <section ref={sectionRef} className={styles.section}>
+    <section ref={sectionRef} className={styles.section} data-snap-index="1">
 
       <ParallaxPhotoLayers
         background={{ src: '/assets/photo-campus-wide.png', opacity: 0.32, blur: 4, position: 'center 20%' }}

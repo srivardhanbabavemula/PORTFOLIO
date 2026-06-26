@@ -47,7 +47,7 @@ export default function EducationSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className={styles.section}>
+    <section ref={sectionRef} className={styles.section} data-snap-index="3">
       <ParallaxPhotoLayers
         background={{ src: '/assets/photo-campus-wide.png', opacity: 0.1, blur: 6, position: 'center 25%' }}
       />

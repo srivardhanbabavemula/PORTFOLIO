@@ -47,7 +47,7 @@ export default function AccomplishmentsSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className={styles.section}>
+    <section ref={sectionRef} className={styles.section} data-snap-index="5">
       <ParallaxPhotoLayers
         background={{ src: '/assets/photo-bw-dramatic.png', opacity: 0.12, blur: 4, position: 'center 40%' }}
       />

@@ -101,7 +101,7 @@ export default function WorkExperienceSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className={styles.section}>
+    <section ref={sectionRef} className={styles.section} data-snap-index="4">
 
       <ParallaxPhotoLayers
         background={{ src: '/assets/photo-bw-dramatic.png', opacity: 0.35, blur: 2, position: 'center 35%', scale: 1.12 }}

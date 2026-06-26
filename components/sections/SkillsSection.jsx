@@ -47,7 +47,7 @@ export default function SkillsSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className={styles.section}>
+    <section ref={sectionRef} className={styles.section} data-snap-anchor="skills">
       <ParallaxPhotoLayers
         background={{ src: '/assets/hero-foreground.png', opacity: 0.08, blur: 8, position: 'center 30%' }}
       />

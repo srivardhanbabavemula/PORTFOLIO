@@ -55,7 +55,7 @@ export default function CertificationsSection() {
 
   return (
     <>
-      <section ref={sectionRef} className={styles.section}>
+      <section ref={sectionRef} className={styles.section} data-snap-anchor="certifications">
         <div ref={headerRef} className={styles.header}>
           <span className={styles.label}>Credentials</span>
           <h2 className={styles.title}>Certifications</h2>
