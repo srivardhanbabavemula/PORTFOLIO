@@ -141,13 +141,16 @@ export default function WorkExperienceSection() {
                   ref={el => { cardRefs.current[i] = el }}
                   className={styles.card}
                 >
-                  <div className={styles.cardHead}>
-                    <span className={styles.period}>{exp.period} - {exp.periodEnd}</span>
+                  <h2 className={styles.role}>{exp.role}</h2>
+                  <p className={styles.company}>{exp.company}</p>
+                  {exp.companySub && (
+                    <p className={styles.companySub}>{exp.companySub}</p>
+                  )}
+                  <div className={styles.cardMeta}>
+                    <span className={styles.period}>{exp.period} – {exp.periodEnd}</span>
                     <span className={styles.typeTag}>{exp.type}</span>
                     {exp.location && <span className={styles.location}>{exp.location}</span>}
                   </div>
-                  <h2 className={styles.company}>{exp.company}</h2>
-                  <p  className={styles.role}>{exp.role}</p>
                   <ul
                     ref={el => { bulletListRefs.current[i] = el }}
                     className={styles.bullets}

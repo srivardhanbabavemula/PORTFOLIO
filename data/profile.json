@@ -461,8 +461,9 @@
   "experience": [
     {
       "id": 1,
-      "role": "Graduate Research Assistant (AI & Data Systems)",
-      "company": "Institute for Artificial Intelligence and Data Science · University at Buffalo",
+      "role": "Graduate Research Assistant",
+      "company": "Institute for Artificial Intelligence and Data Science",
+      "companySub": "University at Buffalo",
       "companyShort": "UB IAIDS",
       "type": "Research",
       "location": "Buffalo, NY",
@@ -563,7 +564,7 @@
     {
       "id": 5,
       "role": "Data Engineer & Data Analyst",
-      "company": "Freelance (Self-employed)",
+      "company": "Freelance",
       "companyShort": "FREELANCE",
       "type": "Contract",
       "location": "Remote",
