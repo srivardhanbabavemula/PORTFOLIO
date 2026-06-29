@@ -657,77 +657,25 @@
   "projects": [
     {
       "id": 1,
-      "title": "AI Data Analyst Chatbot",
-      "subtitle": "Natural Language to SQL",
-      "type": "Generative AI",
-      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/ai-data-analyst-chatbot",
-      "image": "/assets/projects/ai-chatbot.png",
-      "context": "Built as part of my generative AI portfolio — turning business questions into SQL using LangChain and OpenAI, aligned with my data analyst certifications.",
+      "title": "Deep-O-Meter",
+      "subtitle": "Deepfake Detection Platform",
+      "type": "Research",
+      "link": "https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/",
+      "image": "/assets/projects/deep-o-meter.png",
+      "context": "Live research at the Institute for Artificial Intelligence and Data Science, UB — Flask/FastAPI APIs, PySpark ETL, and MLflow model versioning under Prof. Siwei Lyu.",
       "tech": [
-        "Python",
-        "LangChain",
-        "OpenAI API",
-        "SQL",
-        "Pandas"
+        "Flask",
+        "FastAPI",
+        "Docker",
+        "AWS S3",
+        "PySpark",
+        "MLflow"
       ],
-      "desc": "AI chatbot that converts natural-language questions into SQL queries. Includes NL-to-SQL pipeline, interactive data exploration, prompt engineering, and analytics dashboards.",
-      "bgImage": "/assets/projects/bg/ai-chatbot-bg.png"
+      "desc": "Production deepfake detection inference platform at the Institute for Artificial Intelligence and Data Science, University at Buffalo, with containerized REST APIs, S3 integration, and MLflow versioning.",
+      "bgImage": "/assets/projects/bg/deep-o-meter-bg.png"
     },
     {
       "id": 2,
-      "title": "RAG Document Q&A System",
-      "subtitle": "Retrieval Augmented Generation",
-      "type": "Generative AI",
-      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/rag-ai-document-qa",
-      "image": "/assets/projects/rag-qa.png",
-      "context": "Combines my NLP interest with production-style retrieval — FAISS vector search and LangChain pipelines similar to tools I use in UB research workflows.",
-      "tech": [
-        "Python",
-        "LangChain",
-        "FAISS",
-        "OpenAI API",
-        "RAG"
-      ],
-      "desc": "RAG-based document Q&A with FAISS vector search, LangChain retrieval pipelines, and a web UI for uploading documents and asking natural language questions.",
-      "bgImage": "/assets/projects/bg/rag-qa-bg.png"
-    },
-    {
-      "id": 3,
-      "title": "Real-Time Streaming Platform",
-      "subtitle": "Kafka + Spark + AWS",
-      "type": "Data Engineering",
-      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/real-time-streaming-platform",
-      "image": "/assets/projects/streaming.png",
-      "context": "Mirrors my Broadridge experience processing 200+ files/day — designed for 500K+ events/hour with sub-2s latency on AWS.",
-      "tech": [
-        "Kafka",
-        "Spark Streaming",
-        "AWS S3",
-        "Python",
-        "Docker"
-      ],
-      "desc": "Production-style streaming platform ingesting 500K+ events/hour via Kafka, processing with Spark Streaming windowed aggregations, and storing in AWS S3 with sub-2s latency.",
-      "bgImage": "/assets/projects/bg/streaming-bg.png"
-    },
-    {
-      "id": 4,
-      "title": "Kafka Streams Examples",
-      "subtitle": "Event-Driven Architecture",
-      "type": "Data Engineering",
-      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/kafka-streams-examples",
-      "image": "/assets/projects/kafka-streams.png",
-      "context": "Hands-on reference implementations I use to demonstrate event-driven patterns in interviews and portfolio reviews.",
-      "tech": [
-        "Kafka",
-        "Python",
-        "Event Streaming",
-        "Docker"
-      ],
-      "desc": "Hands-on Kafka Streams examples covering producers, consumers, windowed aggregations, and fault-tolerant event processing patterns.",
-      "bgImage": "/assets/projects/bg/kafka-streams-bg.png"
-    },
-    {
-      "id": 5,
       "title": "Airflow Data Pipelines",
       "subtitle": "Workflow Orchestration",
       "type": "Automation",
@@ -745,7 +693,7 @@
       "bgImage": "/assets/projects/bg/airflow-bg.png"
     },
     {
-      "id": 6,
+      "id": 3,
       "title": "Azure Data Factory ETL",
       "subtitle": "Cloud ETL Pipelines",
       "type": "Cloud Data Engineering",
@@ -762,7 +710,7 @@
       "bgImage": "/assets/projects/bg/azure-etl-bg.png"
     },
     {
-      "id": 7,
+      "id": 4,
       "title": "PySpark Processing",
       "subtitle": "Distributed Big Data",
       "type": "Data Engineering",
@@ -779,7 +727,75 @@
       "bgImage": "/assets/projects/bg/pyspark-bg.png"
     },
     {
+      "id": 5,
+      "title": "Recommendation System",
+      "subtitle": "Collaborative Filtering",
+      "type": "Machine Learning",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/recommendation-system",
+      "image": "/assets/projects/recommendation.png",
+      "context": "Modular ML pipeline showcasing collaborative filtering — part of my GitHub Project repo for data science roles.",
+      "tech": [
+        "Python",
+        "scikit-learn",
+        "Pandas",
+        "ML"
+      ],
+      "desc": "Recommendation engine using collaborative filtering and content-based methods with evaluation metrics and modular pipeline design.",
+      "bgImage": "/assets/projects/bg/recommendation-bg.png"
+    },
+    {
+      "id": 6,
+      "title": "Graph ML Fraud Detection",
+      "subtitle": "Network-Based ML",
+      "type": "Machine Learning",
+      "link": "https://github.com/srivardhanbabavemula/SOFTWARE-ENGINEERING-Projects/tree/main/Graph-ML-Fraud-Detection-master",
+      "image": "/assets/projects/graph-fraud.png",
+      "context": "Graph-based fraud detection using network features — published in my SOFTWARE-ENGINEERING-Projects repository on GitHub.",
+      "tech": [
+        "Python",
+        "Graph ML",
+        "NetworkX",
+        "scikit-learn"
+      ],
+      "desc": "Graph-based ML pipeline detecting fraudulent transactions using network analysis, feature engineering, and supervised classification.",
+      "bgImage": "/assets/projects/bg/graph-fraud-bg.png"
+    },
+    {
+      "id": 7,
+      "title": "Web Scraping Pipeline",
+      "subtitle": "Data Collection ETL",
+      "type": "Data Engineering",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/web-scraping-pipeline",
+      "image": "/assets/projects/web-scraping.png",
+      "context": "End-to-end ingestion pipeline — validates, deduplicates, and loads structured data into PostgreSQL for downstream analytics.",
+      "tech": [
+        "Python",
+        "BeautifulSoup",
+        "ETL",
+        "PostgreSQL"
+      ],
+      "desc": "Automated web scraping pipeline ingesting structured data from multiple sources with validation, deduplication, and database loading.",
+      "bgImage": "/assets/projects/bg/web-scraping-bg.png"
+    },
+    {
       "id": 8,
+      "title": "Financial Forecasting",
+      "subtitle": "Time Series ML",
+      "type": "Machine Learning",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/financial-forecasting",
+      "image": "/assets/projects/forecasting.png",
+      "context": "Applies MS Data Science coursework and scikit-learn/XGBoost skills to revenue and trend prediction use cases.",
+      "tech": [
+        "Python",
+        "scikit-learn",
+        "Pandas",
+        "Time Series"
+      ],
+      "desc": "Financial forecasting models with feature engineering, cross-validation, and ensemble methods for revenue and trend prediction.",
+      "bgImage": "/assets/projects/bg/forecasting-bg.png"
+    },
+    {
+      "id": 9,
       "title": "Analytics Dashboard",
       "subtitle": "Business Intelligence",
       "type": "Analytics",
@@ -797,41 +813,78 @@
       "bgImage": "/assets/projects/bg/analytics-bg.png"
     },
     {
-      "id": 9,
-      "title": "Financial Forecasting",
-      "subtitle": "Time Series ML",
-      "type": "Machine Learning",
-      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/financial-forecasting",
-      "image": "/assets/projects/forecasting.png",
-      "context": "Applies MS Data Science coursework and scikit-learn/XGBoost skills to revenue and trend prediction use cases.",
-      "tech": [
-        "Python",
-        "scikit-learn",
-        "Pandas",
-        "Time Series"
-      ],
-      "desc": "Financial forecasting models with feature engineering, cross-validation, and ensemble methods for revenue and trend prediction.",
-      "bgImage": "/assets/projects/bg/forecasting-bg.png"
-    },
-    {
       "id": 10,
-      "title": "Recommendation System",
-      "subtitle": "Collaborative Filtering",
-      "type": "Machine Learning",
-      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/recommendation-system",
-      "image": "/assets/projects/recommendation.png",
-      "context": "Modular ML pipeline showcasing collaborative filtering — part of my GitHub Project repo for data science roles.",
+      "title": "AI Data Analyst Chatbot",
+      "subtitle": "Natural Language to SQL",
+      "type": "Generative AI",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/ai-data-analyst-chatbot",
+      "image": "/assets/projects/ai-chatbot.png",
+      "context": "Built as part of my generative AI portfolio — turning business questions into SQL using LangChain and OpenAI, aligned with my data analyst certifications.",
       "tech": [
         "Python",
-        "scikit-learn",
-        "Pandas",
-        "ML"
+        "LangChain",
+        "OpenAI API",
+        "SQL",
+        "Pandas"
       ],
-      "desc": "Recommendation engine using collaborative filtering and content-based methods with evaluation metrics and modular pipeline design.",
-      "bgImage": "/assets/projects/bg/recommendation-bg.png"
+      "desc": "AI chatbot that converts natural-language questions into SQL queries. Includes NL-to-SQL pipeline, interactive data exploration, prompt engineering, and analytics dashboards.",
+      "bgImage": "/assets/projects/bg/ai-chatbot-bg.png"
     },
     {
       "id": 11,
+      "title": "RAG Document Q&A System",
+      "subtitle": "Retrieval Augmented Generation",
+      "type": "Generative AI",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/rag-ai-document-qa",
+      "image": "/assets/projects/rag-qa.png",
+      "context": "Combines my NLP interest with production-style retrieval — FAISS vector search and LangChain pipelines similar to tools I use in UB research workflows.",
+      "tech": [
+        "Python",
+        "LangChain",
+        "FAISS",
+        "OpenAI API",
+        "RAG"
+      ],
+      "desc": "RAG-based document Q&A with FAISS vector search, LangChain retrieval pipelines, and a web UI for uploading documents and asking natural language questions.",
+      "bgImage": "/assets/projects/bg/rag-qa-bg.png"
+    },
+    {
+      "id": 12,
+      "title": "Real-Time Streaming Platform",
+      "subtitle": "Kafka + Spark + AWS",
+      "type": "Data Engineering",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/real-time-streaming-platform",
+      "image": "/assets/projects/streaming.png",
+      "context": "Mirrors my Broadridge experience processing 200+ files/day — designed for 500K+ events/hour with sub-2s latency on AWS.",
+      "tech": [
+        "Kafka",
+        "Spark Streaming",
+        "AWS S3",
+        "Python",
+        "Docker"
+      ],
+      "desc": "Production-style streaming platform ingesting 500K+ events/hour via Kafka, processing with Spark Streaming windowed aggregations, and storing in AWS S3 with sub-2s latency.",
+      "bgImage": "/assets/projects/bg/streaming-bg.png"
+    },
+    {
+      "id": 13,
+      "title": "Kafka Streams Examples",
+      "subtitle": "Event-Driven Architecture",
+      "type": "Data Engineering",
+      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/kafka-streams-examples",
+      "image": "/assets/projects/kafka-streams.png",
+      "context": "Hands-on reference implementations I use to demonstrate event-driven patterns in interviews and portfolio reviews.",
+      "tech": [
+        "Kafka",
+        "Python",
+        "Event Streaming",
+        "Docker"
+      ],
+      "desc": "Hands-on Kafka Streams examples covering producers, consumers, windowed aggregations, and fault-tolerant event processing patterns.",
+      "bgImage": "/assets/projects/bg/kafka-streams-bg.png"
+    },
+    {
+      "id": 14,
       "title": "Sentiment Analysis",
       "subtitle": "NLP Classification",
       "type": "NLP",
@@ -846,59 +899,6 @@
       ],
       "desc": "NLP pipeline for sentiment classification with text preprocessing, vectorization, and model evaluation on real-world review datasets.",
       "bgImage": "/assets/projects/bg/sentiment-bg.png"
-    },
-    {
-      "id": 12,
-      "title": "Web Scraping Pipeline",
-      "subtitle": "Data Collection ETL",
-      "type": "Data Engineering",
-      "link": "https://github.com/srivardhanbabavemula/Project/tree/main/web-scraping-pipeline",
-      "image": "/assets/projects/web-scraping.png",
-      "context": "End-to-end ingestion pipeline — validates, deduplicates, and loads structured data into PostgreSQL for downstream analytics.",
-      "tech": [
-        "Python",
-        "BeautifulSoup",
-        "ETL",
-        "PostgreSQL"
-      ],
-      "desc": "Automated web scraping pipeline ingesting structured data from multiple sources with validation, deduplication, and database loading.",
-      "bgImage": "/assets/projects/bg/web-scraping-bg.png"
-    },
-    {
-      "id": 13,
-      "title": "Graph ML Fraud Detection",
-      "subtitle": "Network-Based ML",
-      "type": "Machine Learning",
-      "link": "https://github.com/srivardhanbabavemula/SOFTWARE-ENGINEERING-Projects/tree/main/Graph-ML-Fraud-Detection-master",
-      "image": "/assets/projects/graph-fraud.png",
-      "context": "Graph-based fraud detection using network features — published in my SOFTWARE-ENGINEERING-Projects repository on GitHub.",
-      "tech": [
-        "Python",
-        "Graph ML",
-        "NetworkX",
-        "scikit-learn"
-      ],
-      "desc": "Graph-based ML pipeline detecting fraudulent transactions using network analysis, feature engineering, and supervised classification.",
-      "bgImage": "/assets/projects/bg/graph-fraud-bg.png"
-    },
-    {
-      "id": 14,
-      "title": "Deep-O-Meter",
-      "subtitle": "Deepfake Detection Platform",
-      "type": "Research",
-      "link": "https://zinc.cse.buffalo.edu/ubmdfl/deep-o-meter/",
-      "image": "/assets/projects/deep-o-meter.png",
-      "context": "Live research at the Institute for Artificial Intelligence and Data Science, UB — Flask/FastAPI APIs, PySpark ETL, and MLflow model versioning under Prof. Siwei Lyu.",
-      "tech": [
-        "Flask",
-        "FastAPI",
-        "Docker",
-        "AWS S3",
-        "PySpark",
-        "MLflow"
-      ],
-      "desc": "Production deepfake detection inference platform at the Institute for Artificial Intelligence and Data Science, University at Buffalo, with containerized REST APIs, S3 integration, and MLflow versioning.",
-      "bgImage": "/assets/projects/bg/deep-o-meter-bg.png"
     }
   ],
   "publications": [
